@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07cd4aa2-9c86-44c0-8dec-a5492834987f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/athene.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/other.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/testrunner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/readme" afterPath="" />
-    </list>
+    <list default="true" id="07cd4aa2-9c86-44c0-8dec-a5492834987f" name="Default" comment="" />
     <ignored path="athene.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="07cd4aa2-9c86-44c0-8dec-a5492834987f" time="1363258951310" ignored="false" />
@@ -32,10 +22,19 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="run.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="run.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.mk" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.mk">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="5" selection-start="34" selection-end="34" vertical-scroll-proportion="0.12362637">
               <folding />
             </state>
           </provider>
@@ -218,6 +217,13 @@
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.mk">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="5" selection-start="34" selection-end="34" vertical-scroll-proportion="0.12362637">
           <folding />
         </state>
       </provider>
