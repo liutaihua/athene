@@ -1,7 +1,10 @@
 #coding=utf8
 
+import sys
+sys.path.append('../')
 import pgutils
 import config
+
 
 def txt2dict(txt):
     return dict([i.split('=') for i in txt.split(' ')])
