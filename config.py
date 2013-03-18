@@ -11,3 +11,5 @@ PROCESSING_GAMELOG_PATH = 'processing'
 DBNAME = ''
 
 DBUSER = ''
+
+PASSWORD = ''
