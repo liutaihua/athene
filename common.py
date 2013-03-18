@@ -7,9 +7,10 @@ import config
 import dbutils
 
 def txt2dict(txt):
-    return dict([i.split('=') for i in txt.split(' ')])
-
-
+    try:
+        return dict([i.split('=') for i in txt.split(' ') if '=' in i])
+    except:
+        print txt
 
 conn = dbutils.Connection(host='127.0.0.1', database=config.DBNAME, user=config.DBUSER, password=config.PASSWORD)
 

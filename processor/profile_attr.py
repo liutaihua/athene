@@ -8,11 +8,13 @@ import common
 def run(filename=None):
     os.system('cp %s %s' % (os.path.join(config.SOURCE_GAMELOG_PATH, filename), config.PROCESSING_GAMELOG_PATH))
 
-    lines = open(file, 'r').readlines()
+    lines = open(os.path.join(config.PROCESSING_GAMELOG_PATH, filename), 'r').readlines()
     for l in lines:
         d = common.txt2dict(l)
-        sql = """INSERT INTO attr_log(userid, attr, time, old_data, delta_type, delta_data, source) VALUES (%d, %s, %s, %d, %s, %d, %s)"""
-        common.conn.execute(sql,
-                    (d['userid'], d['attr'], d['time'], d['old_data'], d['delta_type'], d['delta_data'], d['source']))
+        sql = """INSERT INTO attr_log(userid, attr, time, old_data, delta_type, delta_data, source) VALUES (%s, '%s', '%s', %s, '%s', %s, '%s')"""
+        try:
+            common.conn.execute(sql % (d.get('userid', 0), d.get('attr', 0), d.get('time', ''), d.get('old_data', 0), d.get('delta_type', 0), d.get('delta_data', 0), d.get('source', '')))
+        except Exception, e:
+            print 'duplicat', e
 
     os.system('mv %s %s' % (os.path.join(config.PROCESSING_GAMELOG_PATH, filename), config.COMPLETED_GAMELOG_PATH))

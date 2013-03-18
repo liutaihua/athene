@@ -8,8 +8,8 @@ COMPLETED_GAMELOG_PATH = 'completed'
 
 PROCESSING_GAMELOG_PATH = 'processing'
 
-DBNAME = ''
+DBNAME = 'athene'
 
-DBUSER = ''
+DBUSER = 'root'
 
 PASSWORD = ''
