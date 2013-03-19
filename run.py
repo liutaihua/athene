@@ -10,7 +10,7 @@ from processor.quest import run as quest_run
 
 def fetch_file(category):
     assert category in config.CATEGORY, 'can not fetch'
-    source_file_list = [i for i in os.listdir(config.SOURCE_GAMELOG_PATH) if i.endswith('.txt')]
+    source_file_list = [i for i in os.listdir(config.SOURCE_GAMELOG_PATH) if i.endswith('.txt') and i.startswith(category)]
     completed_file_list = os.listdir(config.COMPLETED_GAMELOG_PATH)
     processing_file_list = os.listdir(config.PROCESSING_GAMELOG_PATH)
     alternate_files = set(source_file_list) | set(processing_file_list) - set(completed_file_list)

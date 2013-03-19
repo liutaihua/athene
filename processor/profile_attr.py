@@ -11,9 +11,11 @@ def run(filename=None):
     lines = open(os.path.join(config.PROCESSING_GAMELOG_PATH, filename), 'r').readlines()
     for l in lines:
         d = common.txt2dict(l)
-        sql = """INSERT INTO attr_log(userid, attr, time, old_data, delta_type, delta_data, source) VALUES (%s, '%s', '%s', %s, '%s', %s, '%s')"""
+        print d
+        sql = """INSERT INTO attr_log(userid, attr, time, old_data, delta_type, delta_data, source) VALUES (%s, '%s', '%s', %s, '%s', %s, '%s')""" %(d.get('userid', 0), d.get('attr', 0), d.get('time', ''), d.get('old_data', 0), d.get('delta_type', 0), d.get('delta_data', 0), d.get('source', ''))
         try:
-            common.conn.execute(sql % (d.get('userid', 0), d.get('attr', 0), d.get('time', ''), d.get('old_data', 0), d.get('delta_type', 0), d.get('delta_data', 0), d.get('source', '')))
+            #print sql
+            common.conn.execute(sql)
         except Exception, e:
             print 'duplicat', e
 
