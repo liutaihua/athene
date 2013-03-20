@@ -13,7 +13,7 @@ def run(filename=None):
     for l in lines:
         d = common.txt2dict(l)
         sql = """INSERT INTO quest_log (`userid`,`timestamp`,`key`,`quest_id`,`add_exp`,`add_gold`,`add_attr1`,`add_attr2`,`add_attr3`,`add_attr4`,`add_attr5`,`add_attr6`,`add_attr7`,`add_attr8`,`add_attr9`,`add_attr10`,`new_attr1`,`new_attr2`,`new_attr3`,`new_attr4`,`new_attr5`,`new_attr6`,`new_attr7`,`new_attr8`,`new_attr9`,`new_attr10`,`new_gold`,`new_exp`,`reward_item`) VALUES (%s,'%s','%s','%s',%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,'%s')""" % (
-            d.get("userid", 0), d.get("time", " "), d.get("key", 0), d.get("quest_id", " "),
+            d.get("userid", 0), d.get("time", " ").replace('_', ' '), d.get("key", 0), d.get("quest_id", " "),
             d.get("add_exp", 0), d.get("add_gold", 0),
             d.get("add_attr1", 0), d.get("add_attr2", 0), d.get("add_attr3", 0), d.get("add_attr4", 0),
             d.get("add_attr5", 0), d.get("add_attr6", 0), d.get("add_attr7", 0), d.get("add_attr8", 0),
@@ -31,7 +31,7 @@ def run(filename=None):
             if d.get('add_%s' % field, 0) != 0:
                 delta_data = int(d.get('add_%s' % field, 0))
                 old_data = int(d.get('new_%s' % field, 0)) - int(d.get('add_%s' % field, 0))
-                time = d.get('time', ' ')
+                time = d.get('time', ' ').replace('_', ' ')
                 delta_type = 1
                 source = '%s %s' % (d.get('key', ''), d.get('quest_id', ''))
                 sql = """INSERT INTO attr_log(userid, attr, time, old_data, delta_type, delta_data, source) VALUES (%s, '%s', '%s', %s, '%s', %s, '%s')""" % (

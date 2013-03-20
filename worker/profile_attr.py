@@ -12,7 +12,7 @@ def run(filename=None):
     for l in lines:
         d = common.txt2dict(l)
         sql = """INSERT INTO attr_log(userid, attr, time, old_data, delta_type, delta_data, source) VALUES (%s, '%s', '%s', %s, '%s', %s, '%s')""" % (
-            d.get('userid', 0), d.get('attr', 0), d.get('time', ''), d.get('old_data', 0), d.get('delta_type', 0),
+            d.get('userid', 0), d.get('attr', 0), d.get('time', '').replace('_', ' '), d.get('old_data', 0), d.get('delta_type', 0),
             d.get('delta_data', 0), d.get('source', ''))
         try:
             #print sql
