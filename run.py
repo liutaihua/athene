@@ -3,9 +3,9 @@
 import os
 import config
 import datetime
-from processor.hades import run as hades_run
-from processor.profile_attr import run as profile_attr_run
-from processor.quest import run as quest_run
+from worker.hades import run as hades_run
+from worker.profile_attr import run as profile_attr_run
+from worker.quest import run as quest_run
 
 
 def fetch_file():
@@ -43,4 +43,3 @@ if __name__ == '__main__':
             profile_attr_run(file_path)
         elif 'quest' in file_path:
             quest_run(file_path)
-        
