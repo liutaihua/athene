@@ -29,8 +29,8 @@ def run(filename=None):
         for field in ['attr1', 'attr2', 'attr3', 'attr4', 'attr5', 'attr6', 'attr7', 'attr8', 'attr9', 'attr10',
                       'exp', 'gold']:
             if d.get('add_%s' % field, 0) != 0:
-                delta_data = d.get('add_%s' % field, 0)
-                old_data = d.get('new_%s' % field, 0) - d.get('add_%s' % field, 0)
+                delta_data = int(d.get('add_%s' % field, 0))
+                old_data = int(d.get('new_%s' % field, 0)) - int(d.get('add_%s' % field, 0))
                 time = d.get('time', ' ')
                 delta_type = 1
                 source = '%s %s' % (d.get('key', ''), d.get('quest_id', ''))
