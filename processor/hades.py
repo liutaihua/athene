@@ -7,6 +7,7 @@ import common
 
 def run(filename=None):
     #  example: xx=xx xx=xx
+    return
     os.system('cp %s %s' % (os.path.join(config.SOURCE_GAMELOG_PATH, filename), config.PROCESSING_GAMELOG_PATH))
 
     lines = open(filename, 'r').readlines()
