@@ -1,0 +1,484 @@
+userid=1000 uri=/account/choose_player player=1000_泽卡赖亚 time=2013-03-20_16:00:16.898426 consume_time=0 accountid=73
+userid=1000 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:00:19.556670 consume_time=0
+ruler=dan14-privatemine4.xml userid=1000 uri=/scene/jump_to_quest_location time=2013-03-20_16:00:38.591422 map_name=privatemine4 consume_time=0 accountid=73
+consume_time=0 uri=/admin/leave time=2013-03-20_16:00:38.768415
+userid=1000 uri=/admin/enter mapname=privatemine4 gsid=privatemine4%401 time=2013-03-20_16:00:42.190248 consume_time=0
+skip_time=0 userid=1167 uri=/instance/end_clean_instance time=2013-03-20_16:01:40.779258 consume_time=0 accountid=82
+skip_time=0 userid=1167 uri=/instance/end_clean_instance time=2013-03-20_16:01:41.806787 consume_time=0 accountid=82
+skip_time=0 userid=594 uri=/instance/end_clean_instance time=2013-03-20_16:01:53.625958 consume_time=0 accountid=9
+skip_time=0 userid=594 uri=/instance/end_clean_instance time=2013-03-20_16:01:54.678658 consume_time=0 accountid=9
+userid=1000 uri=/scene/back_to_city time=2013-03-20_16:02:06.678294 consume_time=0 accountid=73
+consume_time=0 uri=/admin/leave time=2013-03-20_16:02:06.848214
+userid=1000 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:02:09.105321 consume_time=0
+userid=1136 uri=/msg/read time=2013-03-20_16:02:15.196072 consume_time=0 msgkey=0@1363766108 accountid=63
+ruler=dan11-privatemine1.xml userid=1000 uri=/scene/jump_to_quest_location time=2013-03-20_16:02:38.845517 map_name=privatemine1 consume_time=0 accountid=73
+consume_time=0 uri=/admin/leave time=2013-03-20_16:02:39.056831
+userid=1000 uri=/admin/enter mapname=privatemine1 gsid=privatemine1%401 time=2013-03-20_16:02:42.045335 consume_time=0
+userid=1136 uri=/msg/read time=2013-03-20_16:02:53.679636 consume_time=0 msgkey=0@1363766087 accountid=63
+repeat_time=1 userid=594 uri=/instance/start_clean_instance rule=dan24-temple5.xml instance_id=10302401 time=2013-03-20_16:03:02.185944 map_name=temple5 consume_time=0 accountid=9
+userid=1000 uri=/scene/back_to_city time=2013-03-20_16:03:24.748596 consume_time=0 accountid=73
+consume_time=0 uri=/admin/leave time=2013-03-20_16:03:24.906699
+userid=1000 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:03:27.096474 consume_time=0
+count=30 userid=1136 uri=/profile/enlarge_package time=2013-03-20_16:03:35.290546 consume_time=0 accountid=63
+userid=0 uri=/account/temp_login form_password=123456 time=2013-03-20_16:03:48.162578 form_email=test@test.com consume_time=0 accountid=0
+userid=1136 uri=/msg/loads_attachment time=2013-03-20_16:04:03.633835 consume_time=0 msgkey=0@1363766087 accountid=63
+userid=1136 uri=/msg/loads_attachment time=2013-03-20_16:04:14.277080 consume_time=0 msgkey=0@1363766108 accountid=63
+userid=1064 uri=/account/choose_player player=1064_斯诺 time=2013-03-20_16:04:21.451020 consume_time=0 accountid=20
+userid=1064 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:04:30.539381 consume_time=0
+repeat_time=2 userid=1064 uri=/instance/start_clean_instance rule=dan22-temple6.xml instance_id=10302201 time=2013-03-20_16:04:50.481988 map_name=temple6 consume_time=0 accountid=20
+skip_time=1 userid=1064 uri=/instance/end_clean_instance time=2013-03-20_16:04:54.312394 consume_time=0 accountid=20
+userid=1064 uri=/msg/read time=2013-03-20_16:05:02.194914 consume_time=0 msgkey=0@1363766694 accountid=20
+userid=0 uri=/account/temp_login form_password=cx time=2013-03-20_16:05:24.844524 form_email=cx@cx.com consume_time=0 accountid=0
+skip_time=0 userid=594 uri=/instance/end_clean_instance time=2013-03-20_16:06:02.101802 consume_time=0 accountid=9
+consume_time=0 uri=/admin/leave time=2013-03-20_16:07:00.110169
+userid=358 uri=/account/choose_player player=358_辛姓修士 time=2013-03-20_16:07:00.543166 consume_time=0 accountid=19
+consume_time=0 uri=/admin/leave time=2013-03-20_16:07:01.170342
+consume_time=0 uri=/admin/leave time=2013-03-20_16:07:06.592827
+userid=358 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:07:11.633763 consume_time=0
+user_login=登录 uri=/account/temp_login form_password=123456 time=2013-03-20_16:08:03.639739 form_email=test@test.com consume_time=0
+userid=692 uri=/account/choose_player player=692_卡拉 time=2013-03-20_16:08:04.551930 consume_time=0 accountid=14
+userid=692 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:08:07.403401 consume_time=0
+user_login=登录 uri=/account/temp_login form_password=hello time=2013-03-20_16:08:08.416749 form_email=hello@hello.com consume_time=0
+userid=1098 uri=/account/choose_player player=1098_雷诺兹 time=2013-03-20_16:08:21.001540 consume_time=1 accountid=1
+userid=1064 uri=/account/choose_player player=1064_斯诺 time=2013-03-20_16:08:22.368944 consume_time=0 accountid=20
+userid=1098 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:08:23.505250 consume_time=0
+userid=692 uri=/account/choose_player player=692_卡拉 time=2013-03-20_16:08:24.540208 consume_time=0 accountid=14
+userid=1064 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:08:26.358364 consume_time=0
+userid=692 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:08:28.270586 consume_time=0
+consume_time=0 uri=/admin/leave time=2013-03-20_16:08:28.297920
+userid=1098 uri=/reward/reward_by_checkin time=2013-03-20_16:08:40.933048 consume_time=0 accountid=1
+userid=1098 uri=/scene/go_to_publicmine time=2013-03-20_16:08:59.951758 consume_time=0 accountid=1
+consume_time=0 uri=/admin/leave time=2013-03-20_16:09:00.313705
+userid=692 uri=/scene/go_to_publicmine time=2013-03-20_16:09:05.401715 consume_time=0 accountid=14
+consume_time=0 uri=/admin/leave time=2013-03-20_16:09:05.589867
+userid=1098 uri=/admin/enter mapname=gonggongditu gsid=gonggongditu%401 time=2013-03-20_16:09:08.294185 consume_time=0
+userid=692 uri=/admin/enter mapname=gonggongditu gsid=gonggongditu%401 time=2013-03-20_16:09:13.727339 consume_time=0
+consume_time=0 uri=/admin/leave time=2013-03-20_16:09:15.826702
+userid=1167 uri=/account/choose_player player=1167_蜜尔娜 time=2013-03-20_16:09:19.142019 consume_time=0 accountid=82
+userid=1167 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:09:21.241709 consume_time=0
+repeat_time=3 userid=1167 uri=/instance/start_clean_instance rule=dan30-temple6.xml instance_id=10303001 time=2013-03-20_16:09:30.273391 map_name=temple6 consume_time=0 accountid=82
+skip_time=1 userid=1167 uri=/instance/end_clean_instance time=2013-03-20_16:09:31.663345 consume_time=0 accountid=82
+userid=594 uri=/account/choose_player player=594_卡罗琳 time=2013-03-20_16:09:39.572213 consume_time=0 accountid=9
+userid=594 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:09:41.364042 consume_time=0
+repeat_time=1 userid=1167 uri=/instance/start_clean_instance rule=dan29-temple3.xml instance_id=10302901 time=2013-03-20_16:09:45.059648 map_name=temple3 consume_time=0 accountid=82
+skip_time=1 userid=1167 uri=/instance/end_clean_instance time=2013-03-20_16:09:46.723703 consume_time=0 accountid=82
+userid=1098 uri=/scene/back_to_city time=2013-03-20_16:09:56.500519 consume_time=0 accountid=1
+consume_time=0 uri=/admin/leave time=2013-03-20_16:09:56.889285
+repeat_time=1 userid=1167 uri=/instance/start_clean_instance rule=dan30-temple6.xml instance_id=10303001 time=2013-03-20_16:09:57.982109 map_name=temple6 consume_time=0 accountid=82
+userid=1098 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:09:59.011423 consume_time=0
+skip_time=1 userid=1167 uri=/instance/end_clean_instance time=2013-03-20_16:09:59.516647 consume_time=0 accountid=82
+userid=692 uri=/account/choose_player player=692_卡拉 time=2013-03-20_16:10:04.099072 consume_time=0 accountid=14
+repeat_time=1 userid=594 uri=/instance/start_clean_instance rule=dan24-temple5.xml instance_id=10302401 time=2013-03-20_16:10:06.706352 map_name=temple5 consume_time=0 accountid=9
+userid=692 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:10:06.936874 consume_time=0
+skip_time=1 userid=594 uri=/instance/end_clean_instance time=2013-03-20_16:10:08.760766 consume_time=0 accountid=9
+repeat_time=1 userid=1167 uri=/instance/start_clean_instance rule=dan29-temple3.xml instance_id=10302901 time=2013-03-20_16:10:09.167119 map_name=temple3 consume_time=0 accountid=82
+skip_time=1 userid=1167 uri=/instance/end_clean_instance time=2013-03-20_16:10:10.677712 consume_time=0 accountid=82
+userid=1098 uri=/exchange/exchange time=2013-03-20_16:10:19.780548 consume_time=0 accountid=1
+repeat_time=1 userid=1167 uri=/instance/start_clean_instance rule=dan30-temple6.xml instance_id=10303001 time=2013-03-20_16:10:21.646229 map_name=temple6 consume_time=0 accountid=82
+skip_time=1 userid=1167 uri=/instance/end_clean_instance time=2013-03-20_16:10:23.041174 consume_time=1 accountid=82
+repeat_time=3 userid=1167 uri=/instance/start_clean_instance rule=dan24-temple5.xml instance_id=10302401 time=2013-03-20_16:10:34.529873 map_name=temple5 consume_time=0 accountid=82
+skip_time=1 userid=1167 uri=/instance/end_clean_instance time=2013-03-20_16:10:35.937252 consume_time=0 accountid=82
+repeat_time=3 userid=1167 uri=/instance/start_clean_instance rule=dan30-temple6.xml instance_id=10303001 time=2013-03-20_16:10:47.826245 map_name=temple6 consume_time=0 accountid=82
+userid=1098 uri=/scene/go_to_singlejjc time=2013-03-20_16:10:48.270126 consume_time=0 accountid=1 opponent=1148
+consume_time=0 uri=/admin/leave time=2013-03-20_16:10:48.623622
+skip_time=1 userid=1167 uri=/instance/end_clean_instance time=2013-03-20_16:10:49.356449 consume_time=0 accountid=82
+userid=1098 uri=/admin/enter mapname=jingjichang gsid=jingjichang%401 time=2013-03-20_16:10:52.397049 consume_time=0
+userid=572 uri=/account/choose_player player=572_丹尼丝 time=2013-03-20_16:10:58.400775 consume_time=0 accountid=14
+userid=572 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:11:02.931626 consume_time=0
+userid=1098 uri=/scene/back_to_city time=2013-03-20_16:11:04.107217 consume_time=0 accountid=1
+consume_time=0 uri=/admin/leave time=2013-03-20_16:11:04.511893
+userid=1098 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:11:06.702632 consume_time=0
+consume_time=0 uri=/admin/leave time=2013-03-20_16:11:52.771097
+consume_time=0 uri=/admin/leave time=2013-03-20_16:12:02.532185
+userid=1098 uri=/jjc/skip_cooldown time=2013-03-20_16:12:25.843561 consume_time=0 accountid=1
+userid=0 uri=/account/temp_login form_password=cx time=2013-03-20_16:12:30.455313 form_email=cx@cx.com consume_time=0 accountid=0
+userid=1098 uri=/scene/go_to_singlejjc time=2013-03-20_16:12:31.953633 consume_time=0 accountid=1 opponent=721
+consume_time=0 uri=/admin/leave time=2013-03-20_16:12:32.325929
+userid=1098 uri=/admin/enter mapname=jingjichang gsid=jingjichang%401 time=2013-03-20_16:12:34.126252 consume_time=0
+userid=0 uri=/account/temp_login form_password=123456 time=2013-03-20_16:12:39.446035 form_email=test@test.com consume_time=0 accountid=0
+userid=1098 uri=/scene/back_to_city time=2013-03-20_16:12:45.405041 consume_time=0 accountid=1
+consume_time=0 uri=/admin/leave time=2013-03-20_16:12:45.790776
+userid=1098 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:12:47.820023 consume_time=0
+userid=1098 uri=/jjc/skip_cooldown time=2013-03-20_16:13:03.292967 consume_time=0 accountid=1
+userid=1098 uri=/scene/go_to_singlejjc time=2013-03-20_16:13:08.649976 consume_time=0 accountid=1 opponent=1092
+consume_time=0 uri=/admin/leave time=2013-03-20_16:13:08.988774
+userid=1064 uri=/account/choose_player player=1064_斯诺 time=2013-03-20_16:13:10.489818 consume_time=0 accountid=20
+userid=1098 uri=/admin/enter mapname=jingjichang gsid=jingjichang%401 time=2013-03-20_16:13:10.931848 consume_time=0
+userid=358 uri=/account/choose_player player=358_辛姓修士 time=2013-03-20_16:13:16.349658 consume_time=0 accountid=19
+userid=1064 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:13:19.500610 consume_time=0
+consume_time=0 uri=/admin/leave time=2013-03-20_16:13:19.575714
+userid=1098 uri=/scene/back_to_city time=2013-03-20_16:13:22.202774 consume_time=0 accountid=1
+consume_time=0 uri=/admin/leave time=2013-03-20_16:13:22.601250
+userid=1098 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:13:24.676495 consume_time=0
+userid=358 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:13:26.291181 consume_time=0
+repeat_time=1 userid=1064 uri=/instance/start_clean_instance rule=dan21-temple5.xml instance_id=10302101 time=2013-03-20_16:13:33.727137 map_name=temple5 consume_time=0 accountid=20
+skip_time=1 userid=1064 uri=/instance/end_clean_instance time=2013-03-20_16:13:35.830686 consume_time=0 accountid=20
+techid=5 userid=358 uri=/technology/upgrade time=2013-03-20_16:13:47.857356 consume_time=0 accountid=19
+techid=8 userid=358 uri=/technology/upgrade time=2013-03-20_16:13:50.085598 consume_time=0 accountid=19
+techid=4 userid=358 uri=/technology/upgrade time=2013-03-20_16:13:52.760761 consume_time=0 accountid=19
+techid=1 userid=358 uri=/technology/upgrade time=2013-03-20_16:13:55.266529 consume_time=0 accountid=19
+techid=7 userid=358 uri=/technology/upgrade time=2013-03-20_16:13:57.594394 consume_time=0 accountid=19
+techid=3 userid=358 uri=/technology/upgrade time=2013-03-20_16:14:06.800879 consume_time=0 accountid=19
+userid=1093 uri=/account/choose_player player=1093_卢修斯 time=2013-03-20_16:16:14.028425 consume_time=0 accountid=6
+userid=1093 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:16:16.486204 consume_time=0
+userid=1093 uri=/package/sort time=2013-03-20_16:16:24.590563 consume_time=0 accountid=6
+userid=1093 uri=/scene/enter_tavern time=2013-03-20_16:16:28.280869 consume_time=0 type=instance accountid=6
+consume_time=0 uri=/admin/leave time=2013-03-20_16:16:28.647464
+userid=1093 uri=/admin/enter mapname=jiuguanshinei gsid=jiuguanshinei%4098 time=2013-03-20_16:16:30.733735 consume_time=0
+userid=1093 uri=/scene/back_to_city time=2013-03-20_16:16:35.306531 consume_time=0 accountid=6
+consume_time=0 uri=/admin/leave time=2013-03-20_16:16:35.648231
+userid=1093 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:16:37.662106 consume_time=0
+consume_time=0 uri=/admin/leave time=2013-03-20_16:16:44.815805
+userid=1093 uri=/scene/go_to_singlejjc time=2013-03-20_16:16:49.083174 consume_time=0 opponent=1167 accountid=6
+consume_time=0 uri=/admin/leave time=2013-03-20_16:16:49.425198
+userid=1093 uri=/admin/enter mapname=jingjichang gsid=jingjichang%401 time=2013-03-20_16:16:53.144380 consume_time=0
+userid=1031 uri=/account/choose_player player=1031_普尔曼 time=2013-03-20_16:17:30.130480 consume_time=0 accountid=10
+userid=1031 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:17:32.661482 consume_time=0
+consume_time=0 uri=/admin/leave time=2013-03-20_16:17:35.912143
+userid=1146 uri=/account/choose_player player=1146_嗲少女被绑之谜 time=2013-03-20_16:17:50.075560 consume_time=0 accountid=10
+userid=1146 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:17:51.716265 consume_time=0
+userid=0 uri=/account/temp_login form_password=123456 time=2013-03-20_16:18:19.452061 form_email=test@test.com consume_time=0 accountid=0
+userid=1093 uri=/scene/back_to_city time=2013-03-20_16:18:21.979776 consume_time=0 accountid=6
+consume_time=0 uri=/admin/leave time=2013-03-20_16:18:22.307678
+userid=1093 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:18:24.397869 consume_time=0
+ruler=dan20-privatemine3.xml userid=1146 uri=/scene/jump_to_quest_location time=2013-03-20_16:18:45.849363 map_name=privatemine3 consume_time=0 accountid=10
+consume_time=0 uri=/admin/leave time=2013-03-20_16:18:46.110702
+userid=1064 uri=/account/choose_player player=1064_斯诺 time=2013-03-20_16:18:50.157206 consume_time=0 accountid=20
+userid=1146 uri=/admin/enter mapname=privatemine3 gsid=privatemine3%401 time=2013-03-20_16:18:50.159227 consume_time=0
+userid=1064 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:18:58.991284 consume_time=0
+union_name=321 userid=1093 uri=/union/create time=2013-03-20_16:19:02.016739 consume_time=0 accountid=6
+userid=1093 uri=/scene/go_to_union time=2013-03-20_16:19:07.462665 consume_time=0 accountid=6
+consume_time=0 uri=/admin/leave time=2013-03-20_16:19:07.770746
+userid=1093 uri=/admin/enter mapname=gonghui gsid=gonghui%401 time=2013-03-20_16:19:12.101390 consume_time=0
+repeat_time=1 userid=1064 uri=/instance/start_clean_instance rule=dan21-temple5.xml instance_id=10302101 time=2013-03-20_16:19:24.346219 map_name=temple5 consume_time=0 accountid=20
+skip_time=1 userid=1064 uri=/instance/end_clean_instance time=2013-03-20_16:19:26.166264 consume_time=0 accountid=20
+repeat_time=1 userid=1064 uri=/instance/start_clean_instance rule=dan21-temple5.xml instance_id=10302101 time=2013-03-20_16:19:57.048300 map_name=temple5 consume_time=0 accountid=20
+skip_time=1 userid=1064 uri=/instance/end_clean_instance time=2013-03-20_16:19:58.660934 consume_time=0 accountid=20
+consume_time=0 uri=/admin/leave time=2013-03-20_16:20:03.230090
+consume_time=0 uri=/admin/leave time=2013-03-20_16:20:48.174305
+userid=0 uri=/account/temp_login form_password=123456 time=2013-03-20_16:21:16.916205 form_email=test@test.com consume_time=0 accountid=0
+userid=594 uri=/account/choose_player player=594_卡罗琳 time=2013-03-20_16:21:18.469308 consume_time=0 accountid=9
+userid=594 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:21:20.681967 consume_time=0
+userid=1064 uri=/account/choose_player player=1064_斯诺 time=2013-03-20_16:21:47.514820 consume_time=0 accountid=20
+userid=1064 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:21:56.492187 consume_time=0
+repeat_time=1 userid=1064 uri=/instance/start_clean_instance rule=dan21-temple5.xml instance_id=10302101 time=2013-03-20_16:22:08.677994 map_name=temple5 consume_time=0 accountid=20
+skip_time=1 userid=1064 uri=/instance/end_clean_instance time=2013-03-20_16:22:11.411331 consume_time=0 accountid=20
+userid=1146 uri=/scene/back_to_city time=2013-03-20_16:22:30.658880 consume_time=0 accountid=10
+consume_time=0 uri=/admin/leave time=2013-03-20_16:22:30.884363
+userid=1146 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:22:32.802290 consume_time=0
+consume_time=0 uri=/admin/leave time=2013-03-20_16:22:34.271459
+userid=1093 uri=/scene/back_to_city time=2013-03-20_16:22:48.873888 consume_time=0 accountid=6
+consume_time=0 uri=/admin/leave time=2013-03-20_16:22:49.217227
+userid=1093 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:22:51.267665 consume_time=0
+time=2013-03-20_16:23:11.120477 userid=1146 uri=/maze/goto_maze is_continue=true consume_time=0 accountid=10
+consume_time=0 uri=/admin/leave time=2013-03-20_16:23:11.354167
+userid=1146 uri=/admin/enter mapname=migong gsid=migong%401 time=2013-03-20_16:23:17.226136 consume_time=0
+userid=1146 uri=/account/choose_player player=1146_嗲少女被绑之谜 time=2013-03-20_16:23:26.262694 consume_time=0 accountid=10
+userid=1146 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:23:27.692359 consume_time=0
+userid=692 uri=/account/choose_player player=692_卡拉 time=2013-03-20_16:23:48.605292 consume_time=0 accountid=14
+userid=692 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:23:51.846121 consume_time=0
+userid=1098 uri=/scene/go_to_singlejjc time=2013-03-20_16:23:56.710924 consume_time=0 accountid=1 opponent=1136
+consume_time=0 uri=/admin/leave time=2013-03-20_16:23:57.049463
+userid=1098 uri=/admin/enter mapname=jingjichang gsid=jingjichang%401 time=2013-03-20_16:24:00.472991 consume_time=0
+time=2013-03-20_16:24:02.509482 userid=1146 uri=/maze/goto_maze is_continue=true consume_time=0 accountid=10
+consume_time=0 uri=/admin/leave time=2013-03-20_16:24:02.726646
+userid=1146 uri=/admin/enter mapname=migong gsid=migong%401 time=2013-03-20_16:24:04.489020 consume_time=0
+userid=692 uri=/scene/go_to_publicmine time=2013-03-20_16:24:12.705546 consume_time=0 accountid=14
+consume_time=0 uri=/admin/leave time=2013-03-20_16:24:12.859426
+userid=692 uri=/admin/enter mapname=gonggongditu gsid=gonggongditu%401 time=2013-03-20_16:24:25.600816 consume_time=0
+userid=1146 uri=/account/choose_player player=1146_嗲少女被绑之谜 time=2013-03-20_16:24:27.157035 consume_time=0 accountid=10
+userid=1146 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:24:28.772879 consume_time=0
+time=2013-03-20_16:24:44.506678 userid=1146 uri=/maze/goto_maze is_continue=true consume_time=0 accountid=10
+consume_time=0 uri=/admin/leave time=2013-03-20_16:24:44.748696
+userid=1146 uri=/admin/enter mapname=migong gsid=migong%401 time=2013-03-20_16:24:46.537614 consume_time=0
+userid=692 uri=/account/choose_player player=692_卡拉 time=2013-03-20_16:24:48.019877 consume_time=0 accountid=14
+userid=692 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:24:51.076489 consume_time=0
+userid=1146 uri=/account/choose_player player=1146_嗲少女被绑之谜 time=2013-03-20_16:24:56.171557 consume_time=0 accountid=10
+userid=1146 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:24:57.772995 consume_time=0
+time=2013-03-20_16:25:02.342599 userid=1146 uri=/maze/goto_maze is_continue=true consume_time=0 accountid=10
+consume_time=0 uri=/admin/leave time=2013-03-20_16:25:02.567263
+userid=1098 uri=/scene/back_to_city time=2013-03-20_16:25:39.006916 consume_time=1 accountid=1
+consume_time=0 uri=/admin/leave time=2013-03-20_16:25:39.393258
+userid=1098 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:25:41.630581 consume_time=0
+userid=1167 uri=/msg/delete time=2013-03-20_16:27:33.124736 consume_time=0 msgkey=0@1363767049 accountid=82
+repeat_time=1 userid=1167 uri=/instance/start_clean_instance rule=dan23-temple3.xml instance_id=10302301 time=2013-03-20_16:27:39.106790 map_name=temple3 consume_time=0 accountid=82
+skip_time=1 userid=1167 uri=/instance/end_clean_instance time=2013-03-20_16:27:41.213985 consume_time=0 accountid=82
+userid=1167 uri=/msg/read time=2013-03-20_16:27:47.924811 consume_time=0 msgkey=0@1363768061 accountid=82
+userid=1167 uri=/msg/loads_attachment time=2013-03-20_16:28:02.516840 consume_time=0 msgkey=0@1363768061 accountid=82
+userid=1093 uri=/scene/go_to_boss time=2013-03-20_16:30:03.740470 consume_time=0 accountid=6
+consume_time=0 uri=/admin/leave time=2013-03-20_16:30:04.070078
+userid=1093 uri=/admin/enter mapname=shamo7 gsid=shamo7%401 time=2013-03-20_16:30:07.942274 consume_time=0
+userid=1093 uri=/scene/back_to_city time=2013-03-20_16:30:26.639801 consume_time=0 accountid=6
+consume_time=0 uri=/admin/leave time=2013-03-20_16:30:26.972446
+userid=1093 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:30:28.807647 consume_time=0
+repeat_time=1 userid=1167 uri=/instance/start_clean_instance rule=dan29-temple3.xml instance_id=10302901 time=2013-03-20_16:30:58.654715 map_name=temple3 consume_time=0 accountid=82
+skip_time=1 userid=1167 uri=/instance/end_clean_instance time=2013-03-20_16:31:00.420310 consume_time=0 accountid=82
+userid=1167 uri=/msg/read time=2013-03-20_16:31:06.691295 consume_time=0 msgkey=0@1363768260 accountid=82
+userid=358 uri=/technology/reset_cd time=2013-03-20_16:31:07.185616 consume_time=0 accountid=19
+techid=4 userid=358 uri=/technology/upgrade time=2013-03-20_16:31:10.035768 consume_time=0 accountid=19
+techid=5 userid=358 uri=/technology/upgrade time=2013-03-20_16:31:11.667711 consume_time=0 accountid=19
+userid=1167 uri=/account/choose_player player=1167_蜜尔娜 time=2013-03-20_16:31:50.138674 consume_time=0 accountid=82
+userid=1167 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:31:51.922300 consume_time=0
+accountid=10 camp=1 name=怪物全是魔攻的 gender=male idcard=1234345656dfdf userid=1146 uri=/profile/register role=master time=2013-03-20_16:32:29.292589 consume_time=0 account_id=10
+userid=1168 uri=/account/choose_player player=1168_怪物全是魔攻的 time=2013-03-20_16:32:32.558265 consume_time=0 accountid=10
+userid=1168 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:32:34.054611 consume_time=0
+ruler=dan01-huoshan4.xml userid=1168 uri=/scene/jump_to_quest_location time=2013-03-20_16:33:27.897077 map_name=huoshan4 consume_time=0 accountid=10
+consume_time=0 uri=/admin/leave time=2013-03-20_16:33:28.063580
+userid=1168 uri=/admin/enter mapname=huoshan4 gsid=huoshan4%401 time=2013-03-20_16:33:32.535266 consume_time=0
+userid=1168 uri=/scene/back_to_city time=2013-03-20_16:34:17.585946 consume_time=0 accountid=10
+consume_time=0 uri=/admin/leave time=2013-03-20_16:34:17.764127
+userid=1093 uri=/account/choose_player player=1093_卢修斯 time=2013-03-20_16:34:19.234005 consume_time=0 accountid=6
+userid=1168 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:34:19.736324 consume_time=0
+userid=1093 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:34:20.632209 consume_time=0
+ruler=dan02-huoshan1.xml userid=1168 uri=/scene/jump_to_quest_location time=2013-03-20_16:34:56.670052 map_name=huoshan1 consume_time=0 accountid=10
+consume_time=0 uri=/admin/leave time=2013-03-20_16:34:56.831384
+userid=1168 uri=/admin/enter mapname=huoshan1 gsid=huoshan1%401 time=2013-03-20_16:35:00.405107 consume_time=0
+userid=1168 uri=/scene/back_to_city time=2013-03-20_16:36:17.253785 consume_time=0 accountid=10
+consume_time=0 uri=/admin/leave time=2013-03-20_16:36:17.434751
+userid=1168 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:36:19.582775 consume_time=0
+consume_time=0 uri=/admin/leave time=2013-03-20_16:37:24.520826
+userid=1146 uri=/account/choose_player player=1146_嗲少女被绑之谜 time=2013-03-20_16:37:29.914970 consume_time=0 accountid=10
+userid=1146 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:37:31.540579 consume_time=0
+ruler=dan20-privatemine3.xml userid=1146 uri=/scene/jump_to_quest_location time=2013-03-20_16:37:55.696190 map_name=privatemine3 consume_time=0 accountid=10
+consume_time=0 uri=/admin/leave time=2013-03-20_16:37:55.968745
+userid=1146 uri=/admin/enter mapname=privatemine3 gsid=privatemine3%401 time=2013-03-20_16:37:59.412183 consume_time=0
+userid=1154 uri=/account/choose_player player=1154_罗斯福 time=2013-03-20_16:38:00.826601 consume_time=0 accountid=9
+userid=1154 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:38:02.433930 consume_time=0
+userid=1136 uri=/account/choose_player player=1136_巴顿 time=2013-03-20_16:38:42.435899 consume_time=0 accountid=63
+userid=1136 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:38:45.866754 consume_time=0
+repeat_time=8 userid=1136 uri=/instance/start_clean_instance rule=008migong.xml instance_id=30100801 time=2013-03-20_16:39:24.778562 map_name=migong consume_time=0 accountid=63
+skip_time=1 userid=1136 uri=/instance/end_clean_maze time=2013-03-20_16:39:31.117347 consume_time=0 accountid=63
+userid=692 uri=/account/choose_player player=692_卡拉 time=2013-03-20_16:39:37.484432 consume_time=0 accountid=14
+userid=692 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:39:42.953826 consume_time=0
+userid=1146 uri=/instance/revive revive_mod=token time=2013-03-20_16:40:50.500152 death_rule_type=single consume_time=0 accountid=10
+user_login=登录 uri=/account/temp_login form_password=hello time=2013-03-20_16:41:41.914833 form_email=hello@hello.com consume_time=0
+userid=0 uri=/account/temp_login form_password=cx time=2013-03-20_16:41:43.358716 form_email=cx@cx.com consume_time=0 accountid=0
+consume_time=0 uri=/admin/leave time=2013-03-20_16:42:19.673591
+userid=358 uri=/account/choose_player player=358_辛姓修士 time=2013-03-20_16:42:23.339759 consume_time=0 accountid=19
+userid=358 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:42:33.975001 consume_time=0
+techid=8 userid=358 uri=/technology/upgrade time=2013-03-20_16:42:55.955636 consume_time=0 accountid=19
+techid=8 userid=358 uri=/technology/upgrade time=2013-03-20_16:42:58.892938 consume_time=0 accountid=19
+techid=7 userid=358 uri=/technology/upgrade time=2013-03-20_16:43:03.296616 consume_time=0 accountid=19
+techid=7 userid=358 uri=/technology/upgrade time=2013-03-20_16:43:05.197304 consume_time=0 accountid=19
+techid=7 userid=358 uri=/technology/upgrade time=2013-03-20_16:43:06.847144 consume_time=0 accountid=19
+techid=7 userid=358 uri=/technology/upgrade time=2013-03-20_16:43:08.788174 consume_time=0 accountid=19
+techid=7 userid=358 uri=/technology/upgrade time=2013-03-20_16:43:11.105460 consume_time=0 accountid=19
+consume_time=0 uri=/admin/leave time=2013-03-20_16:43:39.116337
+consume_time=0 uri=/admin/leave time=2013-03-20_16:45:03.641857
+consume_time=0 uri=/admin/leave time=2013-03-20_16:45:46.801268
+userid=0 uri=/account/temp_login form_password=cx time=2013-03-20_16:46:14.494027 form_email=cx@cx.com consume_time=0 accountid=0
+time=2013-03-20_16:46:17.242622 userid=1136 uri=/maze/goto_maze is_continue=true consume_time=0 accountid=63
+consume_time=0 uri=/admin/leave time=2013-03-20_16:46:17.509538
+userid=1098 uri=/account/choose_player player=1098_雷诺兹 time=2013-03-20_16:46:18.388340 consume_time=0 accountid=1
+userid=1167 uri=/account/choose_player player=1167_蜜尔娜 time=2013-03-20_16:46:36.555345 consume_time=0 accountid=82
+userid=1167 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:46:38.297053 consume_time=0
+userid=1168 uri=/account/choose_player player=1168_怪物全是魔攻的 time=2013-03-20_16:46:46.738709 consume_time=0 accountid=10
+userid=1168 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:46:48.161165 consume_time=0
+userid=358 uri=/account/choose_player player=358_辛姓修士 time=2013-03-20_16:46:58.129225 consume_time=0 accountid=19
+userid=1136 uri=/account/choose_player player=1136_巴顿 time=2013-03-20_16:47:05.765060 consume_time=0 accountid=63
+user_login=登录 uri=/account/temp_login form_password=hello time=2013-03-20_16:47:06.560514 form_email=hello@hello.com consume_time=0
+userid=358 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:47:08.731963 consume_time=0
+userid=1136 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:47:09.233555 consume_time=0
+userid=1168 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-03-20_16:47:10.726892 lucky_stone_pos=2 consume_time=0 accountid=10
+userid=1168 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-03-20_16:47:11.144151 lucky_stone_pos=2 consume_time=0 accountid=10
+userid=1168 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-03-20_16:47:11.561670 lucky_stone_pos=2 consume_time=0 accountid=10
+userid=1168 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-03-20_16:47:11.914664 lucky_stone_pos=2 consume_time=0 accountid=10
+userid=1168 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-03-20_16:47:12.481653 lucky_stone_pos=2 consume_time=0 accountid=10
+ruler=dan03-huoshan1.xml userid=1168 uri=/scene/jump_to_quest_location time=2013-03-20_16:47:31.056267 map_name=huoshan1 consume_time=0 accountid=10
+consume_time=0 uri=/admin/leave time=2013-03-20_16:47:31.205006
+userid=1098 uri=/account/choose_player player=1098_雷诺兹 time=2013-03-20_16:47:34.247401 consume_time=0 accountid=1
+user_login=登录 uri=/account/temp_login form_password=123456 time=2013-03-20_16:47:34.893682 form_email=test@test.com consume_time=0
+userid=358 uri=/technology/reset_cd time=2013-03-20_16:47:36.757061 consume_time=0 accountid=19
+user_login=登录 uri=/account/temp_login form_password=123456 time=2013-03-20_16:47:39.715968 form_email=a@b.com consume_time=0
+techid=8 userid=358 uri=/technology/upgrade time=2013-03-20_16:47:41.736774 consume_time=0 accountid=19
+techid=8 userid=358 uri=/technology/upgrade time=2013-03-20_16:47:45.816703 consume_time=0 accountid=19
+consume_time=0 uri=/admin/leave time=2013-03-20_16:47:48.193076
+userid=1168 uri=/account/choose_player player=1168_怪物全是魔攻的 time=2013-03-20_16:47:49.331238 consume_time=0 accountid=10
+techid=8 userid=358 uri=/technology/upgrade time=2013-03-20_16:47:49.485483 consume_time=0 accountid=19
+userid=1168 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:47:51.908543 consume_time=0
+techid=8 userid=358 uri=/technology/upgrade time=2013-03-20_16:47:52.339432 consume_time=0 accountid=19
+userid=1064 uri=/account/choose_player player=1064_斯诺 time=2013-03-20_16:47:54.785144 consume_time=0 accountid=20
+user_login=登录 uri=/account/temp_login form_password=hello time=2013-03-20_16:47:54.972561 form_email=hello@hello.com consume_time=0
+userid=1064 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:47:58.983354 consume_time=0
+ruler=dan03-huoshan1.xml userid=1168 uri=/scene/jump_to_quest_location time=2013-03-20_16:48:06.076016 map_name=huoshan1 consume_time=0 accountid=10
+consume_time=0 uri=/admin/leave time=2013-03-20_16:48:06.246844
+userid=1098 uri=/account/choose_player player=1098_雷诺兹 time=2013-03-20_16:48:07.643182 consume_time=0 accountid=1
+userid=1168 uri=/admin/enter mapname=huoshan1 gsid=huoshan1%401 time=2013-03-20_16:48:08.763593 consume_time=0
+userid=1098 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:48:10.149006 consume_time=0
+userid=1045 uri=/account/choose_player player=1045_甘道夫 time=2013-03-20_16:48:11.502071 consume_time=0 accountid=9
+userid=1045 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:48:13.919831 consume_time=0
+userid=1045 uri=/scene/go_to_boss time=2013-03-20_16:48:20.223395 consume_time=0 accountid=9
+userid=1167 uri=/account/choose_player player=1167_蜜尔娜 time=2013-03-20_16:48:20.522748 consume_time=0 accountid=82
+consume_time=0 uri=/admin/leave time=2013-03-20_16:48:20.602421
+userid=1167 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:48:23.149601 consume_time=0
+userid=1045 uri=/admin/enter mapname=shamo7 gsid=shamo7%401 time=2013-03-20_16:48:24.759535 consume_time=0
+userid=1167 uri=/msg/delete time=2013-03-20_16:48:31.389904 consume_time=0 msgkey=0@1363768260,0@1363768061 accountid=82
+consume_time=0 uri=/admin/leave time=2013-03-20_16:48:43.734565
+userid=1064 uri=/msg/read time=2013-03-20_16:48:54.959874 consume_time=0 msgkey=0@1363767598 accountid=20
+userid=692 uri=/account/choose_player player=692_卡拉 time=2013-03-20_16:49:01.630065 consume_time=0 accountid=14
+userid=1064 uri=/msg/read time=2013-03-20_16:49:03.275202 consume_time=0 msgkey=0@1363767731 accountid=20
+userid=1064 uri=/msg/read time=2013-03-20_16:49:05.476678 consume_time=0 msgkey=0@1363767566 accountid=20
+userid=692 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:49:05.863233 consume_time=0
+userid=1064 uri=/msg/read time=2013-03-20_16:49:11.252929 consume_time=0 msgkey=0@1363767215 accountid=20
+userid=692 uri=/msg/read time=2013-03-20_16:49:25.144274 consume_time=0 msgkey=0@1362138605 accountid=14
+userid=692 uri=/msg/loads_attachment time=2013-03-20_16:49:30.355474 consume_time=0 msgkey=0@1362138605 accountid=14
+userid=1136 uri=/account/choose_player player=1136_巴顿 time=2013-03-20_16:49:32.194511 consume_time=0 accountid=63
+userid=692 uri=/msg/read time=2013-03-20_16:49:35.566704 consume_time=0 msgkey=0@1363342829 accountid=14
+userid=1136 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:49:35.687460 consume_time=0
+userid=692 uri=/msg/loads_attachment time=2013-03-20_16:49:39.903175 consume_time=0 msgkey=0@1363342829 accountid=14
+userid=1168 uri=/scene/back_to_city time=2013-03-20_16:49:47.417292 consume_time=0 accountid=10
+consume_time=0 uri=/admin/leave time=2013-03-20_16:49:47.585453
+userid=1045 uri=/scene/back_to_city time=2013-03-20_16:49:48.888932 consume_time=0 accountid=9
+consume_time=0 uri=/admin/leave time=2013-03-20_16:49:49.260907
+userid=1168 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:49:49.769840 consume_time=0
+userid=1045 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:49:51.437152 consume_time=0
+userid=1045 uri=/scene/go_to_boss time=2013-03-20_16:49:53.161806 consume_time=0 accountid=9
+consume_time=0 uri=/admin/leave time=2013-03-20_16:49:53.562307
+time=2013-03-20_16:49:55.043587 userid=1136 uri=/maze/goto_maze is_continue=true consume_time=1 accountid=63
+consume_time=0 uri=/admin/leave time=2013-03-20_16:49:55.270954
+userid=1045 uri=/admin/enter mapname=huoshan3 gsid=huoshan3%401 time=2013-03-20_16:49:57.112626 consume_time=0
+userid=1136 uri=/admin/enter mapname=migong gsid=migong%401 time=2013-03-20_16:49:58.991266 consume_time=0
+repeat_time=2 userid=1167 uri=/instance/start_clean_instance rule=dan26-temple3.xml instance_id=10302601 time=2013-03-20_16:49:59.266392 map_name=temple3 consume_time=0 accountid=82
+skip_time=1 userid=1167 uri=/instance/end_clean_instance time=2013-03-20_16:50:00.965616 consume_time=0 accountid=82
+userid=1167 uri=/msg/read time=2013-03-20_16:50:05.675117 consume_time=0 msgkey=0@1363769400 accountid=82
+userid=692 uri=/msg/read time=2013-03-20_16:50:15.685359 consume_time=0 msgkey=0@1363583691 accountid=14
+userid=1064 uri=/scene/go_to_boss time=2013-03-20_16:50:20.999555 consume_time=0 accountid=20
+consume_time=0 uri=/admin/leave time=2013-03-20_16:50:21.255635
+userid=1064 uri=/admin/enter mapname=huoshan3 gsid=huoshan3%401 time=2013-03-20_16:50:24.143640 consume_time=0
+count=1 userid=1167 uri=/profile/enlarge_package time=2013-03-20_16:50:24.815487 consume_time=0 accountid=82
+userid=1168 uri=/blacksmith/enhance equipment_pos=equiped@head time=2013-03-20_16:50:27.096746 lucky_stone_pos=2 consume_time=0 accountid=10
+userid=1168 uri=/blacksmith/enhance equipment_pos=equiped@head time=2013-03-20_16:50:27.713473 lucky_stone_pos=2 consume_time=0 accountid=10
+userid=1168 uri=/blacksmith/enhance equipment_pos=equiped@head time=2013-03-20_16:50:28.278086 lucky_stone_pos=2 consume_time=0 accountid=10
+userid=1168 uri=/blacksmith/enhance equipment_pos=equiped@head time=2013-03-20_16:50:28.845213 lucky_stone_pos=2 consume_time=0 accountid=10
+userid=1168 uri=/blacksmith/enhance equipment_pos=equiped@head time=2013-03-20_16:50:29.208953 lucky_stone_pos=2 consume_time=0 accountid=10
+userid=1167 uri=/msg/loads_attachment time=2013-03-20_16:50:29.946576 consume_time=0 msgkey=0@1363769400 accountid=82
+userid=692 uri=/msg/loads_attachment time=2013-03-20_16:50:31.594236 consume_time=0 msgkey=0@1363583691 accountid=14
+userid=692 uri=/msg/read time=2013-03-20_16:50:34.604175 consume_time=0 msgkey=0@1362563469 accountid=14
+userid=692 uri=/msg/loads_attachment time=2013-03-20_16:50:36.251669 consume_time=0 msgkey=0@1362563469 accountid=14
+userid=692 uri=/msg/read time=2013-03-20_16:50:44.493999 consume_time=0 msgkey=989@1361944651 accountid=14
+ruler=010migong.xml userid=1136 uri=/scene/jump_to_quest_location time=2013-03-20_16:50:46.471470 map_name=migong consume_time=0 accountid=63
+consume_time=0 uri=/admin/leave time=2013-03-20_16:50:46.763259
+userid=692 uri=/msg/read time=2013-03-20_16:50:48.923970 consume_time=0 msgkey=0@1361266965 accountid=14
+userid=1136 uri=/admin/enter mapname=migong gsid=migong%402 time=2013-03-20_16:50:49.682582 consume_time=0
+userid=692 uri=/msg/loads_attachment time=2013-03-20_16:50:50.497476 consume_time=0 msgkey=0@1361266965 accountid=14
+userid=692 uri=/msg/read time=2013-03-20_16:50:53.080424 consume_time=0 msgkey=0@1362138317 accountid=14
+userid=692 uri=/msg/loads_attachment time=2013-03-20_16:50:54.369198 consume_time=0 msgkey=0@1362138317 accountid=14
+consume_time=0 uri=/admin/leave time=2013-03-20_16:50:57.408233
+userid=1146 uri=/account/choose_player player=1146_嗲少女被绑之谜 time=2013-03-20_16:51:02.723974 consume_time=0 accountid=10
+userid=1146 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:51:04.466251 consume_time=0
+time=2013-03-20_16:51:08.588818 userid=1146 uri=/maze/goto_maze is_continue=true consume_time=0 accountid=10
+consume_time=0 uri=/admin/leave time=2013-03-20_16:51:08.852947
+userid=1146 uri=/admin/enter mapname=migong gsid=migong%403 time=2013-03-20_16:51:12.078402 consume_time=0
+userid=1064 uri=/instance/revive revive_mod=token time=2013-03-20_16:51:32.234686 death_rule_type=world_boss consume_time=0 accountid=20
+ruler=007migong.xml userid=1146 uri=/scene/jump_to_quest_location time=2013-03-20_16:51:40.361717 map_name=migong consume_time=0 accountid=10
+consume_time=0 uri=/admin/leave time=2013-03-20_16:51:40.600289
+userid=1146 uri=/admin/enter mapname=migong gsid=migong%404 time=2013-03-20_16:51:43.670819 consume_time=0
+ruler=011migong.xml userid=1136 uri=/scene/jump_to_quest_location time=2013-03-20_16:51:51.024951 map_name=migong consume_time=1 accountid=63
+consume_time=0 uri=/admin/leave time=2013-03-20_16:51:51.309112
+userid=1064 uri=/instance/revive revive_mod=token time=2013-03-20_16:51:53.008733 death_rule_type=world_boss consume_time=0 accountid=20
+userid=1136 uri=/admin/enter mapname=migong gsid=migong%405 time=2013-03-20_16:51:54.013637 consume_time=0
+userid=692 uri=/scene/go_to_singlejjc time=2013-03-20_16:52:00.393705 consume_time=0 opponent=1151 accountid=14
+consume_time=0 uri=/admin/leave time=2013-03-20_16:52:00.576265
+userid=692 uri=/admin/enter mapname=jingjichang gsid=jingjichang%401 time=2013-03-20_16:52:04.556045 consume_time=0
+ruler=008migong.xml userid=1146 uri=/scene/jump_to_quest_location time=2013-03-20_16:52:12.650921 map_name=migong consume_time=0 accountid=10
+consume_time=0 uri=/admin/leave time=2013-03-20_16:52:12.880642
+userid=1146 uri=/admin/enter mapname=migong gsid=migong%406 time=2013-03-20_16:52:15.551794 consume_time=0
+userid=1064 uri=/instance/revive revive_mod=token time=2013-03-20_16:52:19.919304 death_rule_type=world_boss consume_time=0 accountid=20
+consume_time=0 uri=/admin/leave time=2013-03-20_16:52:28.740659
+userid=692 uri=/scene/back_to_city time=2013-03-20_16:52:31.476129 consume_time=0 accountid=14
+consume_time=0 uri=/admin/leave time=2013-03-20_16:52:31.682295
+userid=692 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:52:34.494492 consume_time=0
+userid=1064 uri=/instance/revive revive_mod=token time=2013-03-20_16:52:46.987503 death_rule_type=world_boss consume_time=0 accountid=20
+ruler=009migong.xml userid=1146 uri=/scene/jump_to_quest_location time=2013-03-20_16:52:52.562898 map_name=migong consume_time=0 accountid=10
+consume_time=0 uri=/admin/leave time=2013-03-20_16:52:52.840255
+userid=1146 uri=/admin/enter mapname=migong gsid=migong%401 time=2013-03-20_16:52:54.543315 consume_time=0
+userid=1167 uri=/scene/go_to_singlejjc time=2013-03-20_16:53:11.518205 consume_time=0 accountid=82 opponent=692
+consume_time=0 uri=/admin/leave time=2013-03-20_16:53:11.876701
+userid=1167 uri=/admin/enter mapname=jingjichang gsid=jingjichang%401 time=2013-03-20_16:53:14.374065 consume_time=0
+userid=1045 uri=/scene/back_to_city time=2013-03-20_16:53:22.050852 consume_time=0 accountid=9
+consume_time=0 uri=/admin/leave time=2013-03-20_16:53:22.339217
+userid=1045 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:53:24.425011 consume_time=0
+userid=1167 uri=/scene/back_to_city time=2013-03-20_16:53:25.722792 consume_time=0 accountid=82
+consume_time=0 uri=/admin/leave time=2013-03-20_16:53:26.076914
+userid=1167 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:53:28.450254 consume_time=0
+userid=1064 uri=/scene/back_to_city time=2013-03-20_16:53:31.829173 consume_time=0 accountid=20
+consume_time=0 uri=/admin/leave time=2013-03-20_16:53:32.069438
+userid=1064 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:53:34.309832 consume_time=0
+ruler=012migong.xml userid=1136 uri=/scene/jump_to_quest_location time=2013-03-20_16:53:37.354875 map_name=migong consume_time=0 accountid=63
+consume_time=0 uri=/admin/leave time=2013-03-20_16:53:37.638455
+userid=0 uri=/account/temp_login form_password=cx time=2013-03-20_16:53:37.986304 form_email=cx@cx.com consume_time=0 accountid=0
+ruler=010migong.xml userid=1146 uri=/scene/jump_to_quest_location time=2013-03-20_16:53:40.024996 map_name=migong consume_time=0 accountid=10
+consume_time=0 uri=/admin/leave time=2013-03-20_16:53:40.249660
+userid=1136 uri=/admin/enter mapname=migong gsid=migong%407 time=2013-03-20_16:53:40.937242 consume_time=0
+userid=1146 uri=/admin/enter mapname=migong gsid=migong%402 time=2013-03-20_16:53:41.924942 consume_time=0
+userid=1167 uri=/jjc/skip_cooldown time=2013-03-20_16:54:14.416038 consume_time=0 accountid=82
+userid=1167 uri=/scene/go_to_singlejjc time=2013-03-20_16:54:18.279274 consume_time=0 accountid=82 opponent=1160
+consume_time=0 uri=/admin/leave time=2013-03-20_16:54:18.634645
+userid=1167 uri=/admin/enter mapname=jingjichang gsid=jingjichang%401 time=2013-03-20_16:54:20.502540 consume_time=0
+userid=358 uri=/account/choose_player player=358_辛姓修士 time=2013-03-20_16:54:26.390326 consume_time=0 accountid=19
+userid=1167 uri=/scene/back_to_city time=2013-03-20_16:54:31.904741 consume_time=0 accountid=82
+consume_time=0 uri=/admin/leave time=2013-03-20_16:54:32.268754
+userid=1167 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:54:34.674487 consume_time=0
+userid=358 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:54:36.342733 consume_time=0
+userid=1167 uri=/jjc/skip_cooldown time=2013-03-20_16:54:41.346184 consume_time=0 accountid=82
+userid=1167 uri=/scene/go_to_singlejjc time=2013-03-20_16:54:42.312132 consume_time=0 accountid=82 opponent=1154
+consume_time=0 uri=/admin/leave time=2013-03-20_16:54:42.658790
+userid=1167 uri=/admin/enter mapname=jingjichang gsid=jingjichang%401 time=2013-03-20_16:54:44.505338 consume_time=0
+techid=8 userid=358 uri=/technology/upgrade time=2013-03-20_16:54:45.037326 consume_time=0 accountid=19
+techid=8 userid=358 uri=/technology/upgrade time=2013-03-20_16:54:47.850110 consume_time=0 accountid=19
+techid=5 userid=358 uri=/technology/upgrade time=2013-03-20_16:54:53.669800 consume_time=0 accountid=19
+userid=358 uri=/technology/reset_cd time=2013-03-20_16:54:58.336347 consume_time=0 accountid=19
+userid=1167 uri=/scene/back_to_city time=2013-03-20_16:54:59.485086 consume_time=0 accountid=82
+consume_time=0 uri=/admin/leave time=2013-03-20_16:54:59.859329
+userid=1167 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:55:02.110910 consume_time=0
+userid=1167 uri=/jjc/skip_cooldown time=2013-03-20_16:55:28.730721 consume_time=0 accountid=82
+userid=1167 uri=/scene/go_to_singlejjc time=2013-03-20_16:55:32.993380 consume_time=0 accountid=82 opponent=1154
+consume_time=0 uri=/admin/leave time=2013-03-20_16:55:33.353302
+userid=1167 uri=/admin/enter mapname=jingjichang gsid=jingjichang%401 time=2013-03-20_16:55:35.237651 consume_time=0
+userid=1167 uri=/scene/back_to_city time=2013-03-20_16:55:48.115374 consume_time=0 accountid=82
+consume_time=0 uri=/admin/leave time=2013-03-20_16:55:48.508197
+time=2013-03-20_16:55:49.723597 userid=1098 uri=/maze/goto_maze is_continue=true consume_time=0 accountid=1
+consume_time=0 uri=/admin/leave time=2013-03-20_16:55:50.052390
+userid=1167 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:55:50.742289 consume_time=0
+userid=1098 uri=/admin/enter mapname=migong gsid=migong%403 time=2013-03-20_16:55:53.329802 consume_time=0
+userid=1167 uri=/jjc/skip_cooldown time=2013-03-20_16:55:54.263048 consume_time=0 accountid=82
+userid=1167 uri=/scene/go_to_singlejjc time=2013-03-20_16:55:55.608763 consume_time=0 accountid=82 opponent=1154
+consume_time=0 uri=/admin/leave time=2013-03-20_16:55:55.977635
+userid=1167 uri=/admin/enter mapname=jingjichang gsid=jingjichang%401 time=2013-03-20_16:55:57.821700 consume_time=0
+userid=1167 uri=/scene/back_to_city time=2013-03-20_16:56:16.447149 consume_time=0 accountid=82
+consume_time=0 uri=/admin/leave time=2013-03-20_16:56:16.832456
+userid=1167 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:56:19.128349 consume_time=0
+userid=1167 uri=/jjc/skip_cooldown time=2013-03-20_16:56:52.278670 consume_time=0 accountid=82
+userid=1064 uri=/scene/go_to_boss time=2013-03-20_16:56:53.295755 consume_time=0 accountid=20
+consume_time=0 uri=/admin/leave time=2013-03-20_16:56:53.533096
+userid=1064 uri=/admin/enter mapname=huoshan3 gsid=huoshan3%401 time=2013-03-20_16:56:56.530862 consume_time=0
+userid=1167 uri=/scene/go_to_singlejjc time=2013-03-20_16:57:01.560581 consume_time=0 accountid=82 opponent=1160
+consume_time=0 uri=/admin/leave time=2013-03-20_16:57:01.937001
+userid=1167 uri=/admin/enter mapname=jingjichang gsid=jingjichang%401 time=2013-03-20_16:57:03.800335 consume_time=0
+ruler=013migong.xml userid=1136 uri=/scene/jump_to_quest_location time=2013-03-20_16:57:04.297040 map_name=migong consume_time=0 accountid=63
+consume_time=0 uri=/admin/leave time=2013-03-20_16:57:04.538899
+userid=1136 uri=/admin/enter mapname=migong gsid=migong%401 time=2013-03-20_16:57:07.219294 consume_time=0
+userid=692 uri=/scene/enter_tavern time=2013-03-20_16:57:07.940270 consume_time=0 type=jjc accountid=14
+consume_time=0 uri=/admin/leave time=2013-03-20_16:57:08.102579
+userid=692 uri=/admin/enter mapname=jiuguanshinei gsid=jiuguanshinei%4099 time=2013-03-20_16:57:10.582138 consume_time=0
+userid=1167 uri=/scene/back_to_city time=2013-03-20_16:57:14.330367 consume_time=0 accountid=82
+consume_time=0 uri=/admin/leave time=2013-03-20_16:57:14.651004
+target=jjc_0 userid=692 uri=/team/join_to_queue time=2013-03-20_16:57:14.814776 consume_time=0 accountid=14
+userid=1167 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:57:17.027536 consume_time=0
+userid=692 uri=/scene/back_to_city time=2013-03-20_16:57:24.833266 consume_time=0 accountid=14
+consume_time=0 uri=/admin/leave time=2013-03-20_16:57:25.031631
+userid=1167 uri=/jjc/skip_cooldown time=2013-03-20_16:57:25.130201 consume_time=0 accountid=82
+userid=692 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:57:27.688991 consume_time=0
+userid=1064 uri=/instance/revive revive_mod=token time=2013-03-20_16:57:34.157528 death_rule_type=world_boss consume_time=0 accountid=20
+userid=1064 uri=/profile/cheerup time=2013-03-20_16:57:44.214948 consume_time=0 accountid=20
+userid=1064 uri=/profile/cheerup time=2013-03-20_16:58:02.228545 consume_time=0 accountid=20
+userid=1064 uri=/scene/back_to_city time=2013-03-20_16:58:20.495484 consume_time=0 accountid=20
+consume_time=0 uri=/admin/leave time=2013-03-20_16:58:20.744636
+userid=1064 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:58:22.863583 consume_time=0
+userid=1093 uri=/account/choose_player player=1093_卢修斯 time=2013-03-20_16:59:14.601842 consume_time=0 accountid=6
+userid=1093 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:59:17.341194 consume_time=0
+consume_time=0 uri=/admin/leave time=2013-03-20_16:59:25.569154
+userid=0 uri=/account/temp_login form_password=cx time=2013-03-20_16:59:31.371343 form_email=cx@cx.com consume_time=0 accountid=0
+user_login=登录 uri=/account/temp_login form_password=13524887981hf time=2013-03-20_16:59:40.178250 form_email=183709629@qq.com consume_time=0
+userid=1073 uri=/account/choose_player player=1073_埃米莉 time=2013-03-20_16:59:53.949395 consume_time=0 accountid=24
+userid=1073 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_16:59:56.550028 consume_time=0

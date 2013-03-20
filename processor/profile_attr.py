@@ -17,7 +17,8 @@ def run(filename=None):
         try:
             #print sql
             common.conn.execute(sql)
-        except Exception, e:
-            print 'error', e
+        except:
+            pass
+            #print 'error', e
 
     os.system('mv %s %s' % (os.path.join(config.PROCESSING_GAMELOG_PATH, filename), config.COMPLETED_GAMELOG_PATH))

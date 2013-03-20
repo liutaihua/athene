@@ -1,0 +1,74 @@
+userid=0 uri=/account/temp_login form_password=123456 time=2013-03-19_21:00:12.035305 form_email=test@test.com consume_time=0 accountid=0
+userid=1092 uri=/account/choose_player player=1092_乔伊斯 time=2013-03-19_21:00:43.606072 consume_time=0 accountid=20
+userid=1092 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-19_21:00:52.512423 consume_time=0
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:01.086382 position=24 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:01.768469 position=23 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:02.150688 position=22 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:02.595618 position=21 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:02.977572 position=20 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:03.502763 position=19 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:03.869237 position=18 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:04.265704 position=17 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:04.635890 position=16 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:05.105545 position=14 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:05.482296 position=13 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:05.888021 position=12 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:06.246579 position=11 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:06.590530 position=10 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:07.005642 position=5 consume_time=1 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:07.380893 position=6 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:07.757228 position=7 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:08.117065 position=8 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:08.509920 position=9 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:08.848670 position=4 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:09.131277 position=3 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:09.519180 position=2 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:09.874164 position=1 consume_time=0 accountid=20
+userid=1092 uri=/trade/store/sell time=2013-03-19_21:01:10.369596 position=0 consume_time=0 accountid=20
+ruler=dan06-yewai4.xml userid=1092 uri=/scene/jump_to_quest_location time=2013-03-19_21:01:18.712735 map_name=yewai4 consume_time=0 accountid=20
+consume_time=0 uri=/admin/leave time=2013-03-19_21:01:18.877244
+userid=1092 uri=/admin/enter mapname=yewai4 gsid=yewai4%401 time=2013-03-19_21:01:26.927652 consume_time=0
+userid=1092 uri=/scene/back_to_city time=2013-03-19_21:01:48.630066 consume_time=0 accountid=20
+consume_time=0 uri=/admin/leave time=2013-03-19_21:01:48.776979
+userid=1092 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-19_21:01:51.374602 consume_time=0
+ruler=dan06-yewai4.xml userid=1092 uri=/scene/jump_to_quest_location time=2013-03-19_21:01:54.587812 map_name=yewai4 consume_time=0 accountid=20
+consume_time=0 uri=/admin/leave time=2013-03-19_21:01:54.746685
+userid=1092 uri=/admin/enter mapname=yewai4 gsid=yewai4%401 time=2013-03-19_21:01:57.426076 consume_time=0
+userid=1092 uri=/scene/back_to_city time=2013-03-19_21:02:25.907053 consume_time=0 accountid=20
+consume_time=0 uri=/admin/leave time=2013-03-19_21:02:26.059260
+userid=1092 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-19_21:02:28.852894 consume_time=0
+ruler=dan06-yewai4.xml userid=1092 uri=/scene/jump_to_quest_location time=2013-03-19_21:02:32.520521 map_name=yewai4 consume_time=0 accountid=20
+consume_time=0 uri=/admin/leave time=2013-03-19_21:02:32.663905
+userid=1092 uri=/admin/enter mapname=yewai4 gsid=yewai4%401 time=2013-03-19_21:02:35.509579 consume_time=0
+userid=1092 uri=/scene/back_to_city time=2013-03-19_21:02:58.728542 consume_time=0 accountid=20
+consume_time=0 uri=/admin/leave time=2013-03-19_21:02:58.900939
+userid=1092 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-19_21:03:01.526993 consume_time=0
+ruler=dan06-yewai4.xml userid=1092 uri=/scene/jump_to_quest_location time=2013-03-19_21:03:10.668908 map_name=yewai4 consume_time=0 accountid=20
+consume_time=0 uri=/admin/leave time=2013-03-19_21:03:10.830754
+userid=1092 uri=/admin/enter mapname=yewai4 gsid=yewai4%401 time=2013-03-19_21:03:13.665352 consume_time=0
+userid=1092 uri=/scene/back_to_city time=2013-03-19_21:03:30.694476 consume_time=0 accountid=20
+consume_time=0 uri=/admin/leave time=2013-03-19_21:03:30.867641
+userid=1092 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-19_21:03:33.557411 consume_time=0
+ruler=dan06-yewai4.xml userid=1092 uri=/scene/jump_to_quest_location time=2013-03-19_21:03:37.151910 map_name=yewai4 consume_time=0 accountid=20
+consume_time=0 uri=/admin/leave time=2013-03-19_21:03:37.299016
+userid=1092 uri=/admin/enter mapname=yewai4 gsid=yewai4%401 time=2013-03-19_21:03:39.959342 consume_time=0
+userid=1092 uri=/scene/back_to_city time=2013-03-19_21:03:56.919420 consume_time=0 accountid=20
+consume_time=0 uri=/admin/leave time=2013-03-19_21:03:57.058188
+userid=1092 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-19_21:03:59.836575 consume_time=0
+userid=1092 uri=/blacksmith/enhance equipment_pos=equiped@legs time=2013-03-19_21:04:06.822860 lucky_stone_pos=0 consume_time=0 accountid=20
+userid=1092 uri=/blacksmith/enhance equipment_pos=equiped@legs time=2013-03-19_21:04:07.423995 lucky_stone_pos=0 consume_time=0 accountid=20
+userid=1092 uri=/blacksmith/enhance equipment_pos=equiped@legs time=2013-03-19_21:04:08.041858 lucky_stone_pos=0 consume_time=0 accountid=20
+userid=1092 uri=/blacksmith/enhance equipment_pos=equiped@legs time=2013-03-19_21:04:08.614204 lucky_stone_pos=0 consume_time=0 accountid=20
+userid=1092 uri=/blacksmith/enhance equipment_pos=equiped@legs time=2013-03-19_21:04:09.895997 lucky_stone_pos=0 consume_time=0 accountid=20
+ruler=dan07-yewai5.xml userid=1092 uri=/scene/jump_to_quest_location time=2013-03-19_21:04:24.649456 map_name=yewai5 consume_time=0 accountid=20
+consume_time=0 uri=/admin/leave time=2013-03-19_21:04:24.828721
+userid=1092 uri=/admin/enter mapname=yewai5 gsid=yewai5%401 time=2013-03-19_21:04:29.738791 consume_time=0
+consume_time=0 uri=/admin/leave time=2013-03-19_21:04:58.019367
+userid=356 uri=/account/choose_player player=356_邱浏 time=2013-03-19_21:39:56.226939 consume_time=0 accountid=19
+userid=356 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-19_21:40:06.110783 consume_time=0
+techid=8 userid=356 uri=/technology/upgrade time=2013-03-19_21:46:28.745665 consume_time=0 accountid=19
+techid=8 userid=356 uri=/technology/upgrade time=2013-03-19_21:46:33.803697 consume_time=0 accountid=19
+userid=0 uri=/account/temp_login form_password=cx time=2013-03-19_21:46:56.842795 form_email=cx@cx.com consume_time=0 accountid=0
+userid=356 uri=/account/choose_player player=356_邱浏 time=2013-03-19_21:48:20.487688 consume_time=0 accountid=19
+userid=356 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-19_21:48:33.235738 consume_time=0
+consume_time=0 uri=/admin/leave time=2013-03-19_21:59:38.926502

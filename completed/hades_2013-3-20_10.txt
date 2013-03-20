@@ -1,0 +1,36 @@
+userid=594 uri=/account/choose_player player=594_卡罗琳 time=2013-03-20_10:21:13.619869 consume_time=0 accountid=9
+userid=594 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_10:21:16.370788 consume_time=0
+userid=1145 uri=/account/choose_player player=1145_克莱拉 time=2013-03-20_10:34:33.943082 consume_time=0 accountid=82
+userid=1145 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_10:34:36.360598 consume_time=0
+userid=1145 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-03-20_10:35:39.643817 lucky_stone_pos=29 consume_time=0 accountid=82
+userid=1145 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-03-20_10:35:40.388929 lucky_stone_pos=29 consume_time=0 accountid=82
+userid=1145 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-03-20_10:35:41.125515 lucky_stone_pos=29 consume_time=0 accountid=82
+userid=1145 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-03-20_10:35:42.381782 lucky_stone_pos=29 consume_time=0 accountid=82
+userid=1145 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-03-20_10:35:43.824867 lucky_stone_pos=29 consume_time=0 accountid=82
+userid=1145 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-03-20_10:35:44.712773 lucky_stone_pos=29 consume_time=0 accountid=82
+ruler=dan03-huoshan1.xml userid=1145 uri=/scene/jump_to_quest_location time=2013-03-20_10:36:28.836123 map_name=huoshan1 consume_time=0 accountid=82
+consume_time=0 uri=/admin/leave time=2013-03-20_10:36:29.091664
+userid=1145 uri=/admin/enter mapname=huoshan1 gsid=huoshan1%401 time=2013-03-20_10:36:32.802245 consume_time=0
+userid=1145 uri=/scene/back_to_city time=2013-03-20_10:36:58.931049 consume_time=0 accountid=82
+consume_time=0 uri=/admin/leave time=2013-03-20_10:36:59.174476
+userid=1145 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_10:37:01.283033 consume_time=0
+count=29 userid=1145 uri=/profile/enlarge_package time=2013-03-20_10:37:22.939623 consume_time=0 accountid=82
+userid=1145 uri=/pets/upgrade time=2013-03-20_10:37:35.453110 consume_time=0 pet_id=4000 accountid=82
+techid=2 userid=1145 uri=/technology/upgrade time=2013-03-20_10:37:50.493910 consume_time=0 accountid=82
+techid=2 userid=1145 uri=/technology/upgrade time=2013-03-20_10:37:51.460531 consume_time=0 accountid=82
+techid=7 userid=1145 uri=/technology/upgrade time=2013-03-20_10:37:53.842078 consume_time=0 accountid=82
+techid=7 userid=1145 uri=/technology/upgrade time=2013-03-20_10:37:54.630927 consume_time=0 accountid=82
+techid=10 userid=1145 uri=/technology/upgrade time=2013-03-20_10:37:59.309786 consume_time=0 accountid=82
+npcid=1 userid=1145 uri=/astrology/start time=2013-03-20_10:38:06.560024 consume_time=0 accountid=82
+userid=1031 uri=/account/choose_player player=1031_普尔曼 time=2013-03-20_10:54:29.378552 consume_time=0 accountid=10
+userid=1031 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_10:54:31.936289 consume_time=0
+userid=1153 uri=/account/choose_player player=1153_菲妮克丝 time=2013-03-20_10:55:18.392489 consume_time=0 accountid=4
+userid=1153 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_10:55:21.018198 consume_time=0
+consume_time=0 uri=/admin/leave time=2013-03-20_10:55:28.628213
+userid=1136 uri=/account/choose_player player=1136_巴顿 time=2013-03-20_10:55:31.992935 consume_time=0 accountid=63
+userid=1136 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_10:55:35.577513 consume_time=0
+delete_user_id=1153 userid=1153 uri=/account/delete_user time=2013-03-20_10:55:37.039330 consume_time=0 accountid=4
+idcard=1234345656dfdf name=埃米莉 gender=female camp=1 userid=1153 uri=/profile/register account_id=4 role=warrior time=2013-03-20_10:55:43.887533 consume_time=0 accountid=4
+userid=1165 uri=/account/choose_player player=1165_埃米莉 time=2013-03-20_10:55:48.177129 consume_time=0 accountid=4
+userid=1165 uri=/admin/enter mapname=city gsid=city%401 time=2013-03-20_10:55:49.811864 consume_time=0
+consume_time=0 uri=/admin/leave time=2013-03-20_10:56:30.824496
