@@ -1,6 +1,7 @@
 #coding=utf8
 
 import os
+import re
 import config
 import datetime
 from worker.hades import run as hades_run
@@ -8,10 +9,13 @@ from worker.profile_attr import run as profile_attr_run
 from worker.quest import run as quest_run
 
 
+skiped_log_txt = re.compile('online|quest_distribution|role_distribution')
+
+
 def fetch_file():
     now = datetime.datetime.now()
     current_now = '_%d-%d-%d_%d' % (now.year, now.month, now.day, now.hour)
-    source_file_list = [i for i in os.listdir(config.SOURCE_GAMELOG_PATH) if i.endswith('.txt') and current_now not in i and 'online' not in i]
+    source_file_list = [i for i in os.listdir(config.SOURCE_GAMELOG_PATH) if i.endswith('.txt') and current_now not in i and not re.match(skiped_log_txt, i)]
     completed_file_list = os.listdir(config.COMPLETED_GAMELOG_PATH)
     processing_file_list = os.listdir(config.PROCESSING_GAMELOG_PATH)
     
