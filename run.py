@@ -11,7 +11,7 @@ from worker.quest import run as quest_run
 def fetch_file():
     now = datetime.datetime.now()
     current_now = '_%d-%d-%d_%d' % (now.year, now.month, now.day, now.hour)
-    source_file_list = [i for i in os.listdir(config.SOURCE_GAMELOG_PATH) if i.endswith('.txt') and current_now not in i]
+    source_file_list = [i for i in os.listdir(config.SOURCE_GAMELOG_PATH) if i.endswith('.txt') and current_now not in i and 'online' not in i]
     completed_file_list = os.listdir(config.COMPLETED_GAMELOG_PATH)
     processing_file_list = os.listdir(config.PROCESSING_GAMELOG_PATH)
     
