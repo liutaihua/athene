@@ -8,6 +8,7 @@ import dbutils
 import MySQLdb
 
 def txt2dict(txt):
+    txt = txt.replace('[profile_attr] ', '').replace('[quest] ', '').replace('[hades_req] ', '')
     try:
         return dict([i.split('=') for i in txt.split(' ') if '=' in i])
     except:

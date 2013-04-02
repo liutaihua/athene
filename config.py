@@ -2,9 +2,9 @@
 
 CATEGORY = ['hades', 'profile_attr', 'quest']
 
-SOURCE_GAMELOG_PATH = 'source'
+SOURCE_GAMELOG_PATH = '180_log'
 
-COMPLETED_GAMELOG_PATH = 'completed'
+COMPLETED_GAMELOG_PATH = '180_completed'
 
 PROCESSING_GAMELOG_PATH = 'processing'
 

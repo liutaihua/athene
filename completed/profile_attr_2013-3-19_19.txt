@@ -1,2 +1,0 @@
-old_data=19 delta_type=0 attr=gold delta_data=2 userid=594 source=exchange time=2013-03-19_19:57:15.022555
-old_data=971722432 delta_type=1 attr=gold delta_data=305000 userid=594 source=exchange time=2013-03-19_19:57:15.022732
