@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07cd4aa2-9c86-44c0-8dec-a5492834987f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/run.py" afterPath="$PROJECT_DIR$/run.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/worker/package.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="athene.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="07cd4aa2-9c86-44c0-8dec-a5492834987f" time="1363959542808" ignored="false" />
+    <file path="/Dummy.txt" changelist="07cd4aa2-9c86-44c0-8dec-a5492834987f" time="1365218815783" ignored="false" />
     <file path="$PROJECT_DIR$/readme" changelist="07cd4aa2-9c86-44c0-8dec-a5492834987f" time="1363258975988" ignored="false" />
     <file path="/run.py" changelist="07cd4aa2-9c86-44c0-8dec-a5492834987f" time="1363959811709" ignored="false" />
     <file path="/hades.py" changelist="07cd4aa2-9c86-44c0-8dec-a5492834987f" time="1363315764451" ignored="false" />
@@ -17,6 +17,7 @@
     <file path="/quest.py" changelist="07cd4aa2-9c86-44c0-8dec-a5492834987f" time="1363778847857" ignored="false" />
     <file path="/clean_all.py" changelist="07cd4aa2-9c86-44c0-8dec-a5492834987f" time="1363777607108" ignored="false" />
     <file path="/test.py" changelist="07cd4aa2-9c86-44c0-8dec-a5492834987f" time="1363778174466" ignored="false" />
+    <file path="/package.py" changelist="07cd4aa2-9c86-44c0-8dec-a5492834987f" time="1365219074232" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +43,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="run.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="run.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="942" selection-end="942" vertical-scroll-proportion="0.6923077">
+            <state line="28" column="0" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/worker/package.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="28" selection-start="818" selection-end="818" vertical-scroll-proportion="0.4945055">
               <folding>
                 <element signature="e#14#23#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="profile_attr.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/worker/profile_attr.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="119" selection-start="443" selection-end="452" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,6 +103,7 @@
         <option value="$PROJECT_DIR$/worker/profile_attr.py" />
         <option value="$PROJECT_DIR$/worker/quest.py" />
         <option value="$PROJECT_DIR$/run.py" />
+        <option value="$PROJECT_DIR$/worker/package.py" />
       </list>
     </option>
   </component>
@@ -177,11 +197,11 @@
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="FullScreen" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -222,6 +242,27 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <module name="athene" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -303,7 +344,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1729005" sideWeight="0.6706349" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18077475" sideWeight="0.6706349" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -376,11 +417,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="24" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worker/profile_attr.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="16" selection-start="664" selection-end="761" vertical-scroll-proportion="0.0" />
@@ -443,21 +479,28 @@
         <state line="4" column="24" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0989011" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/profile_attr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="22" selection-start="709" selection-end="709" vertical-scroll-proportion="0.37762237" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worker/quest.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="192" selection-end="192" vertical-scroll-proportion="0.2013986">
-          <folding />
-        </state>
+        <state line="10" column="0" selection-start="192" selection-end="192" vertical-scroll-proportion="0.2013986" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="942" selection-end="942" vertical-scroll-proportion="0.6923077">
+        <state line="28" column="0" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/profile_attr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="119" selection-start="443" selection-end="452" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/package.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="28" selection-start="818" selection-end="818" vertical-scroll-proportion="0.4945055">
           <folding>
             <element signature="e#14#23#0" expanded="true" />
           </folding>
