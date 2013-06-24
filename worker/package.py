@@ -11,16 +11,15 @@ def run(filename=None):
     lines = open(os.path.join(config.PROCESSING_GAMELOG_PATH, filename), 'r').readlines()
     for l in lines:
         d = common.txt2dict(l)
-        sql = """INSERT INTO package (userid, type, itemid, itemtype, count, source, timestamp) \
-            VALUES (%s, %s, %s, '%s', %s, '%s', '%s')""" % (
-            d.get('userid', 0), {'get':1, 'consume':0}[d.get('type', 'get')], d.get('itemid', 0), d.get('itemtype', ''), d.get('count', 1),
-            d.get('source', ''), d.get('time', '').replace('_', ' '))
+        sql = """INSERT INTO package (userid, type, itemid, itemtype, count, source, timestamp, time_tail) \
+            VALUES (%s, %s, %s, '%s', %s, '%s', %s, %s)""" % (
+            d.get('userid', 0), d.get('type', 0), d.get('itemid', 0), d.get('itemtype', ''), d.get('count', 1),
+            d.get('source', ''), d.get('time', '').split('.')[0], d.get('time', '').split('.')[-1])
         try:
             #print sql
             common.conn.execute(sql)
         except Exception, e:
             #pass
-            print sql
             print 'error', e, d.get('time')
 
     os.system('mv %s %s' % (os.path.join(config.PROCESSING_GAMELOG_PATH, filename), config.COMPLETED_GAMELOG_PATH))
