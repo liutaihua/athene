@@ -1,0 +1,15 @@
+[package] count=1 itemid=20010110 itemtype=equipment userid=594 source=complete_quest time=2013-04-08_20:20:03.700316
+[package] count=1 itemid=20010310 itemtype=equipment userid=594 source=complete_quest time=2013-04-08_20:21:11.447791
+[package] count=1 itemid=20010510 itemtype=equipment userid=594 source=complete_quest time=2013-04-08_20:22:23.307862
+[package] count=1 itemid=10010710 itemtype=equipment userid=1357 source=complete_quest time=2013-04-08_20:45:46.655037
+[package] count=1 itemid=10010210 itemtype=equipment userid=1357 source=complete_quest time=2013-04-08_20:51:24.820751
+[package] count=4 itemid=6005 itemtype=material source=separate type=get time=2013-04-08_20:57:51.495554 userid=1334
+[package] count=4 itemid=6005 itemtype=material source=separate type=get time=2013-04-08_20:57:51.499386 userid=1334
+[package] count=4 itemid=6005 itemtype=material source=separate type=get time=2013-04-08_20:57:51.503180 userid=1334
+[package] count=4 itemid=6005 itemtype=material source=separate type=get time=2013-04-08_20:57:51.507200 userid=1334
+[package] count=4 itemid=6005 itemtype=material source=separate type=get time=2013-04-08_20:57:51.511199 userid=1334
+[package] count=4 itemid=6005 itemtype=material source=separate type=get time=2013-04-08_20:57:51.514917 userid=1334
+[package] count=4 itemid=6005 itemtype=material source=separate type=get time=2013-04-08_20:57:51.518724 userid=1334
+[package] count=4 itemid=6005 itemtype=material source=separate type=get time=2013-04-08_20:57:51.522527 userid=1334
+[package] count=1 itemid=6001 itemtype=material source=separate type=get time=2013-04-08_20:57:54.637273 userid=1334
+[package] count=99 itemid=8004 itemtype=material source=buy type=get time=2013-04-08_20:59:55.269438 userid=1334

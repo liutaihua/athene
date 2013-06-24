@@ -1,0 +1,45 @@
+[hades_req] user_login=登录 uri=/account/temp_login form_password=13524887981hf time=2013-04-07_11:07:06.398054 form_email=183709629@qq.com consume_time=0.0201900005341
+[hades_req] userid=611 uri=/account/choose_player player=611_尤金 time=2013-04-07_11:07:21.295100 consume_time=0.0119090080261 accountid=24
+[hades_req] userid=611 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_11:07:24.112486 consume_time=0.00972294807434
+[hades_req] userid=611 uri=/exchange/exchange time=2013-04-07_11:07:54.276238 consume_time=0.0140290260315 accountid=24
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-07_11:08:39.555250 form_email=test@test.com consume_time=0.0195400714874 accountid=0
+[hades_req] userid=1317 uri=/account/choose_player player=1317_柏莎 time=2013-04-07_11:09:10.671054 consume_time=0.0114419460297 accountid=20
+[hades_req] userid=1317 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_11:09:19.757975 consume_time=0.0104608535767
+[hades_req] consume_time=0.00518321990967 uri=/admin/leave time=2013-04-07_11:10:02.632259
+[hades_req] userid=611 uri=/scene/enter_tavern time=2013-04-07_11:16:15.420488 consume_time=0.00886797904968 type=instance accountid=24
+[hades_req] consume_time=0.00533390045166 uri=/admin/leave time=2013-04-07_11:16:15.635831
+[hades_req] userid=611 uri=/admin/enter mapname=jiuguanshinei gsid=jiuguanshinei%4098 time=2013-04-07_11:16:18.442687 consume_time=0.00975918769836
+[hades_req] userid=1265 uri=/account/choose_player player=1265_简 time=2013-04-07_11:18:07.951459 consume_time=0.0130960941315 accountid=63
+[hades_req] userid=1265 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_11:18:11.501659 consume_time=0.0116400718689
+[hades_req] userid=611 uri=/scene/back_to_city time=2013-04-07_11:18:28.681022 consume_time=0.0133850574493 accountid=24
+[hades_req] consume_time=0.00484800338745 uri=/admin/leave time=2013-04-07_11:18:28.894001
+[hades_req] userid=611 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_11:18:31.303766 consume_time=0.00611209869385
+[hades_req] time=2013-04-07_11:18:38.034454 userid=611 uri=/maze/goto_maze is_continue=true consume_time=0.0498311519623 accountid=24
+[hades_req] consume_time=0.00405716896057 uri=/admin/leave time=2013-04-07_11:18:38.199882
+[hades_req] userid=611 uri=/admin/enter mapname=migong gsid=migong%401 time=2013-04-07_11:18:43.360512 consume_time=0.0069899559021
+[hades_req] userid=1265 uri=/scene/enter_tavern time=2013-04-07_11:21:14.039732 consume_time=0.00835990905762 type=jjc accountid=63
+[hades_req] consume_time=0.00448179244995 uri=/admin/leave time=2013-04-07_11:21:14.393959
+[hades_req] userid=1265 uri=/admin/enter mapname=jiuguanshinei gsid=jiuguanshinei%4099 time=2013-04-07_11:21:16.749018 consume_time=0.0058491230011
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-07_11:23:12.909794 form_email=test@test.com consume_time=0.0194361209869 accountid=0
+[hades_req] userid=1317 uri=/account/choose_player player=1317_柏莎 time=2013-04-07_11:24:02.497138 consume_time=0.0106611251831 accountid=20
+[hades_req] userid=1317 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_11:24:11.785570 consume_time=0.0062210559845
+[hades_req] ruler=migong userid=611 uri=/scene/jump_to_quest_location time=2013-04-07_11:25:09.861415 map_name=migong consume_time=0.0127561092377 accountid=24
+[hades_req] consume_time=0.00393199920654 uri=/admin/leave time=2013-04-07_11:26:22.581278
+[hades_req] consume_time=0.00768494606018 uri=/admin/leave time=2013-04-07_11:27:20.546745
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-07_11:49:18.716012 form_email=test@test.com consume_time=0.00609302520752 accountid=0
+[hades_req] userid=1317 uri=/account/choose_player player=1317_柏莎 time=2013-04-07_11:49:48.269371 consume_time=0.0128548145294 accountid=20
+[hades_req] userid=1317 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_11:49:57.057449 consume_time=0.00586009025574
+[hades_req] consume_time=0.00411581993103 uri=/admin/leave time=2013-04-07_11:51:21.060354
+[hades_req] userid=1334 uri=/account/choose_player player=1334_克拉彭 time=2013-04-07_11:51:25.185376 consume_time=0.0109360218048 accountid=20
+[hades_req] userid=1334 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_11:51:27.204018 consume_time=0.00850605964661
+[hades_req] consume_time=0.00414800643921 uri=/admin/leave time=2013-04-07_11:53:23.575341
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-07_11:53:37.730170 form_email=test@test.com consume_time=0.00578904151917 accountid=0
+[hades_req] userid=1334 uri=/account/choose_player player=1334_克拉彭 time=2013-04-07_11:54:11.033158 consume_time=0.0101239681244 accountid=20
+[hades_req] userid=1334 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_11:54:19.930802 consume_time=0.00753092765808
+[hades_req] consume_time=0.00499105453491 uri=/admin/leave time=2013-04-07_11:58:09.192882
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-07_11:58:25.319187 form_email=test@test.com consume_time=0.00578713417053 accountid=0
+[hades_req] userid=1334 uri=/account/choose_player player=1334_克拉彭 time=2013-04-07_11:58:54.150813 consume_time=0.0117111206055 accountid=20
+[hades_req] userid=1334 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_11:59:03.066417 consume_time=0.00542402267456
+[hades_req] consume_time=0.00437593460083 uri=/admin/leave time=2013-04-07_11:59:47.523513
+[hades_req] userid=1317 uri=/account/choose_player player=1317_柏莎 time=2013-04-07_11:59:52.624201 consume_time=0.0130569934845 accountid=20
+[hades_req] userid=1317 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_11:59:54.697844 consume_time=0.006098985672

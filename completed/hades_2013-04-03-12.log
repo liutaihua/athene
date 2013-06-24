@@ -1,0 +1,7 @@
+[hades_req] npcid=2 userid=1318 uri=/astrology/start time=2013-04-03_12:02:37.258828 consume_time=0.01717710495 accountid=87
+[hades_req] userid=1318 uri=/astrology/shortcut_sell time=2013-04-03_12:02:39.057537 consume_time=0.00882387161255 accountid=87
+[hades_req] userid=1288 uri=/account/choose_player player=1288_奥卡西 time=2013-04-03_12:12:25.553595 consume_time=0.0105650424957 accountid=14
+[hades_req] userid=1288 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-03_12:12:28.494458 consume_time=0.0183079242706
+[hades_req] userid=1288 uri=/scene/enter_tavern time=2013-04-03_12:12:33.841911 consume_time=0.0083110332489 type=instance accountid=14
+[hades_req] consume_time=0.00557804107666 uri=/admin/leave time=2013-04-03_12:12:34.121106
+[hades_req] userid=1288 uri=/admin/enter mapname=jiuguanshinei gsid=jiuguanshinei%4098 time=2013-04-03_12:12:36.683319 consume_time=0.00632810592651

@@ -1,0 +1,13 @@
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-06_21:02:06.794013 form_email=liao@adobe.com consume_time=0.0183229446411 accountid=0
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-06_21:03:48.166000 form_email=liao@adobe.com consume_time=0.0183629989624 accountid=0
+[hades_req] userid=1155 uri=/account/choose_player player=1155_蜜莉恩 time=2013-04-06_21:04:27.113870 consume_time=0.0123171806335 accountid=83
+[hades_req] userid=1155 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-06_21:04:34.779147 consume_time=0.00573086738586
+[hades_req] consume_time=0.00501298904419 uri=/admin/leave time=2013-04-06_21:04:47.009701
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-06_21:05:15.895067 form_email=liao@adobe.com consume_time=0.0204589366913 accountid=0
+[hades_req] userid=1155 uri=/account/choose_player player=1155_蜜莉恩 time=2013-04-06_21:05:51.538674 consume_time=0.0121409893036 accountid=83
+[hades_req] userid=1155 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-06_21:05:58.878834 consume_time=0.00551199913025
+[hades_req] ruler=dan01-huoshan4.xml userid=1155 uri=/scene/jump_to_quest_location time=2013-04-06_21:06:27.284682 map_name=huoshan4 consume_time=0.0543599128723 accountid=83
+[hades_req] consume_time=0.00473213195801 uri=/admin/leave time=2013-04-06_21:06:27.947830
+[hades_req] userid=1155 uri=/admin/enter mapname=huoshan4 gsid=huoshan4%401 time=2013-04-06_21:06:34.198990 consume_time=0.00557804107666
+[hades_req] userid=1155 uri=/scene/back_to_city time=2013-04-06_21:07:00.980653 consume_time=0.0139420032501 accountid=83
+[hades_req] consume_time=0.00431680679321 uri=/admin/leave time=2013-04-06_21:07:01.602086

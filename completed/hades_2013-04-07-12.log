@@ -1,0 +1,8 @@
+[hades_req] consume_time=0.00285196304321 uri=/admin/leave time=2013-04-07_12:02:56.080098
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-07_12:03:12.182295 form_email=test@test.com consume_time=0.0127701759338 accountid=0
+[hades_req] userid=1265 uri=/scene/back_to_city time=2013-04-07_12:19:19.735740 consume_time=0.0140511989594 accountid=63
+[hades_req] consume_time=0.00436305999756 uri=/admin/leave time=2013-04-07_12:19:20.056936
+[hades_req] userid=1265 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_12:19:22.145608 consume_time=0.0068199634552
+[hades_req] consume_time=0.00470495223999 uri=/admin/leave time=2013-04-07_12:19:40.033684
+[hades_req] user_login=登录 uri=/account/temp_login form_password=elaine time=2013-04-07_12:19:43.963884 form_email=elaine2@abc.com consume_time=0.00608515739441
+[hades_req] consume_time=0.00511002540588 uri=/admin/leave time=2013-04-07_12:53:12.686339

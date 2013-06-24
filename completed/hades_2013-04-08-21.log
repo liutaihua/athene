@@ -1,0 +1,8 @@
+[hades_req] userid=1334 uri=/blacksmith/combine time=2013-04-08_21:00:01.087217 consume_time=0.017215013504 accountid=20 combine_id=157
+[hades_req] consume_time=0.00490403175354 uri=/admin/leave time=2013-04-08_21:00:46.098633
+[hades_req] userid=1334 uri=/account/choose_player player=1334_克拉彭 time=2013-04-08_21:00:49.120120 consume_time=0.010262966156 accountid=20
+[hades_req] userid=1334 uri=/admin/enter mapname=city gsid=city@1 time=2013-04-08_21:00:51.162192 consume_time=0.00665688514709
+[hades_req] userid=1334 uri=/scene/enter_tavern time=2013-04-08_21:01:05.932455 consume_time=0.00858306884766 type=instance accountid=20
+[hades_req] consume_time=0.00401401519775 uri=/admin/leave time=2013-04-08_21:01:06.129831
+[hades_req] userid=1334 uri=/admin/enter mapname=jiuguanshinei gsid=jiuguanshinei@98 time=2013-04-08_21:01:09.654993 consume_time=0.00714802742004
+[hades_req] consume_time=0.00472116470337 uri=/admin/leave time=2013-04-08_21:01:14.908346

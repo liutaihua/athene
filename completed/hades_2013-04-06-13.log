@@ -1,0 +1,10 @@
+[hades_req] userid=1317 uri=/account/choose_player player=1317_柏莎 time=2013-04-06_13:00:47.529265 consume_time=0.0112779140472 accountid=20
+[hades_req] userid=1317 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-06_13:00:56.583553 consume_time=0.00603008270264
+[hades_req] consume_time=0.00487899780273 uri=/admin/leave time=2013-04-06_13:02:26.578678
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-06_13:46:43.382067 form_email=test@test.com consume_time=0.0068359375 accountid=0
+[hades_req] userid=1317 uri=/account/choose_player player=1317_柏莎 time=2013-04-06_13:47:13.603714 consume_time=0.0139858722687 accountid=20
+[hades_req] userid=1317 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-06_13:47:22.683035 consume_time=0.00771880149841
+[hades_req] count=1 userid=1317 uri=/trade/store/special_buy time=2013-04-06_13:47:37.181084 consume_time=0.00479793548584 id=1500101 accountid=20
+[hades_req] count=1 userid=1317 uri=/trade/store/special_buy time=2013-04-06_13:47:42.068071 consume_time=0.004399061203 id=1500101 accountid=20
+[hades_req] count=1 userid=1317 uri=/trade/store/special_buy time=2013-04-06_13:47:50.532460 consume_time=0.00541687011719 id=1500201 accountid=20
+[hades_req] consume_time=0.00420594215393 uri=/admin/leave time=2013-04-06_13:48:29.336034

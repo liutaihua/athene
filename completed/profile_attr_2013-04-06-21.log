@@ -1,0 +1,5 @@
+[profile_attr] old_data=14400 delta_type=1 attr=attr_1 delta_data=4200 userid=1155 source=dump_data time=2013-04-06_21:06:27.576039
+[profile_attr] old_data=534670 delta_type=1 attr=gold delta_data=2100 userid=1155 source=dump_data time=2013-04-06_21:06:27.576916
+[profile_attr] old_data=200 delta_type=0 attr=attr_10 delta_data=10 userid=1155 source=enter time=2013-04-06_21:06:34.195150
+[profile_attr] old_data=18600 delta_type=1 attr=attr_1 delta_data=200 userid=1155 source=dump_data time=2013-04-06_21:07:01.271814
+[profile_attr] old_data=536770 delta_type=1 attr=gold delta_data=42 userid=1155 source=dump_data time=2013-04-06_21:07:01.272633

@@ -1,0 +1,401 @@
+[hades_req] userid=1317 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:00:00.438547 consume_time=0.00831198692322
+[hades_req] userid=1318 uri=/blacksmith/enhance equipment_pos=equiped@right_hand time=2013-04-02_15:00:10.293631 lucky_stone_pos=15 consume_time=0.0270709991455 accountid=87
+[hades_req] consume_time=0.00512599945068 uri=/admin/leave time=2013-04-02_15:00:13.621585
+[hades_req] userid=1318 uri=/exchange/exchange time=2013-04-02_15:00:19.524744 consume_time=0.00827383995056 accountid=87
+[hades_req] userid=1318 uri=/exchange/exchange time=2013-04-02_15:00:20.176140 consume_time=0.00898289680481 accountid=87
+[hades_req] userid=1318 uri=/exchange/exchange time=2013-04-02_15:00:20.747326 consume_time=0.0122449398041 accountid=87
+[hades_req] userid=1318 uri=/exchange/exchange time=2013-04-02_15:00:21.141475 consume_time=0.00866007804871 accountid=87
+[hades_req] userid=1318 uri=/exchange/exchange time=2013-04-02_15:00:21.509808 consume_time=0.00887703895569 accountid=87
+[hades_req] userid=1318 uri=/exchange/exchange time=2013-04-02_15:00:21.892338 consume_time=0.00893497467041 accountid=87
+[hades_req] userid=1318 uri=/exchange/exchange time=2013-04-02_15:00:22.259985 consume_time=0.00958681106567 accountid=87
+[hades_req] userid=1318 uri=/exchange/exchange time=2013-04-02_15:00:22.627969 consume_time=0.0105910301208 accountid=87
+[hades_req] userid=1318 uri=/exchange/exchange time=2013-04-02_15:00:22.978187 consume_time=0.0110709667206 accountid=87
+[hades_req] userid=1318 uri=/exchange/exchange time=2013-04-02_15:00:23.341955 consume_time=0.00803112983704 accountid=87
+[hades_req] userid=1318 uri=/exchange/exchange time=2013-04-02_15:00:23.709843 consume_time=0.00878715515137 accountid=87
+[hades_req] userid=1318 uri=/exchange/exchange time=2013-04-02_15:00:24.080693 consume_time=0.0117290019989 accountid=87
+[hades_req] userid=1318 uri=/exchange/exchange time=2013-04-02_15:00:24.392596 consume_time=0.00922894477844 accountid=87
+[hades_req] userid=1318 uri=/blacksmith/enhance equipment_pos=equiped@right_hand time=2013-04-02_15:00:28.840160 lucky_stone_pos=15 consume_time=0.0239589214325 accountid=87
+[hades_req] userid=1318 uri=/blacksmith/enhance equipment_pos=equiped@right_hand time=2013-04-02_15:00:30.642889 lucky_stone_pos=15 consume_time=0.0266129970551 accountid=87
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-02_15:00:35.207895 form_email=test@test.com consume_time=0.0181939601898 accountid=0
+[hades_req] userid=1317 uri=/account/choose_player player=1317_柏莎 time=2013-04-02_15:01:06.962709 consume_time=0.0109651088715 accountid=20
+[hades_req] userid=1318 uri=/blacksmith/combine time=2013-04-02_15:01:08.514245 consume_time=0.0144839286804 combine_id=162 accountid=87
+[hades_req] userid=1318 uri=/blacksmith/upgrade equipment_pos=package@15 time=2013-04-02_15:01:14.388383 consume_time=0.0215001106262 accountid=87
+[hades_req] userid=1317 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:01:15.869495 consume_time=0.00599598884583
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=package@9 time=2013-04-02_15:01:24.302623 lucky_stone_pos=18 consume_time=0.0302560329437 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=package@9 time=2013-04-02_15:01:25.350884 lucky_stone_pos=18 consume_time=0.0289688110352 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=package@9 time=2013-04-02_15:01:26.125579 lucky_stone_pos=18 consume_time=0.0296609401703 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=package@9 time=2013-04-02_15:01:26.817661 lucky_stone_pos=18 consume_time=0.0297639369965 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=package@9 time=2013-04-02_15:01:27.599588 lucky_stone_pos=18 consume_time=0.0292811393738 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-04-02_15:01:42.399640 lucky_stone_pos=18 consume_time=0.0346009731293 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-04-02_15:01:43.136982 lucky_stone_pos=18 consume_time=0.0322020053864 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-04-02_15:01:44.213824 lucky_stone_pos=18 consume_time=0.0289800167084 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-04-02_15:01:45.101336 lucky_stone_pos=18 consume_time=0.0332458019257 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-04-02_15:01:46.077310 lucky_stone_pos=18 consume_time=0.0302839279175 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-04-02_15:01:46.915100 lucky_stone_pos=18 consume_time=0.0239369869232 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-04-02_15:01:48.063078 lucky_stone_pos=18 consume_time=0.033035993576 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=equiped@left_hand time=2013-04-02_15:01:51.109677 lucky_stone_pos=18 consume_time=0.0294671058655 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=equiped@left_hand time=2013-04-02_15:01:52.728213 lucky_stone_pos=18 consume_time=0.0290880203247 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=equiped@left_hand time=2013-04-02_15:01:54.324980 lucky_stone_pos=18 consume_time=0.0335829257965 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=equiped@shoulders time=2013-04-02_15:01:56.756621 lucky_stone_pos=18 consume_time=0.028450012207 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=package@6 time=2013-04-02_15:02:00.041135 lucky_stone_pos=18 consume_time=0.0355441570282 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=package@6 time=2013-04-02_15:02:00.709697 lucky_stone_pos=18 consume_time=0.0285768508911 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=package@6 time=2013-04-02_15:02:01.592799 lucky_stone_pos=18 consume_time=0.0306718349457 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=package@6 time=2013-04-02_15:02:02.249161 lucky_stone_pos=18 consume_time=0.0317280292511 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=package@6 time=2013-04-02_15:02:02.927090 lucky_stone_pos=18 consume_time=0.031641960144 accountid=20
+[hades_req] consume_time=0.00454807281494 uri=/admin/leave time=2013-04-02_15:02:08.132921
+[hades_req] userid=824 uri=/scene/go_to_boss time=2013-04-02_15:02:16.188468 consume_time=0.0795869827271 accountid=21
+[hades_req] consume_time=0.00461602210999 uri=/admin/leave time=2013-04-02_15:02:16.460127
+[hades_req] userid=824 uri=/admin/enter mapname=huoshan3 gsid=huoshan3%401 time=2013-04-02_15:02:20.205392 consume_time=0.0082380771637
+[hades_req] userid=824 uri=/instance/revive revive_mod=token time=2013-04-02_15:04:16.595734 death_rule_type=world_boss consume_time=0.0089750289917 accountid=21
+[hades_req] userid=824 uri=/instance/revive revive_mod=free time=2013-04-02_15:05:43.566423 death_rule_type=world_boss consume_time=0.0084400177002 accountid=21
+[hades_req] userid=824 uri=/instance/revive revive_mod=free time=2013-04-02_15:08:16.805781 death_rule_type=world_boss consume_time=0.00757884979248 accountid=21
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-02_15:14:10.825630 form_email=test@test.com consume_time=0.0184690952301 accountid=0
+[hades_req] userid=1317 uri=/account/choose_player player=1317_柏莎 time=2013-04-02_15:14:41.927570 consume_time=0.0108098983765 accountid=20
+[hades_req] userid=1317 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:14:51.004543 consume_time=0.00847601890564
+[hades_req] punch_item=equiped@legs time=2013-04-02_15:15:03.821038 userid=1317 uri=/blacksmith/punch slot_id=slot1 consume_time=0.00960898399353 accountid=20
+[hades_req] userid=824 uri=/instance/revive revive_mod=token time=2013-04-02_15:15:06.193913 death_rule_type=world_boss consume_time=0.00815796852112 accountid=21
+[hades_req] punch_item=equiped@legs time=2013-04-02_15:15:07.669829 userid=1317 uri=/blacksmith/punch slot_id=slot3 consume_time=0.0113348960876 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-04-02_15:15:18.432918 lucky_stone_pos=18 consume_time=0.0229721069336 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-04-02_15:15:19.322996 lucky_stone_pos=18 consume_time=0.0308132171631 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-04-02_15:15:20.108542 lucky_stone_pos=18 consume_time=0.0324628353119 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-04-02_15:15:20.993896 lucky_stone_pos=18 consume_time=0.0332860946655 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-04-02_15:15:21.848286 lucky_stone_pos=18 consume_time=0.0223369598389 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-04-02_15:15:22.783098 lucky_stone_pos=18 consume_time=0.0227198600769 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-04-02_15:15:23.572553 lucky_stone_pos=18 consume_time=0.030779838562 accountid=20
+[hades_req] userid=1317 uri=/blacksmith/enhance equipment_pos=equiped@body time=2013-04-02_15:15:24.504796 lucky_stone_pos=18 consume_time=0.0268468856812 accountid=20
+[hades_req] techid=2 userid=1317 uri=/technology/upgrade time=2013-04-02_15:15:29.008169 consume_time=0.0159051418304 accountid=20
+[hades_req] techid=3 userid=1317 uri=/technology/upgrade time=2013-04-02_15:15:30.983200 consume_time=0.0210809707642 accountid=20
+[hades_req] techid=3 userid=1317 uri=/technology/upgrade time=2013-04-02_15:15:32.504331 consume_time=0.0192561149597 accountid=20
+[hades_req] techid=3 userid=1317 uri=/technology/upgrade time=2013-04-02_15:15:34.063392 consume_time=0.0172111988068 accountid=20
+[hades_req] techid=3 userid=1317 uri=/technology/upgrade time=2013-04-02_15:15:35.528779 consume_time=0.0180649757385 accountid=20
+[hades_req] techid=3 userid=1317 uri=/technology/upgrade time=2013-04-02_15:15:37.075916 consume_time=0.0229279994965 accountid=20
+[hades_req] techid=7 userid=1317 uri=/technology/upgrade time=2013-04-02_15:15:39.160975 consume_time=0.0143887996674 accountid=20
+[hades_req] techid=8 userid=1317 uri=/technology/upgrade time=2013-04-02_15:15:40.787645 consume_time=0.0169351100922 accountid=20
+[hades_req] consume_time=0.00425601005554 uri=/admin/leave time=2013-04-02_15:15:46.130719
+[hades_req] userid=824 uri=/profile/cheerup time=2013-04-02_15:17:04.759243 consume_time=0.00614905357361 accountid=21
+[hades_req] userid=1318 uri=/scene/go_to_boss time=2013-04-02_15:17:11.541658 consume_time=0.0381679534912 accountid=87
+[hades_req] consume_time=0.00428104400635 uri=/admin/leave time=2013-04-02_15:17:11.833813
+[hades_req] userid=1318 uri=/admin/enter mapname=huoshan3 gsid=huoshan3%401 time=2013-04-02_15:17:14.254760 consume_time=0.00850486755371
+[hades_req] userid=1318 uri=/instance/revive revive_mod=token time=2013-04-02_15:17:22.354801 death_rule_type=world_boss consume_time=0.00701308250427 accountid=87
+[hades_req] userid=824 uri=/instance/revive revive_mod=token time=2013-04-02_15:17:23.524109 death_rule_type=world_boss consume_time=0.00755596160889 accountid=21
+[hades_req] consume_time=0.00431990623474 uri=/admin/leave time=2013-04-02_15:18:29.783739
+[hades_req] userid=824 uri=/profile/cheerup time=2013-04-02_15:18:37.221527 consume_time=0.00667905807495 accountid=21
+[hades_req] userid=824 uri=/scene/back_to_city time=2013-04-02_15:18:44.178367 consume_time=0.0144670009613 accountid=21
+[hades_req] consume_time=0.00518798828125 uri=/admin/leave time=2013-04-02_15:18:44.485456
+[hades_req] user_login=登录 uri=/account/temp_login form_password=123 time=2013-04-02_15:18:49.498095 form_email=123 consume_time=0.0214071273804
+[hades_req] userid=0 uri=/account/temp_login form_password=cx time=2013-04-02_15:20:27.502074 form_email=cx@cx.com consume_time=0.0199840068817 accountid=0
+[hades_req] userid=824 uri=/account/choose_player player=824_卡扎菲 time=2013-04-02_15:22:36.225056 consume_time=0.0102069377899 accountid=21
+[hades_req] userid=824 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:22:38.775674 consume_time=0.00704193115234
+[hades_req] userid=358 uri=/account/choose_player player=358_辛姓修士 time=2013-04-02_15:22:43.974763 consume_time=0.0114479064941 accountid=19
+[hades_req] userid=358 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:22:54.124990 consume_time=0.0138177871704
+[hades_req] uri=/astrology/collect userid=358 pos=8 time=2013-04-02_15:23:18.838500 consume_time=0.00592303276062 accountid=19
+[hades_req] uri=/astrology/sell userid=358 pos=8 time=2013-04-02_15:23:28.598688 consume_time=0.00676393508911 accountid=19
+[hades_req] uri=/astrology/sell userid=358 pos=3 time=2013-04-02_15:23:35.790494 consume_time=0.00563192367554 accountid=19
+[hades_req] consume_time=0.00442481040955 uri=/admin/leave time=2013-04-02_15:26:30.071891
+[hades_req] userid=1318 uri=/account/choose_player player=1318_琳达 time=2013-04-02_15:27:33.422934 consume_time=0.0111861228943 accountid=87
+[hades_req] userid=1318 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:27:35.924365 consume_time=0.00609612464905
+[hades_req] userid=1318 uri=/scene/go_to_boss time=2013-04-02_15:27:40.281542 consume_time=0.0758640766144 accountid=87
+[hades_req] consume_time=0.00561118125916 uri=/admin/leave time=2013-04-02_15:27:40.568666
+[hades_req] userid=0 uri=/account/temp_login form_password=hello2 time=2013-04-02_15:27:43.995682 form_email=hello2@hello2.com consume_time=0.0198810100555 accountid=0
+[hades_req] userid=1318 uri=/admin/enter mapname=huoshan3 gsid=huoshan3%401 time=2013-04-02_15:27:44.986252 consume_time=0.00736999511719
+[hades_req] userid=1318 uri=/scene/back_to_city time=2013-04-02_15:27:56.973487 consume_time=0.015613079071 accountid=87
+[hades_req] consume_time=0.00411796569824 uri=/admin/leave time=2013-04-02_15:27:57.271913
+[hades_req] userid=1318 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:27:59.379467 consume_time=0.00620102882385
+[hades_req] userid=1336 uri=/account/choose_player player=1336_杰罗姆 time=2013-04-02_15:28:16.248347 consume_time=0.00961780548096 accountid=92
+[hades_req] userid=1336 uri=/admin/enter mapname=city gsid=xxx time=2013-04-02_15:28:25.862929 consume_time=0.00331997871399
+[hades_req] userid=0 uri=/account/temp_login form_password=cx time=2013-04-02_15:28:29.159665 form_email=cx@cx.com consume_time=0.0201511383057 accountid=0
+[hades_req] consume_time=0.00346517562866 uri=/admin/leave time=2013-04-02_15:28:39.456782
+[hades_req] userid=1318 uri=/scene/go_to_boss time=2013-04-02_15:29:46.590284 consume_time=0.0362601280212 accountid=87
+[hades_req] consume_time=0.00506496429443 uri=/admin/leave time=2013-04-02_15:29:46.846175
+[hades_req] userid=1318 uri=/admin/enter mapname=huoshan3 gsid=huoshan3%401 time=2013-04-02_15:29:48.638818 consume_time=0.00830411911011
+[hades_req] userid=1318 uri=/scene/back_to_city time=2013-04-02_15:30:12.972307 consume_time=0.0168402194977 accountid=87
+[hades_req] userid=0 uri=/account/temp_login form_password=hello2 time=2013-04-02_15:30:13.182039 form_email=hello2@hello2.com consume_time=0.00898599624634 accountid=0
+[hades_req] consume_time=0.0040020942688 uri=/admin/leave time=2013-04-02_15:30:13.258344
+[hades_req] userid=1318 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:30:15.272387 consume_time=0.00640892982483
+[hades_req] userid=1318 uri=/scene/go_to_boss time=2013-04-02_15:30:19.253883 consume_time=0.0356059074402 accountid=87
+[hades_req] consume_time=0.00445890426636 uri=/admin/leave time=2013-04-02_15:30:19.524319
+[hades_req] userid=1318 uri=/admin/enter mapname=huoshan3 gsid=huoshan3%401 time=2013-04-02_15:30:21.306475 consume_time=0.00842094421387
+[hades_req] userid=1318 uri=/scene/back_to_city time=2013-04-02_15:30:51.160595 consume_time=0.0134310722351 accountid=87
+[hades_req] consume_time=0.00482892990112 uri=/admin/leave time=2013-04-02_15:30:51.426136
+[hades_req] userid=1318 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:30:53.506557 consume_time=0.00874304771423
+[hades_req] userid=710 uri=/account/choose_player player=710_迪丽雅 time=2013-04-02_15:31:07.238478 consume_time=0.010379076004 accountid=21
+[hades_req] userid=710 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:31:09.329069 consume_time=0.0152850151062
+[hades_req] userid=710 uri=/scene/enter_tavern time=2013-04-02_15:31:17.787417 consume_time=0.0131099224091 type=instance accountid=21
+[hades_req] consume_time=0.00466012954712 uri=/admin/leave time=2013-04-02_15:31:18.071538
+[hades_req] userid=710 uri=/admin/enter mapname=jiuguanshinei gsid=jiuguanshinei%4098 time=2013-04-02_15:31:20.477328 consume_time=0.00654196739197
+[hades_req] userid=710 uri=/scene/back_to_city time=2013-04-02_15:31:22.425380 consume_time=0.0147399902344 accountid=21
+[hades_req] consume_time=0.00391101837158 uri=/admin/leave time=2013-04-02_15:31:22.683950
+[hades_req] userid=710 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:31:24.693203 consume_time=0.00680589675903
+[hades_req] userid=358 uri=/account/choose_player player=358_辛姓修士 time=2013-04-02_15:31:27.730521 consume_time=0.0109639167786 accountid=19
+[hades_req] userid=710 uri=/scene/enter_tavern time=2013-04-02_15:31:35.436290 consume_time=0.00809502601624 type=instance accountid=21
+[hades_req] consume_time=0.00434398651123 uri=/admin/leave time=2013-04-02_15:31:35.684024
+[hades_req] userid=710 uri=/admin/enter mapname=jiuguanshinei gsid=jiuguanshinei%4098 time=2013-04-02_15:31:37.447403 consume_time=0.0058479309082
+[hades_req] userid=710 uri=/scene/back_to_city time=2013-04-02_15:31:38.987684 consume_time=0.0150990486145 accountid=21
+[hades_req] consume_time=0.00510787963867 uri=/admin/leave time=2013-04-02_15:31:39.270884
+[hades_req] userid=710 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:31:41.256211 consume_time=0.00701999664307
+[hades_req] userid=358 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:31:41.400783 consume_time=0.00821208953857
+[hades_req] uri=/astrology/collect userid=358 pos=7 time=2013-04-02_15:31:49.125621 consume_time=0.0059449672699 accountid=19
+[hades_req] uri=/astrology/sell userid=358 pos=7 time=2013-04-02_15:31:53.969142 consume_time=0.00602316856384 accountid=19
+[hades_req] ruler=dan03-huoshan1.xml userid=710 uri=/scene/jump_to_quest_location time=2013-04-02_15:32:01.226169 map_name=huoshan1 consume_time=0.0538549423218 accountid=21
+[hades_req] consume_time=0.00606799125671 uri=/admin/leave time=2013-04-02_15:32:01.491875
+[hades_req] userid=710 uri=/admin/enter mapname=huoshan1 gsid=huoshan1%401 time=2013-04-02_15:32:05.484284 consume_time=0.00819802284241
+[hades_req] user_login=登录 uri=/account/temp_login form_password=123456 time=2013-04-02_15:32:27.700433 form_email=test@test.com consume_time=0.00701999664307
+[hades_req] userid=1334 uri=/account/choose_player player=1334_克拉彭 time=2013-04-02_15:32:59.640449 consume_time=0.0119018554688 accountid=20
+[hades_req] userid=1336 uri=/account/choose_player player=1336_杰罗姆 time=2013-04-02_15:33:01.109251 consume_time=0.013454914093 accountid=92
+[hades_req] userid=1334 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:33:03.563003 consume_time=0.00750088691711
+[hades_req] userid=1336 uri=/admin/enter mapname=city gsid=xxx time=2013-04-02_15:33:10.531546 consume_time=0.00560903549194
+[hades_req] consume_time=0.00454187393188 uri=/admin/leave time=2013-04-02_15:33:18.144780
+[hades_req] userid=1318 uri=/scene/go_to_boss time=2013-04-02_15:33:32.610440 consume_time=0.0338978767395 accountid=87
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-02_15:33:34.963783 form_email=test@test.com consume_time=0.00698184967041 accountid=0
+[hades_req] userid=1318 uri=/scene/go_to_boss time=2013-04-02_15:33:40.087063 consume_time=0.0271351337433 accountid=87
+[hades_req] userid=1318 uri=/scene/go_to_publicmine time=2013-04-02_15:33:42.032988 consume_time=0.055755853653 accountid=87
+[hades_req] consume_time=0.00476980209351 uri=/admin/leave time=2013-04-02_15:33:42.335866
+[hades_req] userid=1318 uri=/admin/enter mapname=gonggongditu gsid=gonggongditu%401 time=2013-04-02_15:33:50.982357 consume_time=0.00730490684509
+[hades_req] userid=710 uri=/scene/back_to_city time=2013-04-02_15:33:52.375582 consume_time=0.0169699192047 accountid=21
+[hades_req] consume_time=0.00465798377991 uri=/admin/leave time=2013-04-02_15:33:52.632818
+[hades_req] userid=710 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:33:54.668659 consume_time=0.00934886932373
+[hades_req] userid=1318 uri=/scene/back_to_city time=2013-04-02_15:33:55.014558 consume_time=0.0134479999542 accountid=87
+[hades_req] consume_time=0.00478601455688 uri=/admin/leave time=2013-04-02_15:33:55.257532
+[hades_req] userid=1318 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:33:57.281280 consume_time=0.00604295730591
+[hades_req] consume_time=0.00452184677124 uri=/admin/leave time=2013-04-02_15:34:00.841869
+[hades_req] userid=1334 uri=/account/choose_player player=1334_克拉彭 time=2013-04-02_15:34:07.633749 consume_time=0.0126700401306 accountid=20
+[hades_req] userid=1334 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:34:16.564372 consume_time=0.006511926651
+[hades_req] userid=1318 uri=/account/choose_player player=1318_琳达 time=2013-04-02_15:34:43.929793 consume_time=0.012307882309 accountid=87
+[hades_req] userid=1318 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:34:46.304444 consume_time=0.00875115394592
+[hades_req] userid=1318 uri=/scene/go_to_boss time=2013-04-02_15:34:49.914558 consume_time=0.0219550132751 accountid=87
+[hades_req] consume_time=0.00394892692566 uri=/admin/leave time=2013-04-02_15:35:15.006405
+[hades_req] userid=1318 uri=/account/choose_player player=1318_琳达 time=2013-04-02_15:35:26.653478 consume_time=0.0117859840393 accountid=87
+[hades_req] userid=1318 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:35:28.992334 consume_time=0.00702810287476
+[hades_req] consume_time=0.00450921058655 uri=/admin/leave time=2013-04-02_15:35:44.047390
+[hades_req] userid=1334 uri=/account/choose_player player=1334_克拉彭 time=2013-04-02_15:35:48.634441 consume_time=0.0120589733124 accountid=20
+[hades_req] userid=1334 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:35:50.674106 consume_time=0.00755906105042
+[hades_req] consume_time=0.004145860672 uri=/admin/leave time=2013-04-02_15:35:56.102329
+[hades_req] consume_time=0.00474095344543 uri=/admin/leave time=2013-04-02_15:35:56.802318
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-02_15:35:58.913179 form_email=test@test.com consume_time=0.00665712356567 accountid=0
+[hades_req] userid=824 uri=/account/choose_player player=824_卡扎菲 time=2013-04-02_15:36:13.564362 consume_time=0.0112719535828 accountid=21
+[hades_req] userid=824 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:36:15.589278 consume_time=0.00745797157288
+[hades_req] userid=1318 uri=/scene/go_to_boss time=2013-04-02_15:36:27.423667 consume_time=0.0267701148987 accountid=87
+[hades_req] userid=1334 uri=/account/choose_player player=1334_克拉彭 time=2013-04-02_15:36:28.949176 consume_time=0.0104150772095 accountid=20
+[hades_req] consume_time=0.0048840045929 uri=/admin/leave time=2013-04-02_15:36:29.063693
+[hades_req] userid=1318 uri=/scene/enter_tavern time=2013-04-02_15:36:35.432838 consume_time=0.00876092910767 type=instance accountid=87
+[hades_req] consume_time=0.00592708587646 uri=/admin/leave time=2013-04-02_15:36:35.715972
+[hades_req] userid=1334 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:36:37.846549 consume_time=0.00861096382141
+[hades_req] userid=1318 uri=/admin/enter mapname=jiuguanshinei gsid=jiuguanshinei%4098 time=2013-04-02_15:36:37.953905 consume_time=0.00685787200928
+[hades_req] userid=1318 uri=/scene/back_to_city time=2013-04-02_15:36:41.766639 consume_time=0.0154361724854 accountid=87
+[hades_req] consume_time=0.00482702255249 uri=/admin/leave time=2013-04-02_15:36:42.052674
+[hades_req] userid=1318 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:36:44.272127 consume_time=0.00684213638306
+[hades_req] consume_time=0.00550603866577 uri=/admin/leave time=2013-04-02_15:37:00.591266
+[hades_req] consume_time=0.00416898727417 uri=/admin/leave time=2013-04-02_15:37:37.493690
+[hades_req] userid=0 uri=/account/temp_login form_password=cx time=2013-04-02_15:37:40.888377 form_email=cx@cx.com consume_time=0.0189599990845 accountid=0
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-02_15:39:05.939080 form_email=test@test.com consume_time=0.0198249816895 accountid=0
+[hades_req] userid=1334 uri=/account/choose_player player=1334_克拉彭 time=2013-04-02_15:39:45.630730 consume_time=0.00960516929626 accountid=20
+[hades_req] userid=1334 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:39:54.608083 consume_time=0.00735402107239
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=17@slot0 time=2013-04-02_15:40:12.611939 mosaic_item=equiped@legs consume_time=0.0123488903046 accountid=20
+[hades_req] punch_item=equiped@legs time=2013-04-02_15:40:14.617054 userid=1334 uri=/blacksmith/punch slot_id=slot1 consume_time=0.0106379985809 accountid=20
+[hades_req] punch_item=equiped@legs time=2013-04-02_15:40:16.315752 userid=1334 uri=/blacksmith/punch slot_id=slot3 consume_time=0.0142838954926 accountid=20
+[hades_req] punch_item=equiped@legs time=2013-04-02_15:40:18.149218 userid=1334 uri=/blacksmith/punch slot_id=slot2 consume_time=0.00960302352905 accountid=20
+[hades_req] punch_item=equiped@right_hand time=2013-04-02_15:40:20.306164 userid=1334 uri=/blacksmith/punch slot_id=slot1 consume_time=0.0143001079559 accountid=20
+[hades_req] punch_item=equiped@right_hand time=2013-04-02_15:40:21.927617 userid=1334 uri=/blacksmith/punch slot_id=slot3 consume_time=0.012934923172 accountid=20
+[hades_req] punch_item=equiped@right_hand time=2013-04-02_15:40:24.277121 userid=1334 uri=/blacksmith/punch slot_id=slot2 consume_time=0.0143129825592 accountid=20
+[hades_req] consume_time=0.0029411315918 uri=/admin/leave time=2013-04-02_15:40:38.915851
+[hades_req] userid=0 uri=/account/temp_login form_password=hello2 time=2013-04-02_15:41:20.077706 form_email=hello2@hello2.com consume_time=0.018177986145 accountid=0
+[hades_req] punch_item=equiped@left_hand time=2013-04-02_15:41:23.059592 userid=1334 uri=/blacksmith/punch slot_id=slot1 consume_time=0.0116028785706 accountid=20
+[hades_req] punch_item=equiped@left_hand time=2013-04-02_15:41:24.498292 userid=1334 uri=/blacksmith/punch slot_id=slot3 consume_time=0.0126628875732 accountid=20
+[hades_req] punch_item=equiped@left_hand time=2013-04-02_15:41:26.077591 userid=1334 uri=/blacksmith/punch slot_id=slot2 consume_time=0.0120139122009 accountid=20
+[hades_req] punch_item=equiped@gloves time=2013-04-02_15:41:29.457761 userid=1334 uri=/blacksmith/punch slot_id=slot1 consume_time=0.0118570327759 accountid=20
+[hades_req] punch_item=equiped@gloves time=2013-04-02_15:41:31.063436 userid=1334 uri=/blacksmith/punch slot_id=slot3 consume_time=0.0104389190674 accountid=20
+[hades_req] punch_item=equiped@gloves time=2013-04-02_15:41:33.052820 userid=1334 uri=/blacksmith/punch slot_id=slot2 consume_time=0.0105059146881 accountid=20
+[hades_req] punch_item=equiped@shoulders time=2013-04-02_15:41:36.644664 userid=1334 uri=/blacksmith/punch slot_id=slot1 consume_time=0.0113949775696 accountid=20
+[hades_req] punch_item=equiped@shoulders time=2013-04-02_15:41:38.437870 userid=1334 uri=/blacksmith/punch slot_id=slot3 consume_time=0.0135161876678 accountid=20
+[hades_req] punch_item=equiped@shoulders time=2013-04-02_15:41:40.515067 userid=1334 uri=/blacksmith/punch slot_id=slot2 consume_time=0.0114660263062 accountid=20
+[hades_req] punch_item=equiped@body time=2013-04-02_15:41:44.527917 userid=1334 uri=/blacksmith/punch slot_id=slot1 consume_time=0.0142300128937 accountid=20
+[hades_req] userid=1336 uri=/account/choose_player player=1336_杰罗姆 time=2013-04-02_15:41:51.835823 consume_time=0.0124230384827 accountid=92
+[hades_req] punch_item=equiped@body time=2013-04-02_15:41:53.761185 userid=1334 uri=/blacksmith/punch slot_id=slot3 consume_time=0.0116078853607 accountid=20
+[hades_req] punch_item=equiped@body time=2013-04-02_15:41:55.590278 userid=1334 uri=/blacksmith/punch slot_id=slot2 consume_time=0.0104150772095 accountid=20
+[hades_req] punch_item=equiped@shoes time=2013-04-02_15:41:57.886859 userid=1334 uri=/blacksmith/punch slot_id=slot1 consume_time=0.012542963028 accountid=20
+[hades_req] punch_item=equiped@shoes time=2013-04-02_15:41:59.564377 userid=1334 uri=/blacksmith/punch slot_id=slot3 consume_time=0.0124139785767 accountid=20
+[hades_req] punch_item=equiped@shoes time=2013-04-02_15:42:01.311406 userid=1334 uri=/blacksmith/punch slot_id=slot2 consume_time=0.00936317443848 accountid=20
+[hades_req] userid=1336 uri=/admin/enter mapname=city gsid=xxx time=2013-04-02_15:42:01.346309 consume_time=0.00304889678955
+[hades_req] punch_item=package@2 time=2013-04-02_15:42:03.668307 userid=1334 uri=/blacksmith/punch slot_id=slot1 consume_time=0.0119640827179 accountid=20
+[hades_req] userid=1334 uri=/trade/store/sell time=2013-04-02_15:42:09.093484 position=7 consume_time=0.00739693641663 accountid=20
+[hades_req] userid=1334 uri=/trade/store/sell time=2013-04-02_15:42:09.755352 position=6 consume_time=0.00606489181519 accountid=20
+[hades_req] userid=1334 uri=/trade/store/sell time=2013-04-02_15:42:10.386103 position=2 consume_time=0.00858807563782 accountid=20
+[hades_req] userid=1334 uri=/trade/store/sell time=2013-04-02_15:42:11.006306 position=4 consume_time=0.00603413581848 accountid=20
+[hades_req] userid=1334 uri=/trade/store/sell time=2013-04-02_15:42:11.631595 position=13 consume_time=0.00599002838135 accountid=20
+[hades_req] userid=1334 uri=/trade/store/sell time=2013-04-02_15:42:12.327317 position=10 consume_time=0.00583815574646 accountid=20
+[hades_req] userid=1334 uri=/trade/store/sell time=2013-04-02_15:42:13.703841 position=1 consume_time=0.00351285934448 accountid=20
+[hades_req] userid=1334 uri=/package/sort time=2013-04-02_15:42:18.704329 consume_time=0.00454115867615 accountid=20
+[hades_req] items=material@3712@31,material@3612@11,material@3512@21,material@3412@11,material@3312@11,material@3112@11 userid=1334 uri=/trade/store/multi_buy time=2013-04-02_15:43:57.580708 consume_time=0.00554919242859 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=10@slot1 time=2013-04-02_15:44:09.376184 mosaic_item=equiped@legs consume_time=0.0106360912323 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=11@slot3 time=2013-04-02_15:44:11.309459 mosaic_item=equiped@legs consume_time=0.013053894043 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=12@slot2 time=2013-04-02_15:44:13.909459 mosaic_item=equiped@legs consume_time=0.0109350681305 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=10@slot1 time=2013-04-02_15:44:16.691438 mosaic_item=equiped@right_hand consume_time=0.01194190979 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=11@slot0 time=2013-04-02_15:44:20.507843 mosaic_item=equiped@right_hand consume_time=0.0100598335266 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=12@slot2 time=2013-04-02_15:44:21.890537 mosaic_item=equiped@right_hand consume_time=0.0108380317688 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=14@slot3 time=2013-04-02_15:44:23.587809 mosaic_item=equiped@right_hand consume_time=0.012216091156 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=10@slot1 time=2013-04-02_15:44:26.359095 mosaic_item=equiped@left_hand consume_time=0.0107002258301 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=11@slot0 time=2013-04-02_15:44:27.736306 mosaic_item=equiped@left_hand consume_time=0.0102038383484 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=15@slot3 time=2013-04-02_15:44:29.680771 mosaic_item=equiped@left_hand consume_time=0.00985598564148 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=14@slot2 time=2013-04-02_15:44:31.733798 mosaic_item=equiped@left_hand consume_time=0.0114970207214 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=10@slot1 time=2013-04-02_15:44:34.503193 mosaic_item=equiped@gloves consume_time=0.00997400283813 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=11@slot0 time=2013-04-02_15:44:36.376140 mosaic_item=equiped@gloves consume_time=0.0106909275055 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=13@slot2 time=2013-04-02_15:44:37.655065 mosaic_item=equiped@gloves consume_time=0.0103859901428 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=14@slot3 time=2013-04-02_15:44:39.623449 mosaic_item=equiped@gloves consume_time=0.0131680965424 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=11@slot1 time=2013-04-02_15:44:41.911076 mosaic_item=equiped@shoulders consume_time=0.0115931034088 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=10@slot3 time=2013-04-02_15:44:43.191972 mosaic_item=equiped@shoulders consume_time=0.0115749835968 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=15@slot0 time=2013-04-02_15:44:44.551424 mosaic_item=equiped@shoulders consume_time=0.0117700099945 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=14@slot2 time=2013-04-02_15:44:45.914346 mosaic_item=equiped@shoulders consume_time=0.0107769966125 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=10@slot1 time=2013-04-02_15:44:51.769532 mosaic_item=equiped@body consume_time=0.00973987579346 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=13@slot3 time=2013-04-02_15:44:53.580518 mosaic_item=equiped@body consume_time=0.0120108127594 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=14@slot2 time=2013-04-02_15:44:59.883652 mosaic_item=equiped@body consume_time=0.0115079879761 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=15@slot0 time=2013-04-02_15:45:01.429510 mosaic_item=equiped@body consume_time=0.0104060173035 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=10@slot1 time=2013-04-02_15:45:04.068440 mosaic_item=equiped@shoes consume_time=0.012039899826 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=11@slot3 time=2013-04-02_15:45:05.517657 mosaic_item=equiped@shoes consume_time=0.0123870372772 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=12@slot0 time=2013-04-02_15:45:07.138350 mosaic_item=equiped@shoes consume_time=0.0119960308075 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=13@slot2 time=2013-04-02_15:45:08.696787 mosaic_item=equiped@shoes consume_time=0.0125708580017 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/wash time=2013-04-02_15:45:14.198029 consume_time=0.0248959064484 wash_item=equiped@legs accountid=20
+[hades_req] userid=1334 uri=/blacksmith/wash time=2013-04-02_15:45:16.475595 consume_time=0.0192050933838 wash_item=equiped@right_hand accountid=20
+[hades_req] items=material@6005@99 userid=1334 uri=/trade/store/multi_buy time=2013-04-02_15:45:34.424354 consume_time=0.00488185882568 accountid=20
+[hades_req] ruler=dan03-huoshan1.xml userid=1337 uri=/scene/jump_to_quest_location time=2013-04-02_15:45:50.416662 map_name=huoshan1 consume_time=0.0525381565094 accountid=25
+[hades_req] consume_time=0.00556182861328 uri=/admin/leave time=2013-04-02_15:45:50.583513
+[hades_req] user_login=登录 uri=/account/temp_login form_password=123456 time=2013-04-02_15:45:58.406583 form_email=majing@111.com consume_time=0.00789403915405
+[hades_req] userid=1337 uri=/account/choose_player player=1337_蕾妮 time=2013-04-02_15:46:23.919275 consume_time=0.0113768577576 accountid=25
+[hades_req] userid=1337 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:46:26.495965 consume_time=0.00759291648865
+[hades_req] items=material@6005@99 userid=1334 uri=/trade/store/multi_buy time=2013-04-02_15:46:34.874784 consume_time=0.00439095497131 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/wash time=2013-04-02_15:46:39.448554 consume_time=0.0162680149078 wash_item=equiped@left_hand accountid=20
+[hades_req] userid=1334 uri=/blacksmith/wash time=2013-04-02_15:46:41.027589 consume_time=0.0240879058838 wash_item=equiped@gloves accountid=20
+[hades_req] userid=1334 uri=/blacksmith/wash time=2013-04-02_15:46:43.148817 consume_time=0.0183441638947 wash_item=equiped@shoulders accountid=20
+[hades_req] ruler=dan03-huoshan1.xml userid=1337 uri=/scene/jump_to_quest_location time=2013-04-02_15:46:43.746908 map_name=huoshan1 consume_time=0.0165529251099 accountid=25
+[hades_req] consume_time=0.004310131073 uri=/admin/leave time=2013-04-02_15:46:43.924922
+[hades_req] userid=1334 uri=/blacksmith/wash time=2013-04-02_15:46:45.062765 consume_time=0.0183780193329 wash_item=equiped@head accountid=20
+[hades_req] userid=1337 uri=/admin/enter mapname=huoshan1 gsid=huoshan1%401 time=2013-04-02_15:46:46.516165 consume_time=0.00792098045349
+[hades_req] userid=1334 uri=/blacksmith/wash time=2013-04-02_15:46:46.575466 consume_time=0.0147938728333 wash_item=equiped@body accountid=20
+[hades_req] userid=1334 uri=/blacksmith/wash time=2013-04-02_15:46:48.752657 consume_time=0.0162708759308 wash_item=equiped@shoes accountid=20
+[hades_req] userid=1334 uri=/scene/go_to_boss time=2013-04-02_15:46:51.597039 consume_time=0.031965970993 accountid=20
+[hades_req] userid=1334 uri=/scene/go_to_boss time=2013-04-02_15:47:09.449978 consume_time=0.0228519439697 accountid=20
+[hades_req] userid=1334 uri=/scene/go_to_boss time=2013-04-02_15:47:12.214606 consume_time=0.022500038147 accountid=20
+[hades_req] userid=1334 uri=/scene/go_to_boss time=2013-04-02_15:47:16.486812 consume_time=0.0370421409607 accountid=20
+[hades_req] userid=1334 uri=/scene/go_to_boss time=2013-04-02_15:47:24.742883 consume_time=0.0269639492035 accountid=20
+[hades_req] userid=1334 uri=/scene/go_to_boss time=2013-04-02_15:47:27.772996 consume_time=0.0236940383911 accountid=20
+[hades_req] userid=1334 uri=/scene/go_to_boss time=2013-04-02_15:47:30.756637 consume_time=0.0234608650208 accountid=20
+[hades_req] userid=1334 uri=/scene/go_to_boss time=2013-04-02_15:47:34.505697 consume_time=0.0264399051666 accountid=20
+[hades_req] userid=1334 uri=/scene/go_to_boss time=2013-04-02_15:47:37.175227 consume_time=0.0280208587646 accountid=20
+[hades_req] userid=1334 uri=/scene/go_to_boss time=2013-04-02_15:47:41.093767 consume_time=0.0767078399658 accountid=20
+[hades_req] consume_time=0.00482487678528 uri=/admin/leave time=2013-04-02_15:47:41.339644
+[hades_req] userid=1337 uri=/scene/back_to_city time=2013-04-02_15:47:43.060341 consume_time=0.0156190395355 accountid=25
+[hades_req] consume_time=0.00401306152344 uri=/admin/leave time=2013-04-02_15:47:43.209428
+[hades_req] userid=356 uri=/account/choose_player player=356_邱浏 time=2013-04-02_15:47:44.707362 consume_time=0.0121209621429 accountid=19
+[hades_req] userid=1318 uri=/scene/go_to_boss time=2013-04-02_15:47:45.316390 consume_time=0.0445909500122 accountid=87
+[hades_req] userid=1337 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:47:45.466237 consume_time=0.00641512870789
+[hades_req] consume_time=0.0051281452179 uri=/admin/leave time=2013-04-02_15:47:45.648943
+[hades_req] userid=1334 uri=/admin/enter mapname=huoshan3 gsid=huoshan3%401 time=2013-04-02_15:47:47.267247 consume_time=0.00735807418823
+[hades_req] userid=1318 uri=/admin/enter mapname=huoshan3 gsid=huoshan3%401 time=2013-04-02_15:47:47.782356 consume_time=0.00730514526367
+[hades_req] userid=710 uri=/account/choose_player player=710_迪丽雅 time=2013-04-02_15:47:51.635345 consume_time=0.0112361907959 accountid=21
+[hades_req] userid=710 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:47:53.645446 consume_time=0.00790286064148
+[hades_req] userid=710 uri=/scene/enter_tavern time=2013-04-02_15:47:57.653285 consume_time=0.00810503959656 type=instance accountid=21
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@head time=2013-04-02_15:47:57.750104 lucky_stone_pos=3 consume_time=0.0275530815125 accountid=25
+[hades_req] consume_time=0.00383281707764 uri=/admin/leave time=2013-04-02_15:47:57.895294
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@head time=2013-04-02_15:47:58.467129 lucky_stone_pos=3 consume_time=0.0289409160614 accountid=25
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@head time=2013-04-02_15:47:59.053271 lucky_stone_pos=3 consume_time=0.0311501026154 accountid=25
+[hades_req] userid=356 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:47:59.071089 consume_time=0.0125329494476
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@head time=2013-04-02_15:47:59.568204 lucky_stone_pos=3 consume_time=0.0298430919647 accountid=25
+[hades_req] userid=710 uri=/admin/enter mapname=jiuguanshinei gsid=jiuguanshinei%4098 time=2013-04-02_15:47:59.879290 consume_time=0.00852394104004
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@head time=2013-04-02_15:48:00.280966 lucky_stone_pos=3 consume_time=0.0262930393219 accountid=25
+[hades_req] userid=710 uri=/scene/back_to_city time=2013-04-02_15:48:02.916769 consume_time=0.0162909030914 accountid=21
+[hades_req] consume_time=0.00477886199951 uri=/admin/leave time=2013-04-02_15:48:03.155123
+[hades_req] userid=710 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:48:05.127252 consume_time=0.00686192512512
+[hades_req] consume_time=0.00401711463928 uri=/admin/leave time=2013-04-02_15:48:14.586499
+[hades_req] consume_time=0.00410389900208 uri=/admin/leave time=2013-04-02_15:48:25.275526
+[hades_req] ruler=dan04-yewai3.xml userid=1337 uri=/scene/jump_to_quest_location time=2013-04-02_15:48:27.945958 map_name=yewai3 consume_time=0.0569508075714 accountid=25
+[hades_req] consume_time=0.00442814826965 uri=/admin/leave time=2013-04-02_15:48:28.095585
+[hades_req] userid=1337 uri=/admin/enter mapname=yewai3 gsid=yewai3%401 time=2013-04-02_15:48:32.227876 consume_time=0.00723695755005
+[hades_req] userid=1318 uri=/scene/back_to_city time=2013-04-02_15:49:24.177493 consume_time=0.0196180343628 accountid=87
+[hades_req] consume_time=0.00488495826721 uri=/admin/leave time=2013-04-02_15:49:24.458851
+[hades_req] userid=1318 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:49:26.545883 consume_time=0.0102858543396
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-02_15:49:34.417791 form_email=test@test.com consume_time=0.00626301765442 accountid=0
+[hades_req] consume_time=0.00405597686768 uri=/admin/leave time=2013-04-02_15:49:39.745029
+[hades_req] userid=1318 uri=/account/choose_player player=1318_琳达 time=2013-04-02_15:49:54.597496 consume_time=0.0131530761719 accountid=87
+[hades_req] userid=1318 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:49:56.927436 consume_time=0.00603294372559
+[hades_req] userid=1334 uri=/account/choose_player player=1334_克拉彭 time=2013-04-02_15:50:08.775910 consume_time=0.0105919837952 accountid=20
+[hades_req] userid=1334 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:50:18.148537 consume_time=0.00751495361328
+[hades_req] userid=1337 uri=/scene/back_to_city time=2013-04-02_15:50:46.569796 consume_time=0.0153880119324 accountid=25
+[hades_req] consume_time=0.00530409812927 uri=/admin/leave time=2013-04-02_15:50:46.721998
+[hades_req] userid=1337 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:50:49.143957 consume_time=0.00810599327087
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@shoulders time=2013-04-02_15:51:00.281029 lucky_stone_pos=3 consume_time=0.0276019573212 accountid=25
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@shoulders time=2013-04-02_15:51:00.944722 lucky_stone_pos=3 consume_time=0.0294280052185 accountid=25
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@shoulders time=2013-04-02_15:51:01.524318 lucky_stone_pos=3 consume_time=0.026538848877 accountid=25
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@shoulders time=2013-04-02_15:51:02.044707 lucky_stone_pos=3 consume_time=0.0247030258179 accountid=25
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@shoulders time=2013-04-02_15:51:02.573104 lucky_stone_pos=3 consume_time=0.0254578590393 accountid=25
+[hades_req] ruler=dan05-yewai6.xml userid=1337 uri=/scene/jump_to_quest_location time=2013-04-02_15:51:09.832117 map_name=yewai6 consume_time=0.0651879310608 accountid=25
+[hades_req] consume_time=0.00413584709167 uri=/admin/leave time=2013-04-02_15:51:10.008238
+[hades_req] userid=1337 uri=/admin/enter mapname=yewai6 gsid=yewai6%401 time=2013-04-02_15:51:13.573140 consume_time=0.00807404518127
+[hades_req] consume_time=0.00480890274048 uri=/admin/leave time=2013-04-02_15:51:17.854123
+[hades_req] userid=824 uri=/account/choose_player player=824_卡扎菲 time=2013-04-02_15:51:55.238907 consume_time=0.012286901474 accountid=21
+[hades_req] userid=824 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:51:57.354005 consume_time=0.00651502609253
+[hades_req] consume_time=0.00459313392639 uri=/admin/leave time=2013-04-02_15:52:04.707276
+[hades_req] userid=1337 uri=/scene/back_to_city time=2013-04-02_15:52:25.995651 consume_time=0.0181229114532 accountid=25
+[hades_req] consume_time=0.00406908988953 uri=/admin/leave time=2013-04-02_15:52:26.184481
+[hades_req] userid=1337 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:52:28.501150 consume_time=0.0065598487854
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@shoes time=2013-04-02_15:52:38.689047 lucky_stone_pos=3 consume_time=0.0271689891815 accountid=25
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@shoes time=2013-04-02_15:52:39.310740 lucky_stone_pos=3 consume_time=0.0326130390167 accountid=25
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@shoes time=2013-04-02_15:52:39.880500 lucky_stone_pos=3 consume_time=0.0286130905151 accountid=25
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@shoes time=2013-04-02_15:52:40.441530 lucky_stone_pos=3 consume_time=0.0298700332642 accountid=25
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@shoes time=2013-04-02_15:52:41.025489 lucky_stone_pos=3 consume_time=0.0318849086761 accountid=25
+[hades_req] consume_time=0.00475192070007 uri=/admin/leave time=2013-04-02_15:52:46.767662
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-02_15:53:02.924270 form_email=test@test.com consume_time=0.0061731338501 accountid=0
+[hades_req] ruler=dan06-yewai4.xml userid=1337 uri=/scene/jump_to_quest_location time=2013-04-02_15:53:08.876770 map_name=yewai4 consume_time=0.0480320453644 accountid=25
+[hades_req] consume_time=0.00545501708984 uri=/admin/leave time=2013-04-02_15:53:09.049434
+[hades_req] userid=1337 uri=/admin/enter mapname=yewai4 gsid=yewai4%401 time=2013-04-02_15:53:13.176830 consume_time=0.00762605667114
+[hades_req] consume_time=0.00439095497131 uri=/admin/leave time=2013-04-02_15:53:21.705609
+[hades_req] userid=1334 uri=/account/choose_player player=1334_克拉彭 time=2013-04-02_15:53:34.219585 consume_time=0.012855052948 accountid=20
+[hades_req] userid=1334 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:53:43.257128 consume_time=0.00791716575623
+[hades_req] userid=1334 uri=/scene/go_to_boss time=2013-04-02_15:53:46.297893 consume_time=0.0789308547974 accountid=20
+[hades_req] consume_time=0.00509405136108 uri=/admin/leave time=2013-04-02_15:53:46.459886
+[hades_req] camp=1 account_id=19 gender=male idcard=1234345656dfdf userid=356 uri=/profile/register role=priest time=2013-04-02_15:53:46.616780 consume_time=0.0150241851807 accountid=19 name=邓巴
+[hades_req] userid=1334 uri=/admin/enter mapname=huoshan3 gsid=huoshan3%401 time=2013-04-02_15:53:52.279895 consume_time=0.008220911026
+[hades_req] userid=1339 uri=/account/choose_player player=1339_邓巴 time=2013-04-02_15:53:53.560755 consume_time=0.0111179351807 accountid=19
+[hades_req] userid=1339 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:53:59.535932 consume_time=0.0120079517365
+[hades_req] consume_time=0.00504279136658 uri=/admin/leave time=2013-04-02_15:54:24.741401
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-02_15:54:40.626631 form_email=test@test.com consume_time=0.00627493858337 accountid=0
+[hades_req] userid=1337 uri=/scene/back_to_city time=2013-04-02_15:54:56.198031 consume_time=0.0173659324646 accountid=25
+[hades_req] consume_time=0.00527906417847 uri=/admin/leave time=2013-04-02_15:54:56.353099
+[hades_req] userid=1337 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:54:58.782027 consume_time=0.00782895088196
+[hades_req] ruler=dan01-huoshan4.xml userid=1339 uri=/scene/jump_to_quest_location time=2013-04-02_15:54:58.942500 map_name=huoshan4 consume_time=0.0538439750671 accountid=19
+[hades_req] consume_time=0.00476288795471 uri=/admin/leave time=2013-04-02_15:55:00.607433
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@legs time=2013-04-02_15:55:09.237995 lucky_stone_pos=3 consume_time=0.0310809612274 accountid=25
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@legs time=2013-04-02_15:55:09.972220 lucky_stone_pos=3 consume_time=0.0310919284821 accountid=25
+[hades_req] userid=1339 uri=/admin/enter mapname=huoshan4 gsid=huoshan4%401 time=2013-04-02_15:55:10.305008 consume_time=0.00651884078979
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@legs time=2013-04-02_15:55:10.491274 lucky_stone_pos=3 consume_time=0.0338690280914 accountid=25
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@legs time=2013-04-02_15:55:11.003699 lucky_stone_pos=3 consume_time=0.0303649902344 accountid=25
+[hades_req] userid=1337 uri=/blacksmith/enhance equipment_pos=equiped@legs time=2013-04-02_15:55:11.589149 lucky_stone_pos=3 consume_time=0.0314929485321 accountid=25
+[hades_req] userid=1334 uri=/account/choose_player player=1334_克拉彭 time=2013-04-02_15:55:12.213916 consume_time=0.0115320682526 accountid=20
+[hades_req] ruler=dan07-yewai5.xml userid=1337 uri=/scene/jump_to_quest_location time=2013-04-02_15:55:18.799165 map_name=yewai5 consume_time=0.0573899745941 accountid=25
+[hades_req] consume_time=0.0046010017395 uri=/admin/leave time=2013-04-02_15:55:18.952698
+[hades_req] userid=1334 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:55:21.234513 consume_time=0.00820589065552
+[hades_req] userid=1337 uri=/admin/enter mapname=yewai5 gsid=yewai5%401 time=2013-04-02_15:55:23.462356 consume_time=0.0109250545502
+[hades_req] userid=1334 uri=/scene/go_to_boss time=2013-04-02_15:55:29.009237 consume_time=0.039470911026 accountid=20
+[hades_req] consume_time=0.00484991073608 uri=/admin/leave time=2013-04-02_15:55:29.251766
+[hades_req] userid=1334 uri=/admin/enter mapname=huoshan3 gsid=huoshan3%401 time=2013-04-02_15:55:34.092181 consume_time=0.00685214996338
+[hades_req] userid=1336 uri=/package/sort time=2013-04-02_15:55:58.772099 consume_time=0.0149400234222 accountid=92
+[hades_req] userid=1339 uri=/instance/revive revive_mod=free time=2013-04-02_15:56:00.399419 death_rule_type=single consume_time=0.00678014755249 accountid=19
+[hades_req] userid=1334 uri=/profile/cheerup time=2013-04-02_15:56:38.753775 consume_time=0.00679588317871 accountid=20
+[hades_req] userid=1334 uri=/profile/cheerup time=2013-04-02_15:56:40.653734 consume_time=0.00757718086243 accountid=20
+[hades_req] userid=1334 uri=/profile/cheerup time=2013-04-02_15:56:42.296321 consume_time=0.00665402412415 accountid=20
+[hades_req] userid=1334 uri=/profile/cheerup time=2013-04-02_15:56:43.747929 consume_time=0.00725507736206 accountid=20
+[hades_req] userid=1339 uri=/scene/back_to_city time=2013-04-02_15:56:43.783362 consume_time=0.0177719593048 accountid=19
+[hades_req] consume_time=0.00419616699219 uri=/admin/leave time=2013-04-02_15:56:45.409538
+[hades_req] userid=1334 uri=/profile/cheerup time=2013-04-02_15:56:45.664133 consume_time=0.00759696960449 accountid=20
+[hades_req] userid=1334 uri=/profile/cheerup time=2013-04-02_15:56:47.201988 consume_time=0.00687193870544 accountid=20
+[hades_req] userid=1334 uri=/profile/cheerup time=2013-04-02_15:56:48.491602 consume_time=0.0102038383484 accountid=20
+[hades_req] userid=1334 uri=/profile/cheerup time=2013-04-02_15:56:49.731373 consume_time=0.0065770149231 accountid=20
+[hades_req] userid=1334 uri=/profile/cheerup time=2013-04-02_15:56:51.215743 consume_time=0.00706195831299 accountid=20
+[hades_req] userid=1339 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_15:56:51.473295 consume_time=0.00729203224182
+[hades_req] userid=1334 uri=/profile/cheerup time=2013-04-02_15:56:52.559661 consume_time=0.00679898262024 accountid=20
+[hades_req] userid=1334 uri=/profile/cheerup time=2013-04-02_15:56:53.885803 consume_time=0.00689506530762 accountid=20
+[hades_req] userid=1334 uri=/profile/cheerup time=2013-04-02_15:56:55.237862 consume_time=0.00702404975891 accountid=20
+[hades_req] userid=1334 uri=/package/sort time=2013-04-02_15:58:30.471364 consume_time=0.00442409515381 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=1@slot0 time=2013-04-02_15:58:58.484204 mosaic_item=equiped@legs consume_time=0.0137739181519 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=1@slot0 time=2013-04-02_15:59:03.323427 mosaic_item=equiped@right_hand consume_time=0.00980496406555 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=1@slot3 time=2013-04-02_15:59:15.921709 mosaic_item=equiped@gloves consume_time=0.0116450786591 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=1@slot0 time=2013-04-02_15:59:33.194313 mosaic_item=equiped@head consume_time=0.0107979774475 accountid=20
+[hades_req] userid=1334 uri=/blacksmith/mosaic stone_pos=1@slot0 time=2013-04-02_15:59:41.117678 mosaic_item=equiped@shoes consume_time=0.0128080844879 accountid=20

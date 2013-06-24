@@ -1,0 +1,189 @@
+[hades_req] skip_time=0 userid=1317 uri=/trade/player_store/generate_player_store time=2013-04-07_18:00:23.919329 consume_time=0.257230997086 accountid=20
+[hades_req] skip_time=1 userid=1265 uri=/trade/player_store/generate_player_store time=2013-04-07_18:01:06.369933 consume_time=0.240782976151 accountid=63
+[hades_req] consume_time=0.00468516349792 uri=/admin/leave time=2013-04-07_18:01:48.688567
+[hades_req] userid=1318 uri=/account/choose_player player=1318_琳达 time=2013-04-07_18:02:01.667484 consume_time=0.0109729766846 accountid=87
+[hades_req] userid=1318 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_18:02:04.117560 consume_time=0.0061240196228
+[hades_req] skip_time=0 userid=1318 uri=/trade/player_store/generate_player_store time=2013-04-07_18:02:30.342903 consume_time=0.236517906189 accountid=87
+[hades_req] count=1 sale_id=1300161 userid=1265 uri=/trade/player_store/buy time=2013-04-07_18:02:48.888502 consume_time=0.012097120285 accountid=63
+[hades_req] consume_time=0.00471615791321 uri=/admin/leave time=2013-04-07_18:03:08.501962
+[hades_req] count=1 sale_id=1300126 userid=1318 uri=/trade/player_store/buy time=2013-04-07_18:03:18.818291 consume_time=0.0123288631439 accountid=87
+[hades_req] count=1 sale_id=13001123 userid=1318 uri=/trade/player_store/buy time=2013-04-07_18:03:23.051089 consume_time=0.0120348930359 accountid=87
+[hades_req] count=1 sale_id=13001142 userid=1318 uri=/trade/player_store/buy time=2013-04-07_18:03:25.703774 consume_time=0.0123229026794 accountid=87
+[hades_req] count=1 sale_id=13001134 userid=1318 uri=/trade/player_store/buy time=2013-04-07_18:03:27.751192 consume_time=0.0107800960541 accountid=87
+[hades_req] count=1 sale_id=13001133 userid=1318 uri=/trade/player_store/buy time=2013-04-07_18:03:30.134580 consume_time=0.0113708972931 accountid=87
+[hades_req] count=1 sale_id=1300185 userid=1318 uri=/trade/player_store/buy time=2013-04-07_18:03:43.951330 consume_time=0.0112462043762 accountid=87
+[hades_req] skip_time=0 userid=1318 uri=/trade/player_store/generate_player_store time=2013-04-07_18:03:49.159352 consume_time=0.25180888176 accountid=87
+[hades_req] skip_time=1 userid=1318 uri=/trade/player_store/generate_player_store time=2013-04-07_18:04:13.665480 consume_time=0.225203990936 accountid=87
+[hades_req] count=1 sale_id=1300149 userid=1318 uri=/trade/player_store/buy time=2013-04-07_18:04:16.167647 consume_time=0.0118641853333 accountid=87
+[hades_req] count=1 sale_id=13001142 userid=1318 uri=/trade/player_store/buy time=2013-04-07_18:04:18.183458 consume_time=0.0115649700165 accountid=87
+[hades_req] count=1 sale_id=13001134 userid=1318 uri=/trade/player_store/buy time=2013-04-07_18:04:22.385596 consume_time=0.012913942337 accountid=87
+[hades_req] count=1 sale_id=1300102 userid=1318 uri=/trade/player_store/buy time=2013-04-07_18:04:43.267720 consume_time=0.0131101608276 accountid=87
+[hades_req] userid=1318 uri=/package/sort time=2013-04-07_18:04:51.113340 consume_time=0.00597786903381 accountid=87
+[hades_req] consume_time=0.363922834396 skip_time=1 userid=1318 uri=/trade/player_store/generate_player_store?userid=1318&skip_time=1 time=2013-04-07_18:16:18.001778
+[hades_req] skip_time=0 userid=1318 uri=/trade/player_store/generate_player_store time=2013-04-07_18:16:30.567101 consume_time=0.00456690788269 accountid=87
+[hades_req] count=1 sale_id=1300173 userid=1318 uri=/trade/player_store/buy time=2013-04-07_18:16:33.631257 consume_time=0.0200490951538 accountid=87
+[hades_req] consume_time=0.224491834641 skip_time=1 userid=1318 uri=/trade/player_store/generate_player_store?userid=1318&skip_time=1 time=2013-04-07_18:16:35.825874
+[hades_req] count=1 sale_id=1300185 userid=1318 uri=/trade/player_store/buy time=2013-04-07_18:18:01.633187 consume_time=0.005863904953 accountid=87
+[hades_req] count=1 sale_id=13001133 userid=1318 uri=/trade/player_store/buy time=2013-04-07_18:18:22.104489 consume_time=0.0114250183105 accountid=87
+[hades_req] consume_time=0.296659946442 skip_time=1 userid=1318 uri=/trade/player_store/generate_player_store?userid=1318&skip_time=1 time=2013-04-07_18:18:25.947249
+[hades_req] count=1 sale_id=1300185 userid=1318 uri=/trade/player_store/buy time=2013-04-07_18:18:32.670192 consume_time=0.0113670825958 accountid=87
+[hades_req] consume_time=0.168268918991 skip_time=1 userid=1318 uri=/trade/player_store/generate_player_store?userid=1318&skip_time=1 time=2013-04-07_18:18:37.004476
+[hades_req] skip_time=1 userid=1318 uri=/trade/player_store/generate_player_store time=2013-04-07_18:19:26.222943 consume_time=0.246109962463 accountid=87
+[hades_req] count=1 sale_id=13001133 userid=1318 uri=/trade/player_store/buy time=2013-04-07_18:19:28.506053 consume_time=0.0132331848145 accountid=87
+[hades_req] consume_time=0.220527172089 skip_time=1 userid=1318 uri=/trade/player_store/generate_player_store?userid=1318&skip_time=1 time=2013-04-07_18:19:31.711548
+[hades_req] count=1 sale_id=13001143 userid=1318 uri=/trade/player_store/buy time=2013-04-07_18:19:40.269298 consume_time=0.0107378959656 accountid=87
+[hades_req] count=1 sale_id=1300186 userid=1318 uri=/trade/player_store/buy time=2013-04-07_18:19:45.197724 consume_time=0.00580310821533 accountid=87
+[hades_req] consume_time=0.272956848145 skip_time=1 userid=1318 uri=/trade/player_store/generate_player_store?userid=1318&skip_time=1 time=2013-04-07_18:19:53.113783
+[hades_req] userid=1318 uri=/astrology/shortcut_sell time=2013-04-07_18:22:41.049783 consume_time=0.0112779140472 accountid=87
+[hades_req] sure=false userid=1318 uri=/astrology/shortcut_combine time=2013-04-07_18:22:42.238629 consume_time=0.0160529613495 type=astrology accountid=87
+[hades_req] sure=true userid=1318 uri=/astrology/shortcut_combine time=2013-04-07_18:22:44.020500 consume_time=0.0119118690491 type=astrology accountid=87
+[hades_req] npcid=3 userid=1318 uri=/astrology/shortcut_start time=2013-04-07_18:22:51.179986 consume_time=0.157299995422 accountid=87
+[hades_req] userid=1318 uri=/astrology/shortcut_sell time=2013-04-07_18:22:52.853272 consume_time=0.0104858875275 accountid=87
+[hades_req] npcid=1 userid=1318 uri=/astrology/shortcut_start time=2013-04-07_18:22:54.561414 consume_time=0.127497911453 accountid=87
+[hades_req] userid=1318 uri=/astrology/shortcut_sell time=2013-04-07_18:22:55.631293 consume_time=0.00928902626038 accountid=87
+[hades_req] npcid=1 userid=1318 uri=/astrology/shortcut_start time=2013-04-07_18:22:56.717118 consume_time=0.0912680625916 accountid=87
+[hades_req] userid=1318 uri=/astrology/shortcut_sell time=2013-04-07_18:22:57.750318 consume_time=0.0118639469147 accountid=87
+[hades_req] npcid=1 userid=1318 uri=/astrology/shortcut_start time=2013-04-07_18:22:59.066785 consume_time=0.0719060897827 accountid=87
+[hades_req] userid=1318 uri=/astrology/shortcut_sell time=2013-04-07_18:22:59.926617 consume_time=0.0187571048737 accountid=87
+[hades_req] sure=false userid=1318 uri=/astrology/shortcut_combine time=2013-04-07_18:23:01.240775 consume_time=0.0178139209747 type=astrology accountid=87
+[hades_req] sure=true userid=1318 uri=/astrology/shortcut_combine time=2013-04-07_18:23:03.100126 consume_time=0.0115368366241 type=astrology accountid=87
+[hades_req] userid=1318 uri=/scene/go_to_publicmine time=2013-04-07_18:24:13.924351 consume_time=0.053083896637 accountid=87
+[hades_req] consume_time=0.00453186035156 uri=/admin/leave time=2013-04-07_18:24:14.235717
+[hades_req] userid=1318 uri=/admin/enter mapname=gonggongditu gsid=gonggongditu%401 time=2013-04-07_18:24:23.165003 consume_time=0.00617694854736
+[hades_req] userid=1318 uri=/scene/back_to_city time=2013-04-07_18:25:30.472051 consume_time=0.014671087265 accountid=87
+[hades_req] consume_time=0.00538206100464 uri=/admin/leave time=2013-04-07_18:25:30.776827
+[hades_req] userid=1318 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_18:25:33.045369 consume_time=0.00647616386414
+[hades_req] userid=1318 uri=/scene/go_to_publicmine time=2013-04-07_18:25:35.115674 consume_time=0.0137751102448 accountid=87
+[hades_req] consume_time=0.00437593460083 uri=/admin/leave time=2013-04-07_18:25:35.394175
+[hades_req] userid=1318 uri=/admin/enter mapname=gonggongditu gsid=gonggongditu%401 time=2013-04-07_18:25:40.881017 consume_time=0.00630879402161
+[hades_req] userid=1318 uri=/scene/back_to_city time=2013-04-07_18:26:03.940561 consume_time=0.014867067337 accountid=87
+[hades_req] consume_time=0.00530195236206 uri=/admin/leave time=2013-04-07_18:26:04.254875
+[hades_req] userid=1318 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_18:26:06.306791 consume_time=0.00739908218384
+[hades_req] userid=1318 uri=/scene/go_to_publicmine time=2013-04-07_18:26:07.868981 consume_time=0.0139420032501 accountid=87
+[hades_req] consume_time=0.00416994094849 uri=/admin/leave time=2013-04-07_18:26:08.169571
+[hades_req] userid=1318 uri=/admin/enter mapname=gonggongditu gsid=gonggongditu%401 time=2013-04-07_18:26:13.565629 consume_time=0.00555610656738
+[hades_req] userid=1318 uri=/scene/back_to_city time=2013-04-07_18:26:16.868424 consume_time=0.0154089927673 accountid=87
+[hades_req] consume_time=0.00395607948303 uri=/admin/leave time=2013-04-07_18:26:17.169118
+[hades_req] userid=1318 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_18:26:19.219976 consume_time=0.00475811958313
+[hades_req] consume_time=0.0057361125946 uri=/admin/leave time=2013-04-07_18:28:01.046504
+[hades_req] userid=1265 uri=/account/choose_player player=1265_简 time=2013-04-07_18:28:08.240711 consume_time=0.0108799934387 accountid=63
+[hades_req] userid=1265 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_18:28:09.701270 consume_time=0.0062689781189
+[hades_req] userid=1265 uri=/astrology/unequip time=2013-04-07_18:28:19.544381 equipped_pos=4 consume_time=0.0124268531799 accountid=63
+[hades_req] userid=1265 uri=/astrology/unequip time=2013-04-07_18:28:21.257181 equipped_pos=5 consume_time=0.00974798202515 accountid=63
+[hades_req] consume_time=0.00413703918457 uri=/admin/leave time=2013-04-07_18:28:36.818667
+[hades_req] userid=1265 uri=/account/choose_player player=1265_简 time=2013-04-07_18:29:31.004429 consume_time=0.0125169754028 accountid=63
+[hades_req] userid=1265 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_18:29:32.459429 consume_time=0.00603413581848
+[hades_req] sure=false userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:29:40.529560 consume_time=0.0148050785065 type=astrology accountid=63
+[hades_req] sure=true userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:29:42.550959 consume_time=0.0205240249634 type=astrology accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_sell time=2013-04-07_18:29:44.305532 consume_time=0.00729417800903 accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_collect time=2013-04-07_18:29:47.437829 consume_time=0.00671195983887 accountid=63
+[hades_req] consume_time=0.00626683235168 uri=/admin/leave time=2013-04-07_18:30:08.594887
+[hades_req] userid=1265 uri=/account/choose_player player=1265_简 time=2013-04-07_18:30:16.153363 consume_time=0.0121698379517 accountid=63
+[hades_req] userid=1265 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_18:30:17.654638 consume_time=0.00602507591248
+[hades_req] consume_time=0.00424098968506 uri=/admin/leave time=2013-04-07_18:30:44.259569
+[hades_req] userid=1265 uri=/account/choose_player player=1265_简 time=2013-04-07_18:31:22.733456 consume_time=0.0105690956116 accountid=63
+[hades_req] userid=1265 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_18:31:24.193105 consume_time=0.00545382499695
+[hades_req] sure=false first_pos=1 userid=1265 uri=/astrology/combine second_pos=4 time=2013-04-07_18:45:34.453324 consume_time=0.00961995124817 accountid=63
+[hades_req] sure=true first_pos=1 userid=1265 uri=/astrology/combine second_pos=4 time=2013-04-07_18:45:36.519214 consume_time=0.00923609733582 accountid=63
+[hades_req] shop_id=1008 userid=1265 uri=/astrology/buy time=2013-04-07_18:51:00.710381 consume_time=0.0139200687408 accountid=63
+[hades_req] sure=false first_pos=4 userid=1265 uri=/astrology/combine second_pos=2 time=2013-04-07_18:51:09.851520 consume_time=0.00623512268066 accountid=63
+[hades_req] sure=true first_pos=4 userid=1265 uri=/astrology/combine second_pos=2 time=2013-04-07_18:51:14.297514 consume_time=0.00834107398987 accountid=63
+[hades_req] npcid=4 userid=1265 uri=/astrology/shortcut_start time=2013-04-07_18:51:32.846470 consume_time=0.168094158173 accountid=63
+[hades_req] sure=false userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:51:35.071096 consume_time=0.00762796401978 type=astrology accountid=63
+[hades_req] sure=true userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:51:37.533173 consume_time=0.0119409561157 type=astrology accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_sell time=2013-04-07_18:51:38.580721 consume_time=0.00979495048523 accountid=63
+[hades_req] npcid=2 userid=1265 uri=/astrology/shortcut_start time=2013-04-07_18:51:41.096157 consume_time=0.148638963699 accountid=63
+[hades_req] sure=false userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:51:42.771142 consume_time=0.0102288722992 type=astrology accountid=63
+[hades_req] sure=true userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:51:44.553915 consume_time=0.0152730941772 type=astrology accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_sell time=2013-04-07_18:51:45.586601 consume_time=0.00741386413574 accountid=63
+[hades_req] npcid=1 userid=1265 uri=/astrology/shortcut_start time=2013-04-07_18:51:47.192776 consume_time=0.149081945419 accountid=63
+[hades_req] sure=false userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:51:53.493532 consume_time=0.00708389282227 type=astrology accountid=63
+[hades_req] sure=true userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:51:56.961821 consume_time=0.0093719959259 type=astrology accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_sell time=2013-04-07_18:51:59.069341 consume_time=0.00749206542969 accountid=63
+[hades_req] uri=/astrology/collect userid=1265 pos=0 time=2013-04-07_18:52:00.886850 consume_time=0.00610399246216 accountid=63
+[hades_req] sure=false first_pos=4 userid=1265 uri=/astrology/combine second_pos=2 time=2013-04-07_18:52:19.668553 consume_time=0.00715088844299 accountid=63
+[hades_req] sure=true first_pos=4 userid=1265 uri=/astrology/combine second_pos=2 time=2013-04-07_18:52:21.971327 consume_time=0.0100979804993 accountid=63
+[hades_req] sure=false first_pos=4 userid=1265 uri=/astrology/combine second_pos=5 time=2013-04-07_18:52:28.152940 consume_time=0.0105981826782 accountid=63
+[hades_req] sure=true first_pos=4 userid=1265 uri=/astrology/combine second_pos=5 time=2013-04-07_18:52:30.123098 consume_time=0.0127060413361 accountid=63
+[hades_req] uri=/astrology/equip userid=1265 pos=4 time=2013-04-07_18:52:42.443352 consume_time=0.0164639949799 accountid=63
+[hades_req] uri=/astrology/equip userid=1265 pos=0 time=2013-04-07_18:53:02.444856 consume_time=0.013906955719 accountid=63
+[hades_req] uri=/astrology/lock userid=1265 pos=1 time=2013-04-07_18:53:09.315650 consume_time=0.00571703910828 accountid=63
+[hades_req] uri=/astrology/lock userid=1265 pos=3 time=2013-04-07_18:53:10.497403 consume_time=0.005784034729 accountid=63
+[hades_req] npcid=1 userid=1265 uri=/astrology/shortcut_start time=2013-04-07_18:53:14.587978 consume_time=0.162431001663 accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_sell time=2013-04-07_18:53:17.701299 consume_time=0.0102491378784 accountid=63
+[hades_req] sure=false userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:53:19.415160 consume_time=0.00709199905396 type=astrology accountid=63
+[hades_req] sure=true userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:53:21.212552 consume_time=0.00773596763611 type=astrology accountid=63
+[hades_req] npcid=3 userid=1265 uri=/astrology/shortcut_start time=2013-04-07_18:53:22.883123 consume_time=0.157624006271 accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_sell time=2013-04-07_18:53:24.884963 consume_time=0.00804400444031 accountid=63
+[hades_req] sure=false userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:53:26.948404 consume_time=0.00697588920593 type=astrology accountid=63
+[hades_req] sure=true userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:53:28.816848 consume_time=0.00862312316895 type=astrology accountid=63
+[hades_req] npcid=3 userid=1265 uri=/astrology/shortcut_start time=2013-04-07_18:53:30.722349 consume_time=0.146450996399 accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_sell time=2013-04-07_18:53:33.018088 consume_time=0.0125479698181 accountid=63
+[hades_req] sure=false userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:53:34.780971 consume_time=0.00614619255066 type=astrology accountid=63
+[hades_req] sure=true userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:53:37.116313 consume_time=0.00736212730408 type=astrology accountid=63
+[hades_req] npcid=1 userid=1265 uri=/astrology/shortcut_start time=2013-04-07_18:53:39.276248 consume_time=0.151799201965 accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_sell time=2013-04-07_18:53:41.687361 consume_time=0.00952982902527 accountid=63
+[hades_req] sure=false userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:53:43.537730 consume_time=0.0131480693817 type=astrology accountid=63
+[hades_req] sure=true userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:53:45.363319 consume_time=0.00772285461426 type=astrology accountid=63
+[hades_req] npcid=2 userid=1265 uri=/astrology/shortcut_start time=2013-04-07_18:53:46.826951 consume_time=0.170475959778 accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_sell time=2013-04-07_18:53:48.643129 consume_time=0.00950598716736 accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_collect time=2013-04-07_18:53:51.659818 consume_time=0.0204358100891 accountid=63
+[hades_req] sure=false userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:53:56.830154 consume_time=0.00628185272217 type=crystal accountid=63
+[hades_req] sure=true userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:53:58.999781 consume_time=0.0094141960144 type=crystal accountid=63
+[hades_req] sure=false userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:54:07.395101 consume_time=0.00569200515747 type=astrology accountid=63
+[hades_req] sure=true userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:54:09.167462 consume_time=0.00689005851746 type=astrology accountid=63
+[hades_req] npcid=3 userid=1265 uri=/astrology/shortcut_start time=2013-04-07_18:54:11.130131 consume_time=0.157746076584 accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_collect time=2013-04-07_18:54:45.740567 consume_time=0.0249540805817 accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_sell time=2013-04-07_18:54:47.629152 consume_time=0.00601887702942 accountid=63
+[hades_req] npcid=2 userid=1265 uri=/astrology/shortcut_start time=2013-04-07_18:54:49.365238 consume_time=0.174560070038 accountid=63
+[hades_req] sure=false userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:54:57.865231 consume_time=0.0105721950531 type=crystal accountid=63
+[hades_req] sure=true userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:54:59.831362 consume_time=0.010066986084 type=crystal accountid=63
+[hades_req] userid=1265 uri=/astrology/unequip time=2013-04-07_18:55:07.432269 equipped_pos=1 consume_time=0.0107901096344 accountid=63
+[hades_req] uri=/astrology/lock userid=1265 pos=3 time=2013-04-07_18:55:15.227166 consume_time=0.00663185119629 accountid=63
+[hades_req] sure=false first_pos=3 userid=1265 uri=/astrology/combine second_pos=0 time=2013-04-07_18:55:18.592754 consume_time=0.00608086585999 accountid=63
+[hades_req] sure=true first_pos=3 userid=1265 uri=/astrology/combine second_pos=0 time=2013-04-07_18:55:21.784752 consume_time=0.00982880592346 accountid=63
+[hades_req] uri=/astrology/equip userid=1265 pos=2 time=2013-04-07_18:55:32.736324 consume_time=0.0154981613159 accountid=63
+[hades_req] userid=1265 uri=/astrology/unequip time=2013-04-07_18:55:36.545209 equipped_pos=0 consume_time=0.0101521015167 accountid=63
+[hades_req] uri=/astrology/equip userid=1265 pos=3 time=2013-04-07_18:55:38.264996 consume_time=0.0129458904266 accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_sell time=2013-04-07_18:56:08.258852 consume_time=0.00811409950256 accountid=63
+[hades_req] sure=false userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:56:12.276271 consume_time=0.00678586959839 type=astrology accountid=63
+[hades_req] sure=true userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:56:14.392885 consume_time=0.0079619884491 type=astrology accountid=63
+[hades_req] npcid=2 userid=1265 uri=/astrology/shortcut_start time=2013-04-07_18:56:16.209362 consume_time=0.157195091248 accountid=63
+[hades_req] shop_id=1006 userid=1265 uri=/astrology/buy time=2013-04-07_18:56:49.630550 consume_time=0.0126829147339 accountid=63
+[hades_req] shop_id=1002 userid=1265 uri=/astrology/buy time=2013-04-07_18:56:59.781551 consume_time=0.0146789550781 accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_sell time=2013-04-07_18:57:04.761178 consume_time=0.00930118560791 accountid=63
+[hades_req] sure=false userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:57:05.922975 consume_time=0.00831007957458 type=astrology accountid=63
+[hades_req] sure=true userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:57:08.042328 consume_time=0.00853085517883 type=astrology accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_collect time=2013-04-07_18:57:09.757829 consume_time=0.00686502456665 accountid=63
+[hades_req] userid=1265 uri=/astrology/unequip time=2013-04-07_18:57:17.044180 equipped_pos=0 consume_time=0.0102519989014 accountid=63
+[hades_req] userid=1265 uri=/astrology/unequip time=2013-04-07_18:57:18.210437 equipped_pos=3 consume_time=0.0113620758057 accountid=63
+[hades_req] userid=1265 uri=/astrology/unequip time=2013-04-07_18:57:21.978320 equipped_pos=1 consume_time=0.0118770599365 accountid=63
+[hades_req] uri=/astrology/lock userid=1265 pos=7 time=2013-04-07_18:57:28.507858 consume_time=0.00518894195557 accountid=63
+[hades_req] sure=false first_pos=2 userid=1265 uri=/astrology/combine second_pos=7 time=2013-04-07_18:57:34.307469 consume_time=0.0076048374176 accountid=63
+[hades_req] sure=true first_pos=2 userid=1265 uri=/astrology/combine second_pos=7 time=2013-04-07_18:57:36.309582 consume_time=0.00970602035522 accountid=63
+[hades_req] sure=false first_pos=3 userid=1265 uri=/astrology/combine second_pos=0 time=2013-04-07_18:57:45.552647 consume_time=0.00570201873779 accountid=63
+[hades_req] sure=true first_pos=3 userid=1265 uri=/astrology/combine second_pos=0 time=2013-04-07_18:57:47.437178 consume_time=0.00662779808044 accountid=63
+[hades_req] sure=false first_pos=2 userid=1265 uri=/astrology/combine second_pos=4 time=2013-04-07_18:58:15.825465 consume_time=0.0109257698059 accountid=63
+[hades_req] sure=true first_pos=2 userid=1265 uri=/astrology/combine second_pos=4 time=2013-04-07_18:58:19.041180 consume_time=0.0114359855652 accountid=63
+[hades_req] uri=/astrology/equip userid=1265 pos=2 time=2013-04-07_18:58:24.476091 consume_time=0.0122799873352 accountid=63
+[hades_req] uri=/astrology/equip userid=1265 pos=3 time=2013-04-07_18:58:31.576720 consume_time=0.0135049819946 accountid=63
+[hades_req] npcid=1 userid=1265 uri=/astrology/shortcut_start time=2013-04-07_18:58:46.360013 consume_time=0.164893865585 accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_sell time=2013-04-07_18:58:48.730688 consume_time=0.00947308540344 accountid=63
+[hades_req] sure=false userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:58:49.491882 consume_time=0.00647306442261 type=astrology accountid=63
+[hades_req] sure=true userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:58:51.343600 consume_time=0.00854706764221 type=astrology accountid=63
+[hades_req] npcid=2 userid=1265 uri=/astrology/shortcut_start time=2013-04-07_18:58:52.401262 consume_time=0.155990123749 accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_sell time=2013-04-07_18:58:54.231723 consume_time=0.00829911231995 accountid=63
+[hades_req] sure=false userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:58:55.500358 consume_time=0.00596117973328 type=astrology accountid=63
+[hades_req] sure=true userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:58:57.388922 consume_time=0.00705313682556 type=astrology accountid=63
+[hades_req] npcid=2 userid=1265 uri=/astrology/shortcut_start time=2013-04-07_18:58:58.403407 consume_time=0.155011892319 accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_sell time=2013-04-07_18:59:00.420674 consume_time=0.00743389129639 accountid=63
+[hades_req] sure=false userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:59:03.864921 consume_time=0.00647521018982 type=astrology accountid=63
+[hades_req] sure=true userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:59:05.635185 consume_time=0.00774598121643 type=astrology accountid=63
+[hades_req] npcid=2 userid=1265 uri=/astrology/shortcut_start time=2013-04-07_18:59:07.636331 consume_time=0.157896995544 accountid=63
+[hades_req] userid=1265 uri=/astrology/shortcut_sell time=2013-04-07_18:59:09.661407 consume_time=0.0102679729462 accountid=63
+[hades_req] sure=false userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:59:13.514669 consume_time=0.00879192352295 type=astrology accountid=63
+[hades_req] sure=true userid=1265 uri=/astrology/shortcut_combine time=2013-04-07_18:59:15.985251 consume_time=0.00866293907166 type=astrology accountid=63
+[hades_req] userid=1342 uri=/account/choose_player player=1342_优娜 time=2013-04-07_18:59:37.953681 consume_time=0.0103211402893 accountid=11
+[hades_req] userid=1342 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_18:59:40.686624 consume_time=0.00956702232361
+[hades_req] userid=1342 uri=/account/choose_player player=1342_优娜 time=2013-04-07_18:59:52.392923 consume_time=0.0111989974976 accountid=11
+[hades_req] userid=1342 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-07_18:59:55.905915 consume_time=0.00517702102661

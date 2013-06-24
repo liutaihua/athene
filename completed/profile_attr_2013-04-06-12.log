@@ -1,0 +1,4 @@
+[profile_attr] old_data=20000 delta_type=1 attr=attr_3 delta_data=10000 userid=1317 source=dump_data time=2013-04-06_12:16:22.147548
+[profile_attr] old_data=255 delta_type=1 attr=maze_info delta_data=128 userid=1317 source=dump_data time=2013-04-06_12:16:22.149795
+[profile_attr] old_data=30000 delta_type=1 attr=attr_3 delta_data=23200 userid=1317 source=dump_data time=2013-04-06_12:18:01.180933
+[profile_attr] old_data=383 delta_type=1 attr=maze_info delta_data=128 userid=1317 source=dump_data time=2013-04-06_12:18:01.183170

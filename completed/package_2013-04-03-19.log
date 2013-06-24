@@ -1,0 +1,16 @@
+[package] count=1 itemid=3401 itemtype=material source=unpack_bundle type=get time=2013-04-03_19:00:48.704696 userid=1265
+[package] count=1 itemid=5002 itemtype=material source=combine type=consume time=2013-04-03_19:18:54.680252 userid=1282
+[package] count=1 itemid=5003 itemtype=material source=combine_gem type=get time=2013-04-03_19:18:54.683050 userid=1282
+[package] count=1 itemid=5002 itemtype=material source=combine type=consume time=2013-04-03_19:18:55.635296 userid=1282
+[package] count=1 itemid=5003 itemtype=material source=combine_gem type=get time=2013-04-03_19:18:55.639935 userid=1282
+[package] count=1 itemid=5002 itemtype=material source=combine type=consume time=2013-04-03_19:18:56.732024 userid=1282
+[package] count=1 itemid=5003 itemtype=material source=combine_gem type=get time=2013-04-03_19:18:56.734506 userid=1282
+[package] count=2 itemid=3101 itemtype=material source=reward_by_gametime type=get time=2013-04-03_19:34:07.848740 userid=1352
+[package] count=1 itemid=3102 itemtype=material source=reward_by_checkin type=get time=2013-04-03_19:34:23.331228 userid=1318
+[package] count=1 itemid=3202 itemtype=material source=reward_by_checkin type=get time=2013-04-03_19:34:23.331538 userid=1318
+[package] count=1000 itemid=1703 itemtype=consume source=reward_by_checkin type=get time=2013-04-03_19:34:23.331829 userid=1318
+[package] count=1 itemid=3704 itemtype=material source=None type=get time=2013-04-03_19:47:35.514215 userid=1317
+[package] count=1 itemid=3901 itemtype=material source=None type=get time=2013-04-03_19:47:42.669472 userid=1317
+[package] count=1 itemid=3101 itemtype=material source=None type=get time=2013-04-03_19:47:48.026049 userid=1317
+[package] count=1 itemid=905 itemtype=consume source=None type=get time=2013-04-03_19:47:55.928898 userid=1317
+[package] count=1 itemid=905 itemtype=consume source=None type=get time=2013-04-03_19:48:03.087351 userid=1317

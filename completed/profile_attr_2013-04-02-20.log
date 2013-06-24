@@ -1,0 +1,17 @@
+[profile_attr] old_data=20 delta_type=1 attr=attr_2 delta_data=4 userid=1337 source=dump_data time=2013-04-02_20:11:43.504179
+[profile_attr] old_data=822700 delta_type=1 attr=attr_1 delta_data=171200 userid=1337 source=dump_data time=2013-04-02_20:11:43.505038
+[profile_attr] old_data=726274 delta_type=1 attr=gold delta_data=27300 userid=1337 source=dump_data time=2013-04-02_20:11:43.505969
+[profile_attr] old_data=17 delta_type=1 attr=level delta_data=1 userid=1337 source=dump_data time=2013-04-02_20:11:43.521480
+[profile_attr] old_data=14200 delta_type=1 attr=hp delta_data=200 userid=1337 source=dump_data time=2013-04-02_20:11:43.521810
+[profile_attr] old_data=82 delta_type=1 attr=mp delta_data=3 userid=1337 source=dump_data time=2013-04-02_20:11:43.522831
+[profile_attr] old_data=753574 delta_type=0 attr=gold delta_data=2000 userid=1337 source=combine time=2013-04-02_20:11:43.619875
+[profile_attr] old_data=993900 delta_type=1 attr=attr_1 delta_data=171200 userid=1337 source=dump_data time=2013-04-02_20:11:57.361985
+[profile_attr] old_data=751574 delta_type=1 attr=gold delta_data=27300 userid=1337 source=dump_data time=2013-04-02_20:11:57.362951
+[profile_attr] old_data=778874 delta_type=0 attr=gold delta_data=100 userid=1337 source=mosaic time=2013-04-02_20:11:57.475048
+[profile_attr] old_data=1165100 delta_type=1 attr=attr_1 delta_data=171200 userid=1337 source=dump_data time=2013-04-02_20:12:03.788228
+[profile_attr] old_data=778774 delta_type=1 attr=gold delta_data=27300 userid=1337 source=dump_data time=2013-04-02_20:12:03.789132
+[profile_attr] old_data=30 delta_type=0 attr=attr_10 delta_data=10 userid=1337 source=enter time=2013-04-02_20:12:07.186820
+[profile_attr] old_data=37400 delta_type=1 attr=attr_1 delta_data=16400 userid=1309 source=dump_data time=2013-04-02_20:21:44.734487
+[profile_attr] old_data=27189 delta_type=1 attr=gold delta_data=6400 userid=1309 source=dump_data time=2013-04-02_20:21:44.735335
+[profile_attr] old_data=1336300 delta_type=1 attr=attr_1 delta_data=20300 userid=1337 source=dump_data time=2013-04-02_20:25:02.531727
+[profile_attr] old_data=806074 delta_type=1 attr=gold delta_data=2193 userid=1337 source=dump_data time=2013-04-02_20:25:02.532535

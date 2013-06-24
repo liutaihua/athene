@@ -1,0 +1,31 @@
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-06_11:00:17.505959 form_email=test@test.com consume_time=0.018513917923 accountid=0
+[hades_req] userid=1317 uri=/account/choose_player player=1317_柏莎 time=2013-04-06_11:00:47.950509 consume_time=0.0117678642273 accountid=20
+[hades_req] userid=1317 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-06_11:00:57.013743 consume_time=0.0114970207214
+[hades_req] consume_time=0.00431609153748 uri=/admin/leave time=2013-04-06_11:02:49.885305
+[hades_req] userid=1286 uri=/account/choose_player player=1286_艾达 time=2013-04-06_11:09:55.474035 consume_time=0.011950969696 accountid=10
+[hades_req] userid=1286 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-06_11:09:57.843239 consume_time=0.0102059841156
+[hades_req] userid=1286 uri=/blacksmith/mosaic stone_pos=6@slot0 time=2013-04-06_11:10:08.578175 mosaic_item=equiped@right_hand consume_time=0.0137839317322 accountid=10
+[hades_req] punch_item=equiped@right_hand time=2013-04-06_11:10:22.908624 userid=1286 uri=/blacksmith/punch slot_id=slot2 consume_time=0.0101311206818 accountid=10
+[hades_req] userid=1286 uri=/blacksmith/mosaic stone_pos=7@slot2 time=2013-04-06_11:10:27.060738 mosaic_item=equiped@right_hand consume_time=0.0120959281921 accountid=10
+[hades_req] punch_item=equiped@right_hand time=2013-04-06_11:10:33.725121 userid=1286 uri=/blacksmith/punch slot_id=slot3 consume_time=0.0105369091034 accountid=10
+[hades_req] punch_item=equiped@right_hand time=2013-04-06_11:10:38.378102 userid=1286 uri=/blacksmith/punch slot_id=slot1 consume_time=0.0125348567963 accountid=10
+[hades_req] userid=1286 uri=/blacksmith/mosaic stone_pos=16@slot1 time=2013-04-06_11:10:40.622040 mosaic_item=equiped@right_hand consume_time=0.0142149925232 accountid=10
+[hades_req] userid=1286 uri=/blacksmith/mosaic stone_pos=19@slot3 time=2013-04-06_11:10:43.824744 mosaic_item=equiped@right_hand consume_time=0.0103209018707 accountid=10
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-06_11:25:58.399452 form_email=test@test.com consume_time=0.0205879211426 accountid=0
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-06_11:40:07.339189 form_email=test@test.com consume_time=0.00650215148926 accountid=0
+[hades_req] userid=1317 uri=/account/choose_player player=1317_柏莎 time=2013-04-06_11:40:38.400103 consume_time=0.0126829147339 accountid=20
+[hades_req] userid=1317 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-06_11:40:47.495735 consume_time=0.00588488578796
+[hades_req] count=2 sale_id=140011 userid=1317 uri=/trade/market/buy time=2013-04-06_11:41:11.513533 consume_time=0.00820302963257 payment=token accountid=20
+[hades_req] union_name=买东西公会 userid=1317 uri=/union/create time=2013-04-06_11:42:24.242350 consume_time=0.0093150138855 accountid=20
+[hades_req] consume_time=0.00465488433838 uri=/admin/leave time=2013-04-06_11:43:49.763075
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-06_11:44:03.503870 form_email=test@test.com consume_time=0.00752806663513 accountid=0
+[hades_req] userid=1317 uri=/account/choose_player player=1317_柏莎 time=2013-04-06_11:45:32.491941 consume_time=0.0205218791962 accountid=20
+[hades_req] userid=1317 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-06_11:45:41.594613 consume_time=0.00743794441223
+[hades_req] count=200000 union_name=买东西公会 userid=1317 uri=/union/donate time=2013-04-06_11:46:25.629814 consume_time=0.0152897834778 type=gold accountid=20
+[hades_req] count=1 userid=1317 uri=/trade/store/special_buy time=2013-04-06_11:46:35.561464 consume_time=0.0055718421936 id=1100101 accountid=20
+[hades_req] count=1 userid=1317 uri=/trade/store/special_buy time=2013-04-06_11:46:52.102548 consume_time=0.00500798225403 id=1100101 accountid=20
+[hades_req] consume_time=0.00494003295898 uri=/admin/leave time=2013-04-06_11:49:19.142469
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-06_11:49:32.224165 form_email=test@test.com consume_time=0.00652289390564 accountid=0
+[hades_req] userid=1317 uri=/account/choose_player player=1317_柏莎 time=2013-04-06_11:50:06.502810 consume_time=0.0139179229736 accountid=20
+[hades_req] userid=1317 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-06_11:50:15.546030 consume_time=0.00739598274231
+[hades_req] consume_time=0.00407004356384 uri=/admin/leave time=2013-04-06_11:51:30.008318

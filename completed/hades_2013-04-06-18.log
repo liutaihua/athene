@@ -1,0 +1,18 @@
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-06_18:15:55.955029 form_email=test@test.com consume_time=0.00627183914185 accountid=0
+[hades_req] userid=1317 uri=/account/choose_player player=1317_柏莎 time=2013-04-06_18:16:25.131386 consume_time=0.0121619701385 accountid=20
+[hades_req] userid=1317 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-06_18:16:33.995654 consume_time=0.00599408149719
+[hades_req] consume_time=0.00463604927063 uri=/admin/leave time=2013-04-06_18:20:21.435520
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-06_18:20:52.393453 form_email=test@test.com consume_time=0.0183761119843 accountid=0
+[hades_req] userid=1317 uri=/account/choose_player player=1317_柏莎 time=2013-04-06_18:21:49.892855 consume_time=0.0108051300049 accountid=20
+[hades_req] userid=1317 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-06_18:21:58.744757 consume_time=0.00745296478271
+[hades_req] consume_time=0.004390001297 uri=/admin/leave time=2013-04-06_18:23:35.740482
+[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-06_18:26:10.253157 form_email=test@test.com consume_time=0.00620102882385 accountid=0
+[hades_req] userid=1317 uri=/account/choose_player player=1317_柏莎 time=2013-04-06_18:26:39.888907 consume_time=0.0133900642395 accountid=20
+[hades_req] userid=1317 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-06_18:26:48.745514 consume_time=0.00548601150513
+[hades_req] consume_time=0.00429606437683 uri=/admin/leave time=2013-04-06_18:27:40.365519
+[hades_req] user_login=登录 uri=/account/temp_login form_password=123456 time=2013-04-06_18:35:45.080229 form_email=test@test.com consume_time=0.00876092910767
+[hades_req] userid=1286 uri=/account/choose_player player=1286_艾达 time=2013-04-06_18:36:18.656780 consume_time=0.0138559341431 accountid=10
+[hades_req] userid=1286 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-06_18:36:20.266311 consume_time=0.00649285316467
+[hades_req] userid=1317 uri=/account/choose_player player=1317_柏莎 time=2013-04-06_18:36:23.750237 consume_time=0.0117020606995 accountid=20
+[hades_req] userid=1317 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-06_18:36:27.924936 consume_time=0.00562620162964
+[hades_req] consume_time=0.00551700592041 uri=/admin/leave time=2013-04-06_18:45:55.833510

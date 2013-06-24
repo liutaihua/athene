@@ -1,0 +1,10 @@
+[profile_attr] old_data=100000 delta_type=0 attr=gold delta_data=100 userid=1286 source=mosaic time=2013-04-06_11:10:08.570378
+[profile_attr] old_data=50000 delta_type=0 attr=token delta_data=50 userid=1286 source=punch time=2013-04-06_11:10:22.903389
+[profile_attr] old_data=99900 delta_type=0 attr=gold delta_data=100 userid=1286 source=mosaic time=2013-04-06_11:10:27.052667
+[profile_attr] old_data=49950 delta_type=0 attr=token delta_data=50 userid=1286 source=punch time=2013-04-06_11:10:33.720412
+[profile_attr] old_data=49900 delta_type=0 attr=token delta_data=50 userid=1286 source=punch time=2013-04-06_11:10:38.373007
+[profile_attr] old_data=99800 delta_type=0 attr=gold delta_data=100 userid=1286 source=mosaic time=2013-04-06_11:10:40.612104
+[profile_attr] old_data=99700 delta_type=0 attr=gold delta_data=100 userid=1286 source=mosaic time=2013-04-06_11:10:43.818014
+[profile_attr] old_data=7241 delta_type=0 attr=token delta_data=40 userid=1317 source=buy time=2013-04-06_11:41:11.507881
+[profile_attr] old_data=487462 delta_type=0 attr=gold delta_data=100000 userid=1317 source=create time=2013-04-06_11:42:24.235281
+[profile_attr] old_data=387462 delta_type=0 attr=gold delta_data=200000 userid=1317 source=donate time=2013-04-06_11:46:25.617102

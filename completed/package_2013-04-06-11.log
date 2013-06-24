@@ -1,0 +1,7 @@
+[package] count=1 itemid=3109 itemtype=material source=mosiac type=consume time=2013-04-06_11:10:08.568074 userid=1286
+[package] count=1 itemid=3201 itemtype=material source=mosiac type=consume time=2013-04-06_11:10:27.052183 userid=1286
+[package] count=1 itemid=3502 itemtype=material source=mosiac type=consume time=2013-04-06_11:10:40.611613 userid=1286
+[package] count=1 itemid=3602 itemtype=material source=mosiac type=consume time=2013-04-06_11:10:43.817571 userid=1286
+[package] count=2 itemid=3101 itemtype=material source=None type=get time=2013-04-06_11:41:11.509335 userid=1317
+[package] count=1 itemid=5001 itemtype=material source=special_buy type=get time=2013-04-06_11:46:35.559156 userid=1317
+[package] count=1 itemid=5001 itemtype=material source=special_buy type=get time=2013-04-06_11:46:52.101150 userid=1317
