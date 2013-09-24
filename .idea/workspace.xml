@@ -64,7 +64,7 @@
       <file leaf-file-name="package.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/worker/package.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="48" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+            <state line="19" column="0" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -84,7 +84,7 @@
       <file leaf-file-name="profile_attr.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/worker/profile_attr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.6671348">
+            <state line="18" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.42696628">
               <folding />
             </state>
           </provider>
@@ -547,14 +547,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/package.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="48" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+        <state line="19" column="0" selection-start="667" selection-end="667" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/worker/profile_attr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.6671348">
+        <state line="18" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.42696628">
           <folding />
         </state>
       </provider>
