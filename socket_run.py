@@ -71,7 +71,7 @@ if __name__ == '__main__':
     # to make the server use SSL, pass certfile and keyfile arguments to the constructor
     pool = Pool(500)
     port = int(sys.argv[1])
-    server = DatagramServer(('0.0.0.0', port), apps, spawn=pool)
+    server = DatagramServer((':%s' % port), apps, spawn=pool)
     # to start the server asynchronously, use its start() method;
     # we use blocking serve_forever() here because we have no other jobs
     debug_log('Starting echo server on port %d' % port)
