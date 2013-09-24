@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07cd4aa2-9c86-44c0-8dec-a5492834987f" name="Default" comment="" />
+    <list default="true" id="07cd4aa2-9c86-44c0-8dec-a5492834987f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/profile_attr.py" afterPath="$PROJECT_DIR$/worker/profile_attr.py" />
+    </list>
     <ignored path="athene.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="07cd4aa2-9c86-44c0-8dec-a5492834987f" time="1380003107398" ignored="false" />
@@ -59,10 +61,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="socket_run.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="socket_run.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/socket_run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="20" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.79034483">
+            <state line="55" column="29" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#37#50#0" expanded="true" />
               </folding>
@@ -70,10 +72,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="profile_attr.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="profile_attr.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/worker/profile_attr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.42696628">
               <folding />
             </state>
           </provider>
@@ -120,10 +122,10 @@
         <option value="$PROJECT_DIR$/clean_all.py" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/worker/package.py" />
-        <option value="$PROJECT_DIR$/worker/profile_attr.py" />
         <option value="$PROJECT_DIR$/worker/quest.py" />
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/socket_run.py" />
+        <option value="$PROJECT_DIR$/worker/profile_attr.py" />
       </list>
     </option>
   </component>
@@ -496,13 +498,6 @@
         <state line="7" column="30" selection-start="121" selection-end="121" vertical-scroll-proportion="0.14835165" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/profile_attr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="605" selection-end="605" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/worker/hades.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="0" selection-start="406" selection-end="406" vertical-scroll-proportion="0.41379312" />
@@ -541,10 +536,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/socket_run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="20" selection-start="1704" selection-end="1704" vertical-scroll-proportion="0.79034483">
+        <state line="55" column="29" selection-start="1318" selection-end="1318" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#37#50#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/worker/profile_attr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.42696628">
+          <folding />
         </state>
       </provider>
     </entry>
