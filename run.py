@@ -10,6 +10,10 @@ from worker.profile_attr import run as profile_attr_run
 from worker.quest import run as quest_run
 from worker.package import run as package_run
 
+from worker.profile_attr import process_line as profile_line
+from worker.quest import process_line as quest_line
+from worker.package import process_line as package_line
+
 skiped_log_txt = re.compile('online|quest_distribution|role_distribution')
 
 
@@ -43,6 +47,16 @@ if __name__ == '__main__':
             quest_run(file_path)
         elif 'package' in file_path:
             package_run(file_path)
+
+    elif '--category' in sys.argv:
+        category = sys.argv[sys.argv.index('--category') + 1]
+        line = sys.argv[sys.argv.index('--line') + 1]
+        if category == 'package':
+            package_line(line)
+        elif category == 'profile':
+            profile_line(line)
+        elif category == 'quest':
+            quest_line(line)
 
     else:
         while True:
