@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="07cd4aa2-9c86-44c0-8dec-a5492834987f" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/profile_attr.py" afterPath="$PROJECT_DIR$/worker/profile_attr.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/worker/package.py" afterPath="$PROJECT_DIR$/worker/package.py" />
     </list>
     <ignored path="athene.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -61,6 +61,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="package.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/worker/package.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="48" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="socket_run.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/socket_run.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -75,7 +84,7 @@
       <file leaf-file-name="profile_attr.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/worker/profile_attr.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.42696628">
+            <state line="27" column="0" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.6671348">
               <folding />
             </state>
           </provider>
@@ -121,11 +130,11 @@
         <option value="$PROJECT_DIR$/processor/quest.py" />
         <option value="$PROJECT_DIR$/clean_all.py" />
         <option value="$PROJECT_DIR$/test.py" />
-        <option value="$PROJECT_DIR$/worker/package.py" />
         <option value="$PROJECT_DIR$/worker/quest.py" />
         <option value="$PROJECT_DIR$/run.py" />
         <option value="$PROJECT_DIR$/socket_run.py" />
         <option value="$PROJECT_DIR$/worker/profile_attr.py" />
+        <option value="$PROJECT_DIR$/worker/package.py" />
       </list>
     </option>
   </component>
@@ -513,13 +522,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/worker/package.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="4" selection-start="58" selection-end="58" vertical-scroll-proportion="0.13103448">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/run.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="261" selection-end="261" vertical-scroll-proportion="0.0">
@@ -543,9 +545,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/worker/package.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="48" selection-start="255" selection-end="255" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/worker/profile_attr.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="642" selection-end="642" vertical-scroll-proportion="0.42696628">
+        <state line="27" column="0" selection-start="1032" selection-end="1032" vertical-scroll-proportion="0.6671348">
           <folding />
         </state>
       </provider>
