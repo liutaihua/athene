@@ -8,7 +8,7 @@ import common
 def process_line(l):
     d = common.txt2dict(l)
     sql = """INSERT INTO package (userid, type, itemid, itemtype, count, source, timestamp, time_tail) \
-        VALUES (%s, %s, %s, '%s', %s, '%s', %s, %s)""" % (
+        VALUES (%s, %s, %s, '%s', %s, '%s', '%s', %s)""" % (
         d.get('userid', 0), d.get('type', 0), d.get('itemid', 0), d.get('itemtype', ''), d.get('count', 1),
         d.get('source', ''), d.get('time', '').split('.')[0], d.get('time', '').split('.')[-1])
     try:
