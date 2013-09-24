@@ -12,4 +12,4 @@ DBNAME = 'athene'
 
 DBUSER = 'root'
 
-PASSWORD = ''
+PASSWORD = 'root'

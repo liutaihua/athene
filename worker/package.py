@@ -12,7 +12,7 @@ def process_line(l):
         d.get('userid', 0), d.get('type', 0), d.get('itemid', 0), d.get('itemtype', ''), d.get('count', 1),
         d.get('source', ''), d.get('time', '').split('.')[0], d.get('time', '').split('.')[-1])
     try:
-        #print sql
+        print sql
         common.conn.execute(sql)
     except Exception, e:
         #pass

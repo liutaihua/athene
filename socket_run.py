@@ -10,6 +10,7 @@ import time
 
 from gevent import Timeout
 from gevent.server import DatagramServer 
+from gevent.server import StreamServer 
 from gevent.pool import Pool
 from gevent import signal as gsignal
 
@@ -27,13 +28,19 @@ def resolv(line):
     :param line: [example]  [category] something
     :return:
     """
-    category, content = line.split(' ')
+    print '!!!!!!!!', line
+    category = line.split(' ')[0]
     if category == '[profile_attr]':
+        print 'process profile'
         profile_line(line)
     elif category == '[quest]':
         quest_line(line)
+        print 'process quest'
     elif category == '[package]':
         package_line(line)
+        print 'process package'
+    else:
+        return
 
 
 def apps(socket, address):
@@ -62,6 +69,7 @@ def apps(socket, address):
             break
         try:
             line = fileobj.readline()
+            print line
         except Exception, e:
             debug_log('error...............')
             break
@@ -71,7 +79,7 @@ if __name__ == '__main__':
     # to make the server use SSL, pass certfile and keyfile arguments to the constructor
     pool = Pool(500)
     port = int(sys.argv[1])
-    server = DatagramServer((':%s' % port), apps, spawn=pool)
+    server = StreamServer(('0.0.0.0',port), apps, spawn=pool)
     # to start the server asynchronously, use its start() method;
     # we use blocking serve_forever() here because we have no other jobs
     debug_log('Starting echo server on port %d' % port)
