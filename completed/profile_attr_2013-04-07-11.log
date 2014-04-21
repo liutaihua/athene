@@ -1,5 +1,0 @@
-[profile_attr] old_data=49990 delta_type=0 attr=token delta_data=2 userid=611 source=exchange time=2013-04-07_11:07:54.269136
-[profile_attr] old_data=1310596542 delta_type=1 attr=gold delta_data=300000 userid=611 source=exchange time=2013-04-07_11:07:54.269230
-[profile_attr] old_data=1310896542 delta_type=1 attr=gold delta_data=37600 userid=611 source=dump_data time=2013-04-07_11:16:15.497849
-[profile_attr] old_data=99999 delta_type=1 attr=attr_3 delta_data=10000 userid=611 source=dump_data time=2013-04-07_11:25:39.940180
-[profile_attr] old_data=255 delta_type=1 attr=maze_info delta_data=128 userid=611 source=dump_data time=2013-04-07_11:25:39.942646

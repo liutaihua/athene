@@ -9,7 +9,7 @@ import signal
 import time
 
 from gevent import Timeout
-from gevent.server import DatagramServer 
+#from gevent.server import DatagramServer 
 from gevent.server import StreamServer 
 from gevent.pool import Pool
 from gevent import signal as gsignal
@@ -28,8 +28,8 @@ def resolv(line):
     :param line: [example]  [category] something
     :return:
     """
-    print '!!!!!!!!', line
     category = line.split(' ')[0]
+    print line
     if category == '[profile_attr]':
         print 'process profile'
         profile_line(line)
@@ -55,6 +55,7 @@ def apps(socket, address):
 
     line = fileobj.readline()
     while line:
+        print line
         recv = False
         if line.strip() == 'quit':
             break
@@ -65,11 +66,10 @@ def apps(socket, address):
 
         fileobj.flush()
         socket.close()
-        if recv:
-            break
+        #if recv:
+        #    break
         try:
             line = fileobj.readline()
-            print line
         except Exception, e:
             debug_log('error...............')
             break

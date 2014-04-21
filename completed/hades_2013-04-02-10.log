@@ -1,9 +1,0 @@
-[hades_req] user_login=登录 uri=/account/temp_login form_password=000000 time=2013-04-02_10:26:46.389437 form_email=superjjmm@hotmail.com consume_time=0.00841283798218
-[hades_req] userid=1093 uri=/account/choose_player player=1093_卢修斯 time=2013-04-02_10:26:59.212701 consume_time=0.0127170085907 accountid=6
-[hades_req] userid=1093 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_10:27:01.610181 consume_time=0.0119562149048
-[hades_req] userid=1093 uri=/exchange/exchange time=2013-04-02_10:28:13.845837 consume_time=0.0117440223694 accountid=6
-[hades_req] consume_time=0.00476384162903 uri=/admin/leave time=2013-04-02_10:34:21.564676
-[hades_req] userid=1318 uri=/account/choose_player player=1318_琳达 time=2013-04-02_10:58:30.727337 consume_time=0.0112361907959 accountid=87
-[hades_req] userid=1318 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-02_10:58:33.224476 consume_time=0.010840177536
-[hades_req] userid=1318 uri=/reward/reward_by_checkin time=2013-04-02_10:59:01.928637 consume_time=0.00647401809692 accountid=87
-[hades_req] consume_time=0.00571703910828 uri=/admin/leave time=2013-04-02_10:59:11.717336

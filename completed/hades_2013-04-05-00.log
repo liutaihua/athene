@@ -1,5 +1,0 @@
-[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-05_00:03:51.858316 form_email=liao@adobe.com consume_time=0.0186879634857 accountid=0
-[hades_req] userid=1155 uri=/account/choose_player player=1155_蜜莉恩 time=2013-04-05_00:04:43.477371 consume_time=0.0109610557556 accountid=83
-[hades_req] userid=1155 uri=/admin/enter mapname=city gsid=city%401 time=2013-04-05_00:04:54.933376 consume_time=0.0109190940857
-[hades_req] consume_time=0.00562310218811 uri=/admin/leave time=2013-04-05_00:06:24.868598
-[hades_req] userid=0 uri=/account/temp_login form_password=123456 time=2013-04-05_00:20:31.102614 form_email=liao@adobe.com consume_time=0.0200641155243 accountid=0
