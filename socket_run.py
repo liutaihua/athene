@@ -17,6 +17,7 @@ from gevent import signal as gsignal
 from worker.profile_attr import process_line as profile_line
 from worker.quest import process_line as quest_line
 from worker.package import process_line as package_line
+from worker.hades import process_line as hades_line
 
 
 def debug_log(something):
@@ -39,6 +40,9 @@ def resolv(line):
     elif category == '[package]':
         package_line(line)
         print 'process package'
+    elif category == '[hades_req]':
+        hades_line(line)
+        print 'process hades req'
     else:
         return
 

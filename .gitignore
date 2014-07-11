@@ -1,1 +1,6 @@
 *.pyc
+*.un~
+*.6
+*.out
+nohup.out
+go_nohup.out

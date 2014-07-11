@@ -7,10 +7,11 @@ import common
 
 def process_line(l):
     d = common.txt2dict(l)
+    serverid = int(d.get('userid', 0)) % 65536
     sql = """INSERT INTO package (userid, type, itemid, itemtype, count, source, timestamp, time_tail, serverid) \
-            VALUES (%s, %s, '%s', '%s', %s, '%s', '%s', %s, %s)""" % (
+            VALUES (%s, %s, %s, '%s', '%s', '%s', '%s', '%s', %s)""" % (
             d.get('userid', 0), {'get':1, 'consume':0}[d.get('type', 'get')], d.get('itemid', 0), d.get('itemtype', ''), d.get('count', 1),
-            d.get('source', ''), d.get('time', '').split('.')[0], d.get('time', '').split('.')[-1], d.get('userid', 0)%65536)
+            d.get('source', ''), d.get('time', '').split('.')[0], d.get('time', '').split('.')[-1], serverid)
     try:
         print sql
         common.conn.execute(sql)
