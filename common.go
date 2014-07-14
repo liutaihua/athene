@@ -6,6 +6,7 @@ import (
     "strings"
     "strconv"
     "database/sql"
+    "encoding/json"
     _ "github.com/go-sql-driver/mysql"
     "github.com/likexian/simplejson"
 )
@@ -50,7 +51,8 @@ func pushToPool(conn *sql.DB) {
 }
 
 
-func InsertToMySQL(dbClient *sql.DB, tableName string, argJson *simplejson.Json){
+//func InsertToMySQL(dbClient *sql.DB, tableName string, argsMap *simplejson.Json){
+func InsertToMySQL(dbClient *sql.DB, tableName string, argsMap map[string]interface{}) {
     if dbClient == nil {
         return
     }
@@ -72,28 +74,29 @@ func InsertToMySQL(dbClient *sql.DB, tableName string, argJson *simplejson.Json)
     }
     defer stmt.Close();
     //result, err := stmt.Exec("1125899906973697", "gold", "2014-05-30 14:04:44", "5695", "1", "306", "dump_data", "992134", "1", "0")
-    userid := GetStrFromJson(argJson, "userid")
+    userid := GetValMap(argsMap, "userid")
     int_userid, err := strconv.Atoi(userid)
     if int_userid == 0 || err != nil {
         fmt.Println("fuckkkkkkk userid error", userid)
-        fmt.Println("kkkkkkkkkkkkk ", argJson)
+        fmt.Println("kkkkkkkkkkkkk ", argsMap)
 	return
     }
     serverid := int_userid % 65536
     fmt.Println("fffffffffffffffff, SERVERID-->", serverid)
-    timestamp := GetStrFromJson(argJson, "timestamp")
-    time_tail := GetStrFromJson(argJson, "time_tail")
+    time := strings.Split(GetValMap(argsMap, "time"), ".")
+    timestamp, time_tail := time[0], time[1]
+
     allow_list := []string {"go_to_boss", "jump_to_team_instance", "goto_challenge_instance", "go_to_battleland", "go_to_jjc", "go_to_singlejjc",
                 "enhance", "combine", "mosaic", "generate_element", "update_miracle", "advance_update_miracle", "update_farm", "click", "pray",
                 "harvest", "take_care","exchange", "jump_to_quest_location"}
 
     if IsStringInSlice(tableName, []string{"attr_log", "token_and_coupons_log"}) {
-        attr := GetStrFromJson(argJson, "attr")
-        old_data := GetStrFromJson(argJson, "old_data")
-        delta_type := GetStrFromJson(argJson, "delta_type")
-        delta_data := GetStrFromJson(argJson, "delta_data")
-        source := GetStrFromJson(argJson, "source")
-        balance_str := GetStrFromJson(argJson, "balance")
+        attr := GetValMap(argsMap, "attr")
+        old_data := GetValMap(argsMap, "old_data")
+        delta_type := GetValMap(argsMap, "delta_type")
+        delta_data := GetValMap(argsMap, "delta_data")
+        source := GetValMap(argsMap, "source")
+        balance_str := GetValMap(argsMap, "balance")
 	var balance int
 	if balance_str == "" || balance_str == "0" {
 	    balance = 0
@@ -102,11 +105,11 @@ func InsertToMySQL(dbClient *sql.DB, tableName string, argJson *simplejson.Json)
 	}
         _, err = stmt.Exec(userid, attr, timestamp, old_data, delta_type, delta_data, source, time_tail, serverid, balance)
     } else if tableName == "package" {
-        itemtype := GetStrFromJson(argJson, "itemtype")
-        count := GetStrFromJson(argJson, "count")
-        consume_or_get_str := GetStrFromJson(argJson, "type")
-        itemid := GetStrFromJson(argJson, "itemid")
-        source := GetStrFromJson(argJson, "source")
+        itemtype := GetValMap(argsMap, "itemtype")
+        count := GetValMap(argsMap, "count")
+        consume_or_get_str := GetValMap(argsMap, "type")
+        itemid := GetValMap(argsMap, "itemid")
+        source := GetValMap(argsMap, "source")
         var consume_or_get int
         if consume_or_get_str == "get" {
             consume_or_get = 1
@@ -115,8 +118,8 @@ func InsertToMySQL(dbClient *sql.DB, tableName string, argJson *simplejson.Json)
         }
         _, err = stmt.Exec(userid, timestamp, time_tail, itemtype, count, source, consume_or_get, itemid, serverid)
     } else if tableName == "behavior_log" {
-        behavior := GetStrFromJson(argJson, "behavior")
-        raw_action := GetStrFromJson(argJson, "uri")
+        behavior := GetValMap(argsMap, "behavior")
+        raw_action := GetValMap(argsMap, "uri")
         slice_action := strings.Split(raw_action, "/")
         action := slice_action[len(slice_action)-1]
 	//fmt.Println("fffffffffff behavilog table", action)
@@ -164,17 +167,17 @@ func Subslice(s []string, f func(string) bool) []string {
 func StrToJson(s string) *simplejson.Json {
     str_list := strings.Split(s, " ")
     sub_list := Subslice(str_list, func(v string) bool { return strings.ContainsAny(v, "=") })
-    subS := strings.Join(sub_list, "&&")
+    subStr := strings.Join(sub_list, "&&")
 
-    //fmt.Println("wwwwwwwwwwwwwwww", subS)
-    subS = strings.Replace(subS, ":null", ":\"test\"", 100)
-    subS = strings.Replace(subS, "=", "\":\"", 100)
-    subS = strings.Replace(subS, "&&", "\",\"", 100)
-    subS = strings.Replace(subS, "\"{", "{", 100)
-    subS = "{\"" + subS + "\"}"
-    subS = strings.Replace(subS, "}\"", "}", 100)
-    //fmt.Println("aaaaaaaaaaaa", subS)
-    json, err := simplejson.Loads(subS)
+    //fmt.Println("wwwwwwwwwwwwwwww", subStr)
+    subStr = strings.Replace(subStr, ":null", ":\"test\"", 100)
+    subStr = strings.Replace(subStr, "=", "\":\"", 100)
+    subStr = strings.Replace(subStr, "&&", "\",\"", 100)
+    subStr = strings.Replace(subStr, "\"{", "{", 100)
+    subStr = "{\"" + subStr + "\"}"
+    subStr = strings.Replace(subStr, "}\"", "}", 100)
+    //fmt.Println("aaaaaaaaaaaa", subStr)
+    json, err := simplejson.Loads(subStr)
     if err != nil {
         fmt.Println("StrToJson ERROR:", err)
     }
@@ -183,19 +186,30 @@ func StrToJson(s string) *simplejson.Json {
     //fmt.Println(json.Get("userid").String())
 }
 
-func GetStrFromJson(json *simplejson.Json, key string) string {
-    //fmt.Print("get string from json:", key, "\n")
-    if key == "time_tail" {
-        res, _ := json.Get("time").String()
-	return strings.Split(res, ".")[1]
-    } else if key == "timestamp" {
-        res, _ := json.Get("time").String()
-        return strings.Split(res, ".")[0]
-    } else {
-        res, err := json.Get(key).String()
-	if err != nil {
-	    fmt.Println("no such key", key)
-	}
-	return res
+func StrToMap(s string) map[string]interface{} {
+    str_list := strings.Split(s, " ")
+    sub_list := Subslice(str_list, func(v string) bool { return strings.ContainsAny(v, "=") })
+    subStr := strings.Join(sub_list, "&&")
+
+    //fmt.Println("wwwwwwwwwwwwwwww", subStr)
+    subStr = strings.Replace(subStr, ":null", ":\"test\"", 100)
+    subStr = strings.Replace(subStr, "=", "\":\"", 100)
+    subStr = strings.Replace(subStr, "&&", "\",\"", 100)
+    subStr = strings.Replace(subStr, "\"{", "{", 100)
+    subStr = "{\"" + subStr + "\"}"
+    subStr = strings.Replace(subStr, "}\"", "}", 100)
+    byt := []byte(subStr)
+    var dat map[string]interface{}
+    if err:= json.Unmarshal(byt, &dat); err != nil{
+        panic(err)
     }
+    return dat
+}
+
+func GetValMap(m map[string]interface{}, key string) string {
+    val, isOk := m[key].(string)
+    if !isOk {
+        fmt.Println("not found key:", key)
+    }
+    return val
 }

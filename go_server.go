@@ -57,7 +57,7 @@ func app(conn net.Conn) {
         }
 	mysqlClient := common.GetMySQL()
 	defer mysqlClient.Close()
-        argJson := common.StrToJson(line)
+        argsMap := common.StrToMap(line)
         fmt.Println("RECEIVE:::", msg)
 	var tableName string
         switch category {
@@ -65,9 +65,9 @@ func app(conn net.Conn) {
 		tableName = "behavior_log"
             case "[profile_attr]":
 		tableName = "attr_log"
-	        attr := common.GetStrFromJson(argJson, "attr")
+		attr := common.GetValMap(argsMap, "attr")
 		if common.IsStringInSlice(attr, []string{"attr_6", "token"}) {
-                    common.InsertToMySQL(mysqlClient, "token_and_coupons_log", argJson)
+                    common.InsertToMySQL(mysqlClient, "token_and_coupons_log", argsMap)
 		}
             case "[quest]":
 		tableName = "quest"
@@ -75,7 +75,7 @@ func app(conn net.Conn) {
 		tableName = "package"
         }
 	if tableName != "" {
-            common.InsertToMySQL(mysqlClient, tableName, argJson)
+            common.InsertToMySQL(mysqlClient, tableName, argsMap)
 	} else {
 	    fmt.Println("not found corresponding db table")
 	}
