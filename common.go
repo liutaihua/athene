@@ -1,3 +1,6 @@
+/*
+author: liutaihua  defage@gmail.com
+*/
 //package main
 package common
 
