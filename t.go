@@ -12,11 +12,11 @@ type OriginJSON struct {
 }
 
 func GetValMap(m map[string]interface{}, key string) interface{} {
-    val, isOk := m[key]
+    val, isOk := m[key].(string)
     if !isOk {
         fmt.Println("not found key:", key)
     }
-    return val.String()
+    return val
 }
 
 func main() {

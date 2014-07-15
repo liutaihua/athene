@@ -50,15 +50,15 @@ func app(conn net.Conn) {
 	}
         category := category_and_line[0]
         line := category_and_line[1]
+        fmt.Println(msg)
 
-        if strings.Count(line, "profile=") > 0 || strings.Count(line, "fps:") > 0 {
-            fmt.Println("profile/save || msg/diagnostic  SKIP")
+        if strings.Count(line, "profile=") > 0 || strings.Count(line, "fps:") > 0 || strings.Count(line, "[flash]") > 0 {
+            //fmt.Println("profile/save || msg/diagnostic  SKIP")
             return
         }
 	mysqlClient := common.GetMySQL()
 	defer mysqlClient.Close()
         argsMap := common.StrToMap(line)
-        fmt.Println("RECEIVE:::", msg)
 	var tableName string
         switch category {
             case "[hades_req]":
@@ -79,6 +79,7 @@ func app(conn net.Conn) {
 	} else {
 	    fmt.Println("not found corresponding db table")
 	}
+	fmt.Println("done")
     }
 }
 

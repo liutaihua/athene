@@ -82,7 +82,7 @@ func InsertToMySQL(dbClient *sql.DB, tableName string, argsMap map[string]interf
 	return
     }
     serverid := int_userid % 65536
-    fmt.Println("fffffffffffffffff, SERVERID-->", serverid)
+    //fmt.Println("fffffffffffffffff, SERVERID-->", serverid)
     time := strings.Split(GetValMap(argsMap, "time"), ".")
     timestamp, time_tail := time[0], time[1]
 
@@ -124,8 +124,8 @@ func InsertToMySQL(dbClient *sql.DB, tableName string, argsMap map[string]interf
         action := slice_action[len(slice_action)-1]
 	//fmt.Println("fffffffffff behavilog table", action)
         if IsStringInSlice(action, allow_list) {
-	    fmt.Println("fffffffffff behavilog", action)
-	    fmt.Println("fffffffffff behavilog", behavior)
+	    //fmt.Println("fffffffffff behavilog", action)
+	    //fmt.Println("fffffffffff behavilog", behavior)
             if behavior == "" {
                 behavior = action
             }
@@ -208,7 +208,7 @@ func StrToMap(s string) map[string]interface{} {
 
 func GetValMap(m map[string]interface{}, key string) string {
     val, isOk := m[key].(string)
-    if !isOk {
+    if !isOk && key != `balance`{
         fmt.Println("not found key:", key)
     }
     return val
