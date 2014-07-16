@@ -16,6 +16,24 @@ import (
 
 var MySQLPool chan *sql.DB
 var MAX_POOL_SIZE = 100
+var MySQLDB *sql.DB
+var err error
+
+func GetDBConn() *sql.DB {
+    user := "terminus"
+    passwd := "daydayup"
+    db := "athene"
+    connArgs := user + ":" + passwd + "@/" + db + "?charset=utf8"
+
+    MySQLDB, err = sql.Open("mysql", connArgs)
+    MySQLDB.SetMaxIdleConns(100)
+    err = MySQLDB.Ping()
+    if err != nil {
+        fmt.Println("connect to mysql failed")
+	panic(err)
+    }
+    return MySQLDB
+}
 
 func GetMySQL() *sql.DB {
     if MySQLPool == nil {
@@ -26,7 +44,8 @@ func GetMySQL() *sql.DB {
     user := "terminus"
     passwd := "daydayup"
     db := "athene"
-    connArgs := user + ":" + passwd + "@/" + db + "?charset=utf8"
+    //connArgs := user + ":" + passwd + "@/" + db + "?charset=utf8"
+    connArgs := user + ":" + passwd + "@unix(/tmp/mysql.sock)/" + db + "?charset=utf8"
 
     if len(MySQLPool) == 0 {
         go func() {
@@ -106,7 +125,7 @@ func InsertToMySQL(dbClient *sql.DB, tableName string, argsMap map[string]interf
 	} else {
 	    balance = 1
 	}
-        _, err = stmt.Exec(userid, attr, timestamp, old_data, delta_type, delta_data, source, time_tail, serverid, balance)
+        stmt.Exec(userid, attr, timestamp, old_data, delta_type, delta_data, source, time_tail, serverid, balance)
     } else if tableName == "package" {
         itemtype := GetValMap(argsMap, "itemtype")
         count := GetValMap(argsMap, "count")
@@ -119,7 +138,7 @@ func InsertToMySQL(dbClient *sql.DB, tableName string, argsMap map[string]interf
         } else {
             consume_or_get = 0
         }
-        _, err = stmt.Exec(userid, timestamp, time_tail, itemtype, count, source, consume_or_get, itemid, serverid)
+        stmt.Exec(userid, timestamp, time_tail, itemtype, count, source, consume_or_get, itemid, serverid)
     } else if tableName == "behavior_log" {
         behavior := GetValMap(argsMap, "behavior")
         raw_action := GetValMap(argsMap, "uri")
@@ -135,15 +154,10 @@ func InsertToMySQL(dbClient *sql.DB, tableName string, argsMap map[string]interf
         } else {
             return
         }
-        _, err = stmt.Exec(userid, behavior, timestamp, time_tail, serverid)
+        stmt.Exec(userid, behavior, timestamp, time_tail, serverid)
     } else{
         fmt.Println("not table to insert")
         return
-    }
-
-
-    if err != nil {
-        fmt.Println(err)
     }
 }
 

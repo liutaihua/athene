@@ -59,6 +59,7 @@ func app(conn net.Conn) {
             //fmt.Println("profile/save || msg/diagnostic  SKIP")
             return
         }
+	//mysqlClient := common.GetDBConn()
 	mysqlClient := common.GetMySQL()
 	defer mysqlClient.Close()
         argsMap := common.StrToMap(line)
