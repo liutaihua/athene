@@ -16,24 +16,6 @@ import (
 
 var MySQLPool chan *sql.DB
 var MAX_POOL_SIZE = 100
-var MySQLDB *sql.DB
-var err error
-
-func GetDBConn() *sql.DB {
-    user := "terminus"
-    passwd := "daydayup"
-    db := "athene"
-    connArgs := user + ":" + passwd + "@/" + db + "?charset=utf8"
-
-    MySQLDB, err = sql.Open("mysql", connArgs)
-    MySQLDB.SetMaxIdleConns(100)
-    err = MySQLDB.Ping()
-    if err != nil {
-        fmt.Println("connect to mysql failed")
-	panic(err)
-    }
-    return MySQLDB
-}
 
 func GetMySQL() *sql.DB {
     if MySQLPool == nil {

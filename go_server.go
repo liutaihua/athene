@@ -10,11 +10,12 @@ import (
     "bufio"
     "strings"
     "strconv"
+    "database/sql"
     "./common"
 )
 
 
-func tcpServer(port int) {
+func tcpServer(port int, db *sql.DB) {
     var addr = "0.0.0.0:" + strconv.Itoa(port)
     listener, err := net.Listen("tcp", addr)
     fmt.Println("start listen:", addr)
@@ -28,19 +29,19 @@ func tcpServer(port int) {
             fmt.Println("error happend")
             continue
         }
-        go app(conn)
+        go app(conn, db)
     }
 }
 
-func app(conn net.Conn) {
+func app(conn net.Conn, db *sql.DB) {
     defer conn.Close()
     defer func() {
         if err := recover(); err != nil {
 	    fmt.Println(err)
 	}
     }()
+    reader := bufio.NewReader(conn)
     for {
-        reader := bufio.NewReader(conn)
         data, isPrefix, err := reader.ReadLine()
         if isPrefix || err != nil {
             fmt.Println("error conn.Read or isPrefix", err)
@@ -60,8 +61,6 @@ func app(conn net.Conn) {
             return
         }
 	//mysqlClient := common.GetDBConn()
-	mysqlClient := common.GetMySQL()
-	defer mysqlClient.Close()
         argsMap := common.StrToMap(line)
 	var tableName string
         switch category {
@@ -71,7 +70,7 @@ func app(conn net.Conn) {
 		tableName = "attr_log"
 		attr := common.GetValMap(argsMap, "attr")
 		if common.IsStringInSlice(attr, []string{"attr_6", "token"}) {
-                    common.InsertToMySQL(mysqlClient, "token_and_coupons_log", argsMap)
+                    common.InsertToMySQL(db, "token_and_coupons_log", argsMap)
 		}
             case "[quest]":
 		tableName = "quest"
@@ -79,7 +78,7 @@ func app(conn net.Conn) {
 		tableName = "package"
         }
 	if tableName != "" {
-            common.InsertToMySQL(mysqlClient, tableName, argsMap)
+            common.InsertToMySQL(db, tableName, argsMap)
 	} else {
 	    fmt.Println("not found corresponding db table")
 	}
@@ -87,6 +86,29 @@ func app(conn net.Conn) {
     }
 }
 
+
+var db *sql.DB
+var err error
+
+func GetDBConn() *sql.DB {
+    user := "terminus"
+    passwd := "daydayup"
+    dbName := "athene"
+    //connArgs := user + ":" + passwd + "@/" + dbName + "?charset=utf8"
+    connArgs := user + ":" + passwd + "@unix(/tmp/mysql.sock)/" + db + "?charset=utf8"
+    db, err = sql.Open("mysql", connArgs)
+    err = db.Ping()
+    if err != nil {
+        fmt.Println("connect to mysql failed")
+	panic(err)
+    }
+    return db
+}
+
 func main() {
-    tcpServer(8888)
+    //db := common.GetMySQL()
+    db := GetDBConn()
+    db.SetMaxIdleConns(100)
+    defer db.Close()
+    tcpServer(8888, db)
 }

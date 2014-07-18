@@ -22,7 +22,7 @@ def process_line(l):
 	serverid,
 	d.get('previous_total_money', 0))
     try:
-        #print sql
+        print sql
         common.conn.execute(sql)
         print 'done'
     except Exception, e:
