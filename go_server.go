@@ -11,7 +11,7 @@ import (
     "strings"
     "strconv"
     "database/sql"
-    "./common"
+    "github.com/liutaihua/athene/common"
 )
 
 
