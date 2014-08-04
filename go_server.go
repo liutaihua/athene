@@ -95,7 +95,7 @@ func GetDBConn() *sql.DB {
     passwd := "daydayup"
     dbName := "athene"
     //connArgs := user + ":" + passwd + "@/" + dbName + "?charset=utf8"
-    connArgs := user + ":" + passwd + "@unix(/tmp/mysql.sock)/" + db + "?charset=utf8"
+    connArgs := user + ":" + passwd + "@unix(/tmp/mysql.sock)/" + dbName + "?charset=utf8"
     db, err = sql.Open("mysql", connArgs)
     err = db.Ping()
     if err != nil {
