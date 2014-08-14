@@ -15,7 +15,7 @@ import (
 )
 
 
-func tcpServer(port int, db *sql.DB) {
+func tcpServer(port int) {
     var addr = "0.0.0.0:" + strconv.Itoa(port)
     listener, err := net.Listen("tcp", addr)
     fmt.Println("start listen:", addr)
@@ -29,11 +29,11 @@ func tcpServer(port int, db *sql.DB) {
             fmt.Println("error happend")
             continue
         }
-        go app(conn, db)
+        go app(conn)
     }
 }
 
-func app(conn net.Conn, db *sql.DB) {
+func app(conn net.Conn) {
     defer conn.Close()
     defer func() {
         if err := recover(); err != nil {
@@ -62,6 +62,16 @@ func app(conn net.Conn, db *sql.DB) {
         }
 	//mysqlClient := common.GetDBConn()
         argsMap := common.StrToMap(line)
+	userid := common.GetValMap(argsMap, "userid")
+        int_userid, err := strconv.Atoi(userid)
+        if int_userid == 0 || err != nil {
+            fmt.Println("fuckkkkkkk userid error", userid)
+            fmt.Println("kkkkkkkkkkkkk ", argsMap)
+            return
+        }
+	channel_id := (int_userid >> 16) >> 34
+	db := platform_db_map[channel_id]
+
 	var tableName string
         switch category {
             case "[hades_req]":
@@ -90,10 +100,10 @@ func app(conn net.Conn, db *sql.DB) {
 var db *sql.DB
 var err error
 
-func GetDBConn() *sql.DB {
+func GetDBConn(dbName string) *sql.DB {
     user := "terminus"
     passwd := "daydayup"
-    dbName := "athene"
+    //dbName := "athene"
     //connArgs := user + ":" + passwd + "@/" + dbName + "?charset=utf8"
     connArgs := user + ":" + passwd + "@unix(/tmp/mysql.sock)/" + dbName + "?charset=utf8"
     db, err = sql.Open("mysql", connArgs)
@@ -102,13 +112,25 @@ func GetDBConn() *sql.DB {
         fmt.Println("connect to mysql failed")
 	panic(err)
     }
+    db.SetMaxIdleConns(100)
     return db
+}
+
+var platform_db_map = map[int]*sql.DB{
+    1: GetDBConn("xd_athene"),
+    2: GetDBConn("xunlei_athene"),
+    3: GetDBConn("yygame_athene"),
+    4: GetDBConn("xm_athene"),
+    7: GetDBConn("ruofeng_athene"),
+    8: GetDBConn("jy_athene"),
+    9: GetDBConn("qixiaodidan_athene"),
+    10: GetDBConn("fenghuang_athene"),
 }
 
 func main() {
     //db := common.GetMySQL()
-    db := GetDBConn()
-    db.SetMaxIdleConns(100)
-    defer db.Close()
-    tcpServer(8888, db)
+//    db := GetDBConn()
+//    db.SetMaxIdleConns(100)
+//    defer db.Close()
+    tcpServer(8887)
 }
