@@ -62,13 +62,13 @@ func InsertToMySQL(dbClient *sql.DB, tableName string, argsMap map[string]interf
     }
     var preSql string
     if IsStringInSlice(tableName, []string{"attr_log", "token_and_coupons_log"}) {
-        preSql = "INSERT INTO " + tableName + " VALUES(?,?,?,?,?,?,?,?,?,?)"
+        preSql = "INSERT INTO " + tableName + "(userid, attr, timestamp, old_data, delta_type, delta_data, source, time_tail, serverid, balance)" + " VALUES(?,?,?,?,?,?,?,?,?,?)"
     } else if tableName == "package" {
-        preSql = "INSERT INTO " + tableName + " VALUES(?,?,?,?,?,?,?,?,?)"
+        preSql = "INSERT INTO " + tableName + "(userid, timestamp, time_tail, itemtype, count, source, type, itemid, serverid)" + " VALUES(?,?,?,?,?,?,?,?,?)"
     } else if tableName == "behavior_log" {
-        preSql = "INSERT INTO " + tableName + " VALUES(?,?,?,?,?)"
+        preSql = "INSERT INTO " + tableName + "(userid, action, timestamp, time_tail, serverid)" + " VALUES(?,?,?,?,?)"
     } else{
-        fmt.Println("not table to insert")
+        //fmt.Println("not table to insert")
         return
     }
     stmt, err := dbClient.Prepare(preSql)
@@ -207,8 +207,8 @@ func StrToMap(s string) map[string]interface{} {
 
 func GetValMap(m map[string]interface{}, key string) string {
     val, isOk := m[key].(string)
-    if !isOk && key != `balance`{
-        fmt.Println("not found key:", key)
+    if !isOk && key != `balance` && key != `type` {
+        fmt.Println("not found key:", key, m)
     }
     return val
 }

@@ -50,15 +50,15 @@ func app(conn net.Conn) {
         msg := string(data)
 	category_and_line := strings.SplitN(msg, " ", 2)
 	if len(category_and_line) < 2 {
-	    return
+	    continue
 	}
         category := category_and_line[0]
         line := category_and_line[1]
-        fmt.Println(msg)
+        //fmt.Println(msg)
 
-        if strings.Count(line, "profile=") > 0 || strings.Count(line, "fps:") > 0 || strings.Count(line, "[flash]") > 0 {
+        if strings.Count(line, "profile=") > 0 || strings.Count(line, "fps:") > 0 || strings.Count(line, "[flash]") > 0  || strings.Count(line, "[equipment_destory]") > 0 {
             //fmt.Println("profile/save || msg/diagnostic  SKIP")
-            return
+	    continue
         }
 	//mysqlClient := common.GetDBConn()
         argsMap := common.StrToMap(line)
@@ -67,7 +67,7 @@ func app(conn net.Conn) {
         if int_userid == 0 || err != nil {
             fmt.Println("fuckkkkkkk userid error", userid)
             fmt.Println("kkkkkkkkkkkkk ", argsMap)
-            return
+	    continue
         }
 	channel_id := (int_userid >> 16) >> 34
 	db := platform_db_map[channel_id]
@@ -92,7 +92,7 @@ func app(conn net.Conn) {
 	} else {
 	    fmt.Println("not found corresponding db table")
 	}
-	fmt.Println("done")
+	//fmt.Println("done")
     }
 }
 
@@ -121,10 +121,50 @@ var platform_db_map = map[int]*sql.DB{
     2: GetDBConn("xunlei_athene"),
     3: GetDBConn("yygame_athene"),
     4: GetDBConn("xm_athene"),
+    5: GetDBConn("hfcs1_athene"),
     7: GetDBConn("ruofeng_athene"),
     8: GetDBConn("jy_athene"),
     9: GetDBConn("qixiaodidan_athene"),
     10: GetDBConn("fenghuang_athene"),
+    11: GetDBConn("wyx_athene"),
+    12: GetDBConn("sogou_athene"),
+    13: GetDBConn("pptv_athene"),
+    14: GetDBConn("baomihua_athene"),
+    15: GetDBConn("vg_athene"),
+    16: GetDBConn("qidian_athene"),
+    17: GetDBConn("qingyou_athene"),
+    18: GetDBConn("xiaozhi_athene"),
+    19: GetDBConn("xiaomo_athene"),
+    20: GetDBConn("miss_athene"),
+    21: GetDBConn("dahei_athene"),
+    22: GetDBConn("tootv_athene"),
+    23: GetDBConn("37wan_athene"),
+    24: GetDBConn("2144_athene"),
+    25: GetDBConn("233_athene"),
+    26: GetDBConn("yfly_athene"),
+    27: GetDBConn("7k7k_athene"),
+    28: GetDBConn("aoyou_athene"),
+    29: GetDBConn("pps_athene"),
+    30: GetDBConn("49you_athene"),
+    31: GetDBConn("v1_athene"),
+    32: GetDBConn("changyou_athene"),
+    33: GetDBConn("qixing_athene"),
+    34: GetDBConn("baidu_athene"),
+    35: GetDBConn("kaixin_athene"),
+    36: GetDBConn("2133_athene"),
+    37: GetDBConn("gtv_athene"),
+    38: GetDBConn("kuwo_athene"),
+    39: GetDBConn("178_athene"),
+    40: GetDBConn("gamefy_athene"),
+    41: GetDBConn("zongheng_athene"),
+    42: GetDBConn("51wan_athene"),
+    43: GetDBConn("rising_athene"),
+    44: GetDBConn("kugou_athene"),
+    45: GetDBConn("liebao_athene"),
+    46: GetDBConn("plu_athene"),
+    47: GetDBConn("sinxiaozhi_athene"),
+    48: GetDBConn("swjoy_athene"),
+    49: GetDBConn("gaylon_athene"),
 }
 
 func main() {
@@ -132,5 +172,5 @@ func main() {
 //    db := GetDBConn()
 //    db.SetMaxIdleConns(100)
 //    defer db.Close()
-    tcpServer(8887)
+    tcpServer(8888)
 }
