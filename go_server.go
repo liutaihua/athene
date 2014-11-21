@@ -11,6 +11,7 @@ import (
     "strings"
     "strconv"
     "database/sql"
+    "runtime"
     "github.com/liutaihua/athene/common"
 )
 
@@ -65,8 +66,7 @@ func app(conn net.Conn) {
 	userid := common.GetValMap(argsMap, "userid")
         int_userid, err := strconv.Atoi(userid)
         if int_userid == 0 || err != nil {
-            fmt.Println("fuckkkkkkk userid error", userid)
-            fmt.Println("kkkkkkkkkkkkk ", argsMap)
+            fmt.Println("not found userid skip:", argsMap)
 	    continue
         }
 	channel_id := (int_userid >> 16) >> 34
@@ -80,6 +80,7 @@ func app(conn net.Conn) {
 		tableName = "attr_log"
 		attr := common.GetValMap(argsMap, "attr")
 		if common.IsStringInSlice(attr, []string{"attr_6", "token"}) {
+                    //go common.InsertToMySQL(db, "token_and_coupons_log", argsMap)
                     common.InsertToMySQL(db, "token_and_coupons_log", argsMap)
 		}
             case "[quest]":
@@ -88,6 +89,7 @@ func app(conn net.Conn) {
 		tableName = "package"
         }
 	if tableName != "" {
+            //go common.InsertToMySQL(db, tableName, argsMap)
             common.InsertToMySQL(db, tableName, argsMap)
 	} else {
 	    fmt.Println("not found corresponding db table")
@@ -165,6 +167,10 @@ var platform_db_map = map[int]*sql.DB{
     47: GetDBConn("sinxiaozhi_athene"),
     48: GetDBConn("swjoy_athene"),
     49: GetDBConn("gaylon_athene"),
+    50: GetDBConn("shijijiayuan_athene"),
+    51: GetDBConn("511wan_athene"),
+    52: GetDBConn("hdys_athene"),
+    53: GetDBConn("letv_athene"),
 }
 
 func main() {
@@ -172,5 +178,6 @@ func main() {
 //    db := GetDBConn()
 //    db.SetMaxIdleConns(100)
 //    defer db.Close()
+    runtime.GOMAXPROCS(4)
     tcpServer(8888)
 }

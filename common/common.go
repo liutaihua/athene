@@ -81,8 +81,7 @@ func InsertToMySQL(dbClient *sql.DB, tableName string, argsMap map[string]interf
     userid := GetValMap(argsMap, "userid")
     int_userid, err := strconv.Atoi(userid)
     if int_userid == 0 || err != nil {
-        fmt.Println("fuckkkkkkk userid error", userid)
-        fmt.Println("kkkkkkkkkkkkk ", argsMap)
+        fmt.Println("not found userid skip it", argsMap)
 	return
     }
     serverid := int_userid % 65536
@@ -90,9 +89,9 @@ func InsertToMySQL(dbClient *sql.DB, tableName string, argsMap map[string]interf
     time := strings.Split(GetValMap(argsMap, "time"), ".")
     timestamp, time_tail := time[0], time[1]
 
-    allow_list := []string {"go_to_boss", "jump_to_team_instance", "goto_challenge_instance", "go_to_battleland", "go_to_jjc", "go_to_singlejjc",
-                "enhance", "combine", "mosaic", "generate_element", "update_miracle", "advance_update_miracle", "update_farm", "click", "pray",
-                "harvest", "take_care","exchange", "jump_to_quest_location"}
+    //allow_list := []string {"go_to_boss", "jump_to_team_instance", "goto_challenge_instance", "go_to_battleland", "go_to_jjc", "go_to_singlejjc",
+    //            "enhance", "combine", "mosaic", "generate_element", "update_miracle", "advance_update_miracle", "update_farm", "click", "pray",
+    //            "harvest", "take_care","exchange", "jump_to_quest_location"}
 
     if IsStringInSlice(tableName, []string{"attr_log", "token_and_coupons_log"}) {
         attr := GetValMap(argsMap, "attr")
@@ -100,12 +99,14 @@ func InsertToMySQL(dbClient *sql.DB, tableName string, argsMap map[string]interf
         delta_type := GetValMap(argsMap, "delta_type")
         delta_data := GetValMap(argsMap, "delta_data")
         source := GetValMap(argsMap, "source")
-        balance_str := GetValMap(argsMap, "balance")
-	var balance int
-	if balance_str == "" || balance_str == "0" {
-	    balance = 0
-	} else {
-	    balance = 1
+	balance := 0
+	if attr == "attr_6" || attr == "token" {
+        	balance_str := GetValMap(argsMap, "previous_total_money")
+		if balance_str == "" || balance_str == "0" {
+		    balance = 0
+		} else {
+		    balance, _ = strconv.Atoi(balance_str)
+		}
 	}
         stmt.Exec(userid, attr, timestamp, old_data, delta_type, delta_data, source, time_tail, serverid, balance)
     } else if tableName == "package" {
@@ -123,19 +124,22 @@ func InsertToMySQL(dbClient *sql.DB, tableName string, argsMap map[string]interf
         stmt.Exec(userid, timestamp, time_tail, itemtype, count, source, consume_or_get, itemid, serverid)
     } else if tableName == "behavior_log" {
         behavior := GetValMap(argsMap, "behavior")
-        raw_action := GetValMap(argsMap, "uri")
-        slice_action := strings.Split(raw_action, "/")
-        action := slice_action[len(slice_action)-1]
-	//fmt.Println("fffffffffff behavilog table", action)
-        if IsStringInSlice(action, allow_list) {
-	    //fmt.Println("fffffffffff behavilog", action)
-	    //fmt.Println("fffffffffff behavilog", behavior)
-            if behavior == "" {
-                behavior = action
-            }
-        } else {
-            return
-        }
+	if behavior == `scene_save` {
+		return
+	}
+//        raw_action := GetValMap(argsMap, "uri")
+//        slice_action := strings.Split(raw_action, "/")
+//        action := slice_action[len(slice_action)-1]
+//	//fmt.Println("fffffffffff behavilog table", action)
+//        if IsStringInSlice(action, allow_list) {
+//	    //fmt.Println("fffffffffff behavilog", action)
+//	    //fmt.Println("fffffffffff behavilog", behavior)
+//            if behavior == "" {
+//                behavior = action
+//            }
+//        } else {
+//            return
+//        }
         stmt.Exec(userid, behavior, timestamp, time_tail, serverid)
     } else{
         fmt.Println("not table to insert")
