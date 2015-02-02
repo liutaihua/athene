@@ -7,28 +7,33 @@ import (
 	"bufio"
 	"database/sql"
 	"encoding/json"
-	"fmt"
 	"github.com/liutaihua/athene/common"
 	"io/ioutil"
 	"net"
 	"os"
+	"log"
+	"sort"
 	"runtime"
 	"strconv"
 	"strings"
+	"os/signal"
+	"syscall"
+	"sync"
+	"time"
 )
 
 func tcpServer(port int) {
 	var addr = "0.0.0.0:" + strconv.Itoa(port)
 	listener, err := net.Listen("tcp", addr)
-	fmt.Println("start listen:", addr)
+	log.Println("start listen:", addr)
 	if err != nil {
-		fmt.Println("error listen: %s", err)
+		log.Println("error listen: %s", err)
 		os.Exit(1)
 	}
 	for {
 		conn, err := listener.Accept()
 		if err != nil {
-			fmt.Println("error happend")
+			log.Println("error happend")
 			continue
 		}
 		go handler(conn)
@@ -39,14 +44,14 @@ func handler(conn net.Conn) {
 	defer conn.Close()
 	defer func() {
 		if err := recover(); err != nil {
-			fmt.Println(err)
+			log.Println(err)
 		}
 	}()
 	reader := bufio.NewReader(conn)
 	for {
 		data, isPrefix, err := reader.ReadLine()
 		if isPrefix || err != nil {
-			fmt.Println("error conn.Read or isPrefix", err)
+			log.Println("error conn.Read or isPrefix", err)
 			return
 		}
 		msg := string(data)
@@ -56,17 +61,17 @@ func handler(conn net.Conn) {
 		}
 		category := category_and_line[0]
 		line := category_and_line[1]
-		//fmt.Println(msg)
+		//log.Println(msg)
 
 		if strings.Count(line, "profile=") > 0 || strings.Count(line, "fps:") > 0 || strings.Count(line, "[flash]") > 0 || strings.Count(line, "[equipment_destory]") > 0 {
-			//fmt.Println("profile/save || msg/diagnostic  SKIP")
+			//log.Println("profile/save || msg/diagnostic  SKIP")
 			continue
 		}
 		argsMap := common.StrToMap(line)
 		userid := common.GetValMap(argsMap, "userid")
 		int_userid, err := strconv.Atoi(userid)
 		if int_userid == 0 || err != nil {
-			fmt.Println("not found userid skip:", argsMap)
+			log.Println("not found userid skip:", argsMap)
 			continue
 		}
 		channel_id := strconv.Itoa((int_userid >> 16) >> 34)
@@ -93,9 +98,9 @@ func handler(conn net.Conn) {
 			//go common.InsertToMySQL(db, tableName, argsMap)
 			common.InsertToMySQL(db, tableName, argsMap)
 		} else {
-			fmt.Println("not found corresponding db table")
+			log.Println("not found corresponding db table")
 		}
-		//fmt.Println("done")
+		//log.Println("done")
 	}
 }
 
@@ -111,7 +116,7 @@ func GetDBConn(dbName string) *sql.DB {
 	db, err = sql.Open("mysql", connArgs)
 	err = db.Ping()
 	if err != nil {
-		fmt.Println("connect to mysql failed")
+		log.Println("connect to mysql failed")
 		panic(err)
 	}
 	db.SetMaxIdleConns(100)
@@ -122,7 +127,8 @@ func getDB(channelid string) (db *sql.DB, err error) {
 	if platform_db_map == nil {
 		dbName, is_ok := cfg[channelid].(string)
 		if !is_ok {
-			panic("not found channelid")
+		        e := "nil platform_db_map found. not found from cfg by channelid:" + channelid
+			panic(e)
 		}
 		db = GetDBConn(dbName)
 		platform_db_map[channelid] = db
@@ -132,7 +138,8 @@ func getDB(channelid string) (db *sql.DB, err error) {
 	if !is_ok {
 		dbName, is_ok := cfg[channelid].(string)
 		if !is_ok {
-			panic("not found channelid")
+		        e := "not found from cfg by channelid: " + channelid
+			panic(e)
 		}
 		db = GetDBConn(dbName)
 		platform_db_map[channelid] = db
@@ -140,21 +147,58 @@ func getDB(channelid string) (db *sql.DB, err error) {
 	return db, nil
 }
 
-func loadConfig() (cfg map[string]interface{}, err error) {
-	byt, _ := ioutil.ReadFile("./config.json")
+func loadConfig(is_first bool) {
+	mu.Lock()
+	defer mu.Unlock()
+	var byt []byte;
+	byt, err = ioutil.ReadFile("./config.json")
+	if err != nil {
+		log.Println("parse config", err)
+		if is_first {
+			os.Exit(1)
+		}
+	}
 	err = json.Unmarshal(byt, &cfg)
-	return
+	if err != nil {
+		log.Println("error``````````", err)
+		if is_first {
+			os.Exit(1)
+		}
+	}
+
+	var keys []int
+	for k, _ := range cfg {
+		intKey, _ := strconv.Atoi(k)
+		keys = append(keys, intKey)
+	}
+	sort.Ints(keys)
+	for _, k := range keys {
+		log.Println("platformid:", k, "db name:", cfg[strconv.Itoa(k)])
+	}
+	log.Println("load config done.")
 }
 
 var platform_db_map = map[string]*sql.DB{}
 var cfg map[string]interface{}
+var mu = new(sync.RWMutex)
 
 func main() {
 	var err error
-	cfg, err = loadConfig()
+	loadConfig(true)
 	if err != nil {
 		panic("error when load config")
 	}
-	runtime.GOMAXPROCS(8)
-	tcpServer(8889)
+	time.Sleep(time.Second*3)
+	ch := make(chan os.Signal, 1)
+	signal.Notify(ch, syscall.SIGUSR2)
+	go func() {
+		for {
+			sg := <-ch
+			loadConfig(false)
+			log.Println("got signal:", sg)
+			log.Println("reload config success")
+		}
+	}()
+	runtime.GOMAXPROCS(runtime.NumCPU())
+	tcpServer(8888)
 }
