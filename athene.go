@@ -13,13 +13,14 @@ import (
 	"os"
 	"log"
 	"sort"
-	"runtime"
+	//"runtime"
 	"strconv"
 	"strings"
 	"os/signal"
 	"syscall"
 	"sync"
 	"time"
+	"errors"
 )
 
 func tcpServer(port int) {
@@ -76,7 +77,10 @@ func handler(conn net.Conn) {
 		}
 		channel_id := strconv.Itoa((int_userid >> 16) >> 34)
 		//db := platform_db_map[channel_id]
-		db, _ := getDB(channel_id)
+		db, err := getDB(channel_id)
+		if err != nil {
+			return
+		}
 
 		var tableName string
 		switch category {
@@ -124,6 +128,9 @@ func GetDBConn(dbName string) *sql.DB {
 }
 
 func getDB(channelid string) (db *sql.DB, err error) {
+	if channelid == "0" {
+		return nil, errors.New("incorrect channelid")
+	}
 	if platform_db_map == nil {
 		dbName, is_ok := cfg[channelid].(string)
 		if !is_ok {
@@ -199,6 +206,6 @@ func main() {
 			log.Println("reload config success")
 		}
 	}()
-	runtime.GOMAXPROCS(runtime.NumCPU())
+	//runtime.GOMAXPROCS(runtime.NumCPU())		// please use 'export GOMAXPROCS=4' instead this
 	tcpServer(8888)
 }
